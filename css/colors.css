@@ -1,0 +1,146 @@
+/*
+  COLORS
+
+  Colors class basename :
+    black, white, gray, red, orange,
+    yellow, lime, green, teal, cyan, blue,
+    indigo, violet, fuchsia, pink
+
+  Modifiers : -pale -light -dark -black
+
+  Ex : gray-pale, red, pink-dark
+*/
+
+.black { color : #000000; }
+
+.white { color : #ffffff; }
+
+.gray        { color : #808080; }
+
+.gray-pale   { color : #f2f2f2; }
+
+.gray-light  { color : #b3b3b3; }
+
+.gray-dark   { color : #4d4d4d; }
+
+.gray-black  { color : #1a1a1a; }
+
+.red         { color : #ff0000; }
+
+.red-pale    { color : #ffe5e5; }
+
+.red-light   { color : #ff6666; }
+
+.red-dark    { color : #990000; }
+
+.red-black   { color : #330000; }
+
+.orange        { color : #ff8000; }
+
+.orange-pale   { color : #fff2e5; }
+
+.orange-light  { color : #ffb366; }
+
+.orange-dark   { color : #994c00; }
+
+.orange-black  { color : #331a00; }
+
+.yellow        { color : #ffff00; }
+
+.yellow-pale   { color : #ffffe5; }
+
+.yellow-light  { color : #ffff66; }
+
+.yellow-dark   { color : #999900; }
+
+.yellow-black  { color : #333300; }
+
+.lime          { color : #80ff00; }
+
+.lime-pale     { color : #f2ffe5; }
+
+.lime-light    { color : #b3ff66; }
+
+.lime-dark     { color : #4d9900; }
+
+.lime-black    { color : #1a3300; }
+
+.green         { color : #00ff00; }
+
+.green-pale    { color : #e5ffe5; }
+
+.green-light   { color : #66ff66; }
+
+.green-dark    { color : #009900; }
+
+.green-black   { color : #003300; }
+
+.teal          { color : #00ff80; }
+
+.teal-pale     { color : #e5fff2; }
+
+.teal-light    { color : #66ffb3; }
+
+.teal-dark     { color : #00994d; }
+
+.teal-black    { color : #00331a; }
+
+.cyan          { color : #00ffff; }
+
+.cyan-pale     { color : #e5ffff; }
+
+.cyan-light    { color : #66ffff; }
+
+.cyan-dark     { color : #009999; }
+
+.cyan-black    { color : #003333; }
+
+.blue          { color : #007fff; }
+
+.blue-pale     { color : #e5f2ff; }
+
+.blue-light    { color : #66b2ff; }
+
+.blue-dark     { color : #004c99; }
+
+.blue-black    { color : #001933; }
+
+.indigo        { color : #0000ff; }
+
+.indigo-pale   { color : #e5e5ff; }
+
+.indigo-light  { color : #6666ff; }
+
+.indigo-dark   { color : #000099; }
+
+.indigo-black  { color : #000033; }
+
+.violet        { color : #7f00ff; }
+
+.violet-pale   { color : #f2e5ff; }
+
+.violet-light  { color : #b266ff; }
+
+.violet-dark   { color : #4c0099; }
+
+.violet-black  { color : #190033; }
+
+.fuchsia       { color : #ff00ff; }
+
+.fuchsia-pale  { color : #ffe5ff; }
+
+.fuchsia-light { color : #ff66ff; }
+
+.fuchsia-dark  { color : #990099; }
+
+.fuchsia-black { color : #330033; }
+
+.pink          { color : #ff0080; }
+
+.pink-pale     { color : #ffe5f2; }
+
+.pink-light    { color : #ff66b3; }
+
+.pink-dark     { color : #99004d; }
+
+.pink-black    { color : #33001a; }

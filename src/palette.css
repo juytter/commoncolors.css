@@ -1,0 +1,21 @@
+/*
+  PALETTE CSS LIB V.1.0
+  MIT License | github.com/
+
+  Scheme
+  --color-pale  = 100% saturation, 95% lightness
+  --color-light = 100% saturation, 70% lightness
+  --color       = 100% saturation, 50% lightness
+  --color-dark  = 100% saturation, 30% lightness
+  --color-black = 100% saturation, 10% lightness
+
+  Contents :
+  1. colors (.colorName)
+  2. background-colors (.bg-colorName)
+  3. border-colors (.bd-colorName)
+*/
+
+@import './palette-vars';
+@import './colors';
+@import './background-colors';
+@import './border-colors';

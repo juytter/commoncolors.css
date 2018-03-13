@@ -1,0 +1,95 @@
+/*
+  BORDER COLORS
+
+  Colors class basename :
+    bd-black, bd-white, bd-gray, red, bd-orange,
+    bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
+    bd-indigo, bd-violet, bd-fuchsia, bd-pink
+
+  Modifiers : -pale, -light, -dark, -black,
+
+  Ex : bd-gray-pale, bd-red, bd-pink-dark
+*/
+
+@import './palette-vars';
+
+.bd-black { border-color : var(--black); }
+.bd-white { border-color : var(--white); }
+
+.bd-gray        { border-color : var(--gray); }
+.bd-gray-pale   { border-color : var(--gray-pale); }
+.bd-gray-light  { border-color : var(--gray-light); }
+.bd-gray-dark   { border-color : var(--gray-dark); }
+.bd-gray-black  { border-color : var(--gray-black); }
+
+.bd-red         { border-color : var(--red); }
+.bd-red-pale    { border-color : var(--red-pale); }
+.bd-red-light   { border-color : var(--red-light); }
+.bd-red-dark    { border-color : var(--red-dark); }
+.bd-red-black   { border-color : var(--red-black); }
+
+.bd-orange        { border-color : var(--orange); }
+.bd-orange-pale   { border-color : var(--orange-pale); }
+.bd-orange-light  { border-color : var(--orange-light); }
+.bd-orange-dark   { border-color : var(--orange-dark); }
+.bd-orange-black  { border-color : var(--orange-black); }
+
+.bd-yellow        { border-color : var(--yellow); }
+.bd-yellow-pale   { border-color : var(--yellow-pale); }
+.bd-yellow-light  { border-color : var(--yellow-light); }
+.bd-yellow-dark   { border-color : var(--yellow-dark); }
+.bd-yellow-black  { border-color : var(--yellow-black); }
+
+.bd-lime          { border-color : var(--lime); }
+.bd-lime-pale     { border-color : var(--lime-pale); }
+.bd-lime-light    { border-color : var(--lime-light); }
+.bd-lime-dark     { border-color : var(--lime-dark); }
+.bd-lime-black    { border-color : var(--lime-black); }
+
+.bd-green         { border-color : var(--green); }
+.bd-green-pale    { border-color : var(--green-pale); }
+.bd-green-light   { border-color : var(--green-light); }
+.bd-green-dark    { border-color : var(--green-dark); }
+.bd-green-black   { border-color : var(--green-black); }
+
+.bd-teal          { border-color : var(--teal); }
+.bd-teal-pale     { border-color : var(--teal-pale); }
+.bd-teal-light    { border-color : var(--teal-light); }
+.bd-teal-dark     { border-color : var(--teal-dark); }
+.bd-teal-black    { border-color : var(--teal-black); }
+
+.bd-cyan          { border-color : var(--cyan); }
+.bd-cyan-pale     { border-color : var(--cyan-pale); }
+.bd-cyan-light    { border-color : var(--cyan-light); }
+.bd-cyan-dark     { border-color : var(--cyan-dark); }
+.bd-cyan-black    { border-color : var(--cyan-black); }
+
+.bd-blue          { border-color : var(--blue); }
+.bd-blue-pale     { border-color : var(--blue-pale); }
+.bd-blue-light    { border-color : var(--blue-light); }
+.bd-blue-dark     { border-color : var(--blue-dark); }
+.bd-blue-black    { border-color : var(--blue-black); }
+
+.bd-indigo        { border-color : var(--indigo); }
+.bd-indigo-pale   { border-color : var(--indigo-pale); }
+.bd-indigo-light  { border-color : var(--indigo-light); }
+.bd-indigo-dark   { border-color : var(--indigo-dark); }
+.bd-indigo-black  { border-color : var(--indigo-black); }
+
+.bd-violet        { border-color : var(--violet); }
+.bd-violet-pale   { border-color : var(--violet-pale); }
+.bd-violet-light  { border-color : var(--violet-light); }
+.bd-violet-dark   { border-color : var(--violet-dark); }
+.bd-violet-black  { border-color : var(--violet-black); }
+
+.bd-fuchsia       { border-color : var(--fuchsia); }
+.bd-fuchsia-pale  { border-color : var(--fuchsia-pale); }
+.bd-fuchsia-light { border-color : var(--fuchsia-light); }
+.bd-fuchsia-dark  { border-color : var(--fuchsia-dark); }
+.bd-fuchsia-black { border-color : var(--fuchsia-black); }
+
+.bd-pink          { border-color : var(--pink); }
+.bd-pink-pale     { border-color : var(--pink-pale); }
+.bd-pink-light    { border-color : var(--pink-light); }
+.bd-pink-dark     { border-color : var(--pink-dark); }
+.bd-pink-black    { border-color : var(--pink-black); }

@@ -1,0 +1,96 @@
+/*
+
+  COLORS BACKGROUND LITE
+  Colors class basename :
+
+    bg-black, bg-white, bg-gray, bg-red, bg-orange,
+    bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
+    bg-indigo, bg-violet, bg-fuchsia, bg-pink
+
+  Modifiers : -pale  -dark
+
+  Ex : bg-gray-pale, bg-red, bg-pink-dark
+
+*/
+
+.bg-black { background-color : #000000; }
+
+.bg-white { background-color : #ffffff; }
+
+.bg-gray        { background-color : #808080; }
+
+.bg-gray-pale   { background-color : #f2f2f2; }
+
+.bg-gray-dark   { background-color : #4d4d4d; }
+
+.bg-red         { background-color : #ff0000; }
+
+.bg-red-pale    { background-color : #ffe5e5; }
+
+.bg-red-dark    { background-color : #990000; }
+
+.bg-orange        { background-color : #ff8000; }
+
+.bg-orange-pale   { background-color : #fff2e5; }
+
+.bg-orange-dark   { background-color : #994c00; }
+
+.bg-yellow        { background-color : #ffff00; }
+
+.bg-yellow-pale   { background-color : #ffffe5; }
+
+.bg-yellow-dark   { background-color : #999900; }
+
+.bg-lime          { background-color : #80ff00; }
+
+.bg-lime-pale     { background-color : #f2ffe5; }
+
+.bg-lime-dark     { background-color : #4d9900; }
+
+.bg-green         { background-color : #00ff00; }
+
+.bg-green-pale    { background-color : #e5ffe5; }
+
+.bg-green-dark    { background-color : #009900; }
+
+.bg-teal          { background-color : #00ff80; }
+
+.bg-teal-pale     { background-color : #e5fff2; }
+
+.bg-teal-dark     { background-color : #00994d; }
+
+.bg-cyan          { background-color : #00ffff; }
+
+.bg-cyan-pale     { background-color : #e5ffff; }
+
+.bg-cyan-dark     { background-color : #009999; }
+
+.bg-blue          { background-color : #007fff; }
+
+.bg-blue-pale     { background-color : #e5f2ff; }
+
+.bg-blue-dark     { background-color : #004c99; }
+
+.bg-indigo        { background-color : #0000ff; }
+
+.bg-indigo-pale   { background-color : #e5e5ff; }
+
+.bg-indigo-dark   { background-color : #000099; }
+
+.bg-violet        { background-color : #7f00ff; }
+
+.bg-violet-pale   { background-color : #f2e5ff; }
+
+.bg-violet-dark   { background-color : #4c0099; }
+
+.bg-fuchsia       { background-color : #ff00ff; }
+
+.bg-fuchsia-pale  { background-color : #ffe5ff; }
+
+.bg-fuchsia-dark  { background-color : #990099; }
+
+.bg-pink          { background-color : #ff0080; }
+
+.bg-pink-pale     { background-color : #ffe5f2; }
+
+.bg-pink-dark     { background-color : #99004d; }

@@ -1,0 +1,16 @@
+{
+  "name": "Palette css",
+  "version": "0.0.1",
+  "description": "Css colors at your fingertips",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "postcss-cssnext": "^2.10.0",
+    "postcss-import": "^9.1.0",
+    "postcss-rgba-hex": "^0.3.7"
+  },
+  "author": "juytter",
+  "license": "MIT"
+}
