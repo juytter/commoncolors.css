@@ -6,9 +6,9 @@
     yellow, lime, green, teal, cyan, blue,
     indigo, violet, fuchsia, pink
 
-  Modifiers : -pale -light -dark -black
+  Modifiers : -pale, -light, -dark, -black
 
-  Ex : gray-pale, red, pink-dark
+  Ex : gray-pale, red, pink-dark ...
 */
 
 .black { color : #000000; }

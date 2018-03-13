@@ -1,13 +1,13 @@
 /*
 
-  COLORS BACKGROUND LITE
-  Colors class basename :
+  BACKGROUND COLORS LITE
 
+  Colors class basename :
     bg-black, bg-white, bg-gray, bg-red, bg-orange,
     bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
     bg-indigo, bg-violet, bg-fuchsia, bg-pink
 
-  Modifiers : -pale  -dark
+  Modifiers : -pale,  -dark
 
   Ex : bg-gray-pale, bg-red, bg-pink-dark
 

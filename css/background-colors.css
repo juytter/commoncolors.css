@@ -1,15 +1,14 @@
 /*
+  BACKGROUND COLORS
 
-  COLORS BACKGROUND
-  Primaries :
+  Colors class basename :
     bg-black, bg-white, bg-gray, red, bg-orange,
     bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
     bg-indigo, bg-violet, bg-fuchsia, bg-pink
 
-  Modifiers : -pale -light -dark -black
+  Modifiers : -pale, -light, -dark, -black
 
   Ex : bg-gray-pale, bg-red, bg-pink-dark
-
 */
 
 .bg-black { background-color : #000000; }

@@ -1,5 +1,5 @@
 /*
-  PALETTE CSS LIB
+  PALETTE CSS LIB V.1.0
   MIT License | github.com/
 
   Scheme
@@ -10,9 +10,9 @@
   --color-black = 100% saturation, 10% lightness
 
   Contents :
-  1. color (.colorName)
-  2. background-color (.bg-colorName)
-  3. border-color (.bd-colorName)
+  1. colors (.colorName)
+  2. background-colors (.bg-colorName)
+  3. border-colors (.bd-colorName)
 */
 
 /*
@@ -23,9 +23,9 @@
     yellow, lime, green, teal, cyan, blue,
     indigo, violet, fuchsia, pink
 
-  Modifiers : -pale -light -dark -black
+  Modifiers : -pale, -light, -dark, -black
 
-  Ex : gray-pale, red, pink-dark
+  Ex : gray-pale, red, pink-dark ...
 */
 
 .black { color : #000000; }
@@ -163,17 +163,16 @@
 .pink-black    { color : #33001a; }
 
 /*
+  BACKGROUND COLORS
 
-  COLORS BACKGROUND
-  Primaries :
+  Colors class basename :
     bg-black, bg-white, bg-gray, red, bg-orange,
     bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
     bg-indigo, bg-violet, bg-fuchsia, bg-pink
 
-  Modifiers : -pale -light -dark -black
+  Modifiers : -pale, -light, -dark, -black
 
   Ex : bg-gray-pale, bg-red, bg-pink-dark
-
 */
 
 .bg-black { background-color : #000000; }
@@ -311,14 +310,14 @@
 .bg-pink-black    { background-color : #33001a; }
 
 /*
-  COLORS BORDER
+  BORDER COLORS
 
   Colors class basename :
     bd-black, bd-white, bd-gray, red, bd-orange,
     bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
     bd-indigo, bd-violet, bd-fuchsia, bd-pink
 
-  Modifiers : -pale -light -dark -black
+  Modifiers : -pale, -light, -dark, -black,
 
   Ex : bd-gray-pale, bd-red, bd-pink-dark
 */

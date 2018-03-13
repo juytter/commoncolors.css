@@ -1,12 +1,12 @@
 /*
-  COLORS BORDER LITE
+  BORDER COLORS LITE
 
   Colors class basename :
     bd-black, bd-white, bd-gray, bd-red, bd-orange,
     bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
     bd-indigo, bd-violet, bd-fuchsia, bd-pink
 
-  Modifiers : -pale  -dark
+  Modifiers : -pale,  -dark
 
   Ex : bd-gray-pale, bd-red, bd-pink-dark
 */
