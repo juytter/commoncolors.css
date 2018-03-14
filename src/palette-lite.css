@@ -1,13 +1,8 @@
 /*
-  PALETTE CSS Lite V.1.0
+  PALETTE CSS Lite V.1.1
   MIT License | https://github.com/juytter/palette-css
 
-  SCHEME
-  --color-pale  = 100% saturation, 95% lightness
-  --color       = 100% saturation, 50% lightness
-  --color-dark  = 100% saturation, 30% lightness
-
-  Contents :
+  Summary
   1. CSS palette scheme
   2. colors (.colorName)
   3. background-colors (.bg-colorName)

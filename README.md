@@ -4,20 +4,19 @@ A color scheme, easy to memorize, easy to Re-use in CSS.
 
 ## Colors and naming convention
 
-Black & White +  11 "main" colors using a 30° step scale on color wheel +  5 steps of shade for each.
+Black & White +  11 "main" colors and 5 steps of shade for each.
+See [palette-vars.css](src/palette-vars.css) for tech details.
 
 `black`, `white`, `gray`, `red`, `orange`,
 `yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,
 `indigo`, `violet`, `fuchsia`, `pink`
 
-'Modifiers' from lightness to darkness  :
+'Modifiers' from lightness to darkness :
 
 `-pale`, `-light`, `-dark`, `-black`
 
 Add  'modifiers' to the main color name.
 ex.  `gray-pale`, `red-black`, `yellow-light`,  ...
-
-See.  [palette-vars.css](css/palette-vars.css) for details.
 
 ## Usage
 
@@ -25,7 +24,7 @@ See.  [palette-vars.css](css/palette-vars.css) for details.
 
 Import vars [palette-vars.css](css/palette-vars.css)
 
-```
+```css
 @import 'palette-vars.css';
 
 .warning {
@@ -37,16 +36,15 @@ Import vars [palette-vars.css](css/palette-vars.css)
 .warning-alt {
   color : var(--red-pale);
 }
-
 ```
 
-### Atomic/functional CSS lib
+### Functional CSS lib
 
-Add [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 ko)   to color text, background and border using CSS className.
+Add [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 ko) to color text, background and border using CSS className.
 
-Apply a color using the naming convention.
+Apply colors.
 
-```
+```html
 <p class="red"></p>
 <p class="red-pale"</p>
 
@@ -54,7 +52,7 @@ Apply a color using the naming convention.
 
 Add the prefix `bg-` to apply a background color  
 
-```
+```html
 /* white text on red background */
 <div class="bg-red white"></div>
 
@@ -62,7 +60,7 @@ Add the prefix `bg-` to apply a background color
 
 Add the prefix `bd-` to apply a border color  
 
-```
+```html
 /* red text with red borders */
 <div class="bd-red red" style="border:1px solid;"></div>
 ```
@@ -77,11 +75,8 @@ Add the prefix `bd-` to apply a border color
 
 ## Edit and Build   
 
-- Edit sources [/src](/src)
-- Gulp build script : 
-  - see npm packages [package.json](package.json)
-  - run command-line `gulp build`
+- Sources [/src](/src)
+- npm packages [package.json](package.json)
+- Gulp script [gulpfile.js](gulpfile.js)
+- Build : command line `gulp build`
 
----
-
-[MIT license](LICENSE.md)

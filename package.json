@@ -7,8 +7,11 @@
     "gulp-clean-css": "^3.9.2",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
+    "postcss-color-function": "^4.0.1",
     "postcss-cssnext": "^2.10.0",
+    "postcss-custom-properties": "^7.0.0",
     "postcss-import": "^9.1.0",
+    "postcss-perfectionist": "^2.3.9",
     "postcss-rgba-hex": "^0.3.7"
   },
   "author": "juytter",
