@@ -2,7 +2,7 @@
 
 A color scheme, easy to memorize, easy to Re-use in CSS.
 
-## Colors and naming convention
+## Colors - naming convention
 
 Black & White +  11 "main" colors and 5 steps of shade for each.
 See [palette-vars.css](src/palette-vars.css) for tech details.
@@ -11,16 +11,15 @@ See [palette-vars.css](src/palette-vars.css) for tech details.
 `yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,
 `indigo`, `violet`, `fuchsia`, `pink`
 
-'Modifiers' from lightness to darkness :
+Add  *modifier name* to the main color name to change the shade from lightness (pale) to darkness (black).
 
 `-pale`, `-light`, `-dark`, `-black`
 
-Add  'modifiers' to the main color name.
 ex.  `gray-pale`, `red-black`, `yellow-light`,  ...
 
 ## Usage
 
-### CSS vars
+### CSS var
 
 Import vars [palette-vars.css](css/palette-vars.css)
 
@@ -50,7 +49,7 @@ Apply colors.
 
 ```
 
-Add the prefix `bg-` to apply a background color  
+Add the prefix `bg-` to apply background colors  
 
 ```html
 /* white text on red background */
@@ -58,7 +57,7 @@ Add the prefix `bg-` to apply a background color
 
 ```
 
-Add the prefix `bd-` to apply a border color  
+Add the prefix `bd-` to apply border colors  
 
 ```html
 /* red text with red borders */
@@ -79,4 +78,3 @@ Add the prefix `bd-` to apply a border color
 - npm packages [package.json](package.json)
 - Gulp script [gulpfile.js](gulpfile.js)
 - Build : command line `gulp build`
-
