@@ -7,15 +7,17 @@ A color scheme, easy to memorize, easy to Re-use in CSS.
 Black & White +  11 "main" colors and 5 steps of shade for each.
 See [palette-vars.css](src/palette-vars.css) for tech details.
 
-`black`, `white`, `gray`, `red`, `orange`,
-`yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,
-`indigo`, `violet`, `fuchsia`, `pink`
+`black`, `white`, 
 
-Add  *modifier name* to the main color name to change the shade from lightness (pale) to darkness (black).
+`gray`, `red`, `orange`,`yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,`indigo`, `violet`, `fuchsia`, `pink`
+
+Add  a suffix *modifier name* to the main color name to target a shade from lightness (pale) to darkness (black).
 
 `-pale`, `-light`, `-dark`, `-black`
 
 ex.  `gray-pale`, `red-black`, `yellow-light`,  ...
+
+**demo :**  <https://juytter.github.io/palette-css/>
 
 ## Usage
 
@@ -37,9 +39,9 @@ Import vars [palette-vars.css](css/palette-vars.css)
 }
 ```
 
-### Functional CSS lib
+### Functional CSS libs
 
-Add [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 ko) to color text, background and border using CSS className.
+Download and include [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb) libs to color text, background or border using CSS className.
 
 Apply colors.
 
@@ -49,7 +51,7 @@ Apply colors.
 
 ```
 
-Add the prefix `bg-` to apply background colors  
+Add a prefix `bg-` to apply background colors  
 
 ```html
 /* white text on red background */
@@ -57,16 +59,16 @@ Add the prefix `bg-` to apply background colors
 
 ```
 
-Add the prefix `bd-` to apply border colors  
+Add a prefix `bd-` to apply border colors  
 
 ```html
 /* red text with red borders */
 <div class="bd-red red" style="border:1px solid;"></div>
 ```
 
-### Alt CSS
+#### Alt CSS
 
-- [palette-lite.css](css/palette-lite.css) or [minified](css/min/palette-lite.min.css) (4 ko)  a  lite version with only `-pale` and  `-black`  modifiers.
+- [palette-lite.css](css/palette-lite.css) or [minified](css/min/palette-lite.min.css) (4 kb)  a lite version with only `-pale` and  `-black`  modifiers.
 - [colors.css](css/colors.css) or [minified](css/min/colors.min.css) only text colors
 - [background-colors.css](css/background-colors.css) or [minified](css/min/background-colors.min.css) only background colors
 - [border-colors.css](css/border-colors.css) or [minified](css/min/border-colors.min.css) only border colors
