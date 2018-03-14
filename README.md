@@ -2,22 +2,24 @@
 
 A color scheme, easy to memorize, easy to Re-use in CSS.
 
-## Colors - naming convention
+## Colors and naming convention
 
-Black & White +  11 "main" colors and 5 steps of shade for each.
-See [palette-vars.css](src/palette-vars.css) for tech details.
+- Black & White +  11 main colors 
 
-`black`, `white`, 
+  `black`, `white`, `gray`, `red`, `orange`,`yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,`indigo`, `violet`, `fuchsia`, `pink`
 
-`gray`, `red`, `orange`,`yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,`indigo`, `violet`, `fuchsia`, `pink`
+- 4 x 11 Main color shades  from lightness (-pale) to darkness (-black) 
 
-Add  a suffix *modifier name* to the main color name to target a shade from lightness (pale) to darkness (black).
+   `colorname-pale`, `colorname-light`, `colorname-dark`, `colorname-black`
 
-`-pale`, `-light`, `-dark`, `-black`
+- Ex. `gray`, `gray-pale`, `red-black`, `yellow-light`,  ...
 
-ex.  `gray-pale`, `red-black`, `yellow-light`,  ...
+---
 
-**demo :**  <https://juytter.github.io/palette-css/>
+- See [palette-vars.css](src/palette-vars.css) for color scheme tech details.
+- **demo :**  <https://juytter.github.io/palette-css/>
+
+---
 
 ## Usage
 
@@ -41,7 +43,7 @@ Import vars [palette-vars.css](css/palette-vars.css)
 
 ### Functional CSS libs
 
-Download and include [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb) libs to color text, background or border using CSS className.
+Use [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb) libs to color text, background or border with CSS className.
 
 Apply colors.
 
@@ -74,9 +76,9 @@ Add a prefix `bd-` to apply border colors
 - [border-colors.css](css/border-colors.css) or [minified](css/min/border-colors.min.css) only border colors
 
 
-## Edit and Build   
+## Build   
 
 - Sources [/src](/src)
 - npm packages [package.json](package.json)
 - Gulp script [gulpfile.js](gulpfile.js)
-- Build : command line `gulp build`
+- Build with command line:  `gulp build`
