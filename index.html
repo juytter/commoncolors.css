@@ -6,12 +6,19 @@
   <meta name="description" content="CSS colors at your fingertips">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/palette.css">
+  <link rel="stylesheet" href="css/min/palette.min.css">
 </head>
 
 <style>
 
   body { margin: 0 }
+
+  html {
+  box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 
   .cover  {
     display: table ;
@@ -44,11 +51,10 @@
   @media screen and (min-width: 60em) {
     .cover-inner {
       font-size: 8.5em;
-
     }
   }
 
-  .rainbow {
+  /* .rainbow {
     display: table ;
     border-collapse: collapse;
     table-layout: fixed;
@@ -57,17 +63,56 @@
 
   .rainbow-col {
     display: table-cell;
-  }
+  } */
 
   main {
-    padding: 2em;
-    max-width: 32em;
+    padding: 0 2em;
    }
-    main h1 { font-size: 1.4em; }
+
+  main h1 {
+    font-size: 1.4em;
+    margin: 2em 0;
+  }
+
+   /* clearfix hack */
+  .cf:before,
+  .cf:after {
+      content: " ";
+      display: table;
+  }
+  .cf:after {
+      clear: both;
+  }
+  .cf {
+      *zoom: 1;
+  }
+
+
+  .color-ref {
+    width: 100%;
+  }
+
+  .color-ref-item {
+    float : left;
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 40em) {
+    .color-ref-item {
+      width: 20%;}
+    }
+
+  .color-ref-item-bg {
+    width:  100% ;
+    height: 8em;
+    margin-bottom: 0.5em;
+  }
 
 
   footer { padding-left : 2em; }
-    footer p { font-size: 0.9em; }
+  footer p { font-size: 0.9em; }
 
   </style>
 <body>
@@ -79,7 +124,7 @@
     </div>
   </div>
   <div class="rainbow">
-    <div class="rainbow-col bg-white">&nbsp;</div>
+    <!-- <div class="rainbow-col bg-white">&nbsp;</div>
     <div class="rainbow-col bg-black">&nbsp;</div>
     <div class="rainbow-col bg-gray-pale">&nbsp;</div>
     <div class="rainbow-col bg-gray-light">&nbsp;</div>
@@ -146,13 +191,292 @@
     <div class="rainbow-col bg-pink">&nbsp;</div>
     <div class="rainbow-col bg-pink-dark">&nbsp;</div>
     <div class="rainbow-col bg-pink-black">&nbsp;</div>
-  </div>
+  </div> -->
 </header>
 
 <main>
   <h1>
     <a href="https://github.com/juytter/palette-css" class="blue">Palette.css</a>  -  Css colors at your fingertips.
   </h1>
+
+  <div class="color-ref cf">
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-gray-pale"></div>
+      gray-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-gray-light"></div>
+      gray-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-gray"></div>
+      gray
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-gray-dark"></div>
+      gray-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-gray-black"></div>
+      gray-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-red-pale"></div>
+      red-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-red-light"></div>
+      red-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-red"></div>
+      red
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-red-dark"></div>
+      red-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-red-black"></div>
+      red-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-orange-pale"></div>
+      orange-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-orange-light"></div>
+      orange-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-orange"></div>
+      orange
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-orange-dark"></div>
+      orange-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-orange-black"></div>
+      orange-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-yellow-pale"></div>
+      yellow-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-yellow-light"></div>
+      yellow-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-yellow"></div>
+      yellow
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-yellow-dark"></div>
+      yellow-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-yellow-black"></div>
+      yellow-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-lime-pale"></div>
+      lime-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-lime-light"></div>
+      lime-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-lime"></div>
+      lime
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-lime-dark"></div>
+      lime-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-lime-black"></div>
+      lime-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-green-pale"></div>
+      green-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-green-light"></div>
+      green-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-green"></div>
+      green
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-green-dark"></div>
+      green-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-green-black"></div>
+      green-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-teal-pale"></div>
+      teal-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-teal-light"></div>
+      teal-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-teal"></div>
+      teal
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-teal-dark"></div>
+      teal-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-teal-black"></div>
+      teal-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-cyan-pale"></div>
+      cyan-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-cyan-light"></div>
+      cyan-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-cyan"></div>
+      cyan
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-cyan-dark"></div>
+      cyan-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-cyan-black"></div>
+      cyan-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-blue-pale"></div>
+      blue-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-blue-light"></div>
+      blue-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-blue"></div>
+      blue
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-blue-dark"></div>
+      blue-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-blue-black"></div>
+      blue-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-indigo-pale"></div>
+      indigo-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-indigo-light"></div>
+      indigo-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-indigo"></div>
+      indigo
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-indigo-dark"></div>
+      indigo-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-indigo-black"></div>
+      indigo-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-violet-pale"></div>
+      violet-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-violet-light"></div>
+      violet-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-violet"></div>
+      violet
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-violet-dark"></div>
+      violet-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-violet-black"></div>
+      violet-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-fuchsia-pale"></div>
+      fuchsia-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-fuchsia-light"></div>
+      fuchsia-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-fuchsia"></div>
+      fuchsia
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-fuchsia-dark"></div>
+      fuchsia-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-fuchsia-black"></div>
+      fuchsia-black
+    </div>
+
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-pink-pale"></div>
+      pink-pale
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-pink-light"></div>
+      pink-light
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-pink"></div>
+      pink
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-pink-dark"></div>
+      pink-dark
+    </div>
+    <div class="color-ref-item">
+      <div class="color-ref-item-bg bg-pink-black"></div>
+      pink-black
+    </div>
+
+  </div>
+
+
 </main>
 
 <footer class="gray">

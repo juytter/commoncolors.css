@@ -1,67 +1,57 @@
 # Palette.css
 
-A color scheme, easy to memorize, easy to Re-use in CSS.
+A *petit* CSS color-scheme, easy to use.
 
-## Colors and naming convention
+## Colors
 
 - Black & White +  11 main colors 
 
   `black`, `white`, `gray`, `red`, `orange`,`yellow`, `lime`, `green`, `teal`, `cyan`, `blue`,`indigo`, `violet`, `fuchsia`, `pink`
 
-- 4 x 11 Main color shades  from lightness (-pale) to darkness (-black) 
+- 4 x 11 main colors shades  from lightness (-pale) to darkness (-black) `-pale`, `-light`, `-dark`, `-black`
 
-   `colorname-pale`, `colorname-light`, `colorname-dark`, `colorname-black`
+### Naming convention 
 
-- Ex. `gray`, `gray-pale`, `red-black`, `yellow-light`,  ...
+MainColorName[-ShadeName] : 
 
----
+Ex. `gray`, `gray-pale`, `red-black`, `yellow-light`,  ...
 
-- See [palette-vars.css](src/palette-vars.css) for color scheme tech details.
-- **demo :**  <https://juytter.github.io/palette-css/>
+### Demo and color references
 
----
+-  <https://juytter.github.io/palette-css/>
+- See [palette-vars.css](src/palette-vars.css) for ref adn technical details.
 
 ## Usage
 
-### CSS var
+### CSS vars
 
-Import vars [palette-vars.css](css/palette-vars.css)
+Use [palette-vars.css](css/palette-vars.css)
 
 ```css
 @import 'palette-vars.css';
-
-.warning {
-  color : var(--red);
-}
-
-/* adjust color with 'modifiers' */
-
-.warning-alt {
-  color : var(--red-pale);
-}
+.warning { color : var(--red); }
+.warning-alt { color : var(--red-pale); }
 ```
 
-### Functional CSS libs
+### Functional CSS lib
 
-Use [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb) libs to color text, background or border with CSS className.
+Use [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb) lib to color text, background or border with className.
 
-Apply colors.
+**Apply colors**
 
 ```html
 <p class="red"></p>
 <p class="red-pale"</p>
-
 ```
 
-Add a prefix `bg-` to apply background colors  
+**Apply background colors**  (add a prefix `bg-` ) 
 
 ```html
 /* white text on red background */
 <div class="bg-red white"></div>
-
 ```
 
-Add a prefix `bd-` to apply border colors  
+**Apply border colors**  (add a prefix `bd-` ) 
 
 ```html
 /* red text with red borders */
@@ -79,6 +69,5 @@ Add a prefix `bd-` to apply border colors
 ## Build   
 
 - Sources [/src](/src)
-- npm packages [package.json](package.json)
-- Gulp script [gulpfile.js](gulpfile.js)
-- Build with command line:  `gulp build`
+- Dependencies [package.json](package.json)
+- Build script :  Gulp ([gulpfile.js](gulpfile.js)), command line :  `gulp build`

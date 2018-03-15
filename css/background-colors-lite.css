@@ -12,6 +12,7 @@
   Ex : bg-gray-pale, bg-red, bg-pink-dark
 
 */
+/* PALETTE CSS VARS V.1.1 */
 .bg-black { background-color: #000; }
 .bg-white { background-color: #fff; }
 .bg-gray { background-color: #808080; }

@@ -10,6 +10,7 @@
 
   Ex : bd-gray-pale, bd-red, bd-pink-dark
 */
+/* PALETTE CSS VARS V.1.1 */
 .bd-black { border-color: #000; }
 .bd-white { border-color: #fff; }
 .bd-gray { border-color: #808080; }

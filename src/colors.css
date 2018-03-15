@@ -1,12 +1,12 @@
 /*
   COLORS
 
-  Colors class basename :
+  Main colors classname :
     black, white, gray, red, orange,
     yellow, lime, green, teal, cyan, blue,
     indigo, violet, fuchsia, pink
 
-  Modifiers : -pale, -light, -dark, -black
+  Shade modifiers : -pale, -light, -dark, -black
 
   Ex : gray-pale, red, pink-dark ...
 */

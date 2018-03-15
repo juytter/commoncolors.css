@@ -3,12 +3,14 @@
   MIT License | https://github.com/juytter/palette-css
 
   Summary
-  1. colors (.colorName)
-  2. background-colors (.bg-colorName)
-  3. border-colors (.bd-colorName)
+  1. Vars version
+  2. colors (.colorName)
+  3. background-colors (.bg-colorName)
+  4. border-colors (.bd-colorName)
 */
 
 @import './palette-vars';
+
 @import './colors';
 @import './background-colors';
 @import './border-colors';
