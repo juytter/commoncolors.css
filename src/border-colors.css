@@ -3,8 +3,8 @@
 
   Colors class basename :
     bd-black, bd-white, bd-gray, red, bd-orange,
-    bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
-    bd-indigo, bd-violet, bd-fuchsia, bd-pink
+    bd-yellow, bd-lime, bd-green, bd-greenspring, bd-cyan, bd-bluesky,
+    bd-blue, bd-violet, bd-fuchsia, bd-pink
 
   Modifiers : -pale, -light, -dark, -black,
 
@@ -52,11 +52,11 @@
 .bd-green-dark    { border-color : var(--green-dark); }
 .bd-green-black   { border-color : var(--green-black); }
 
-.bd-teal          { border-color : var(--teal); }
-.bd-teal-pale     { border-color : var(--teal-pale); }
-.bd-teal-light    { border-color : var(--teal-light); }
-.bd-teal-dark     { border-color : var(--teal-dark); }
-.bd-teal-black    { border-color : var(--teal-black); }
+.bd-greenspring          { border-color : var(--greenspring); }
+.bd-greenspring-pale     { border-color : var(--greenspring-pale); }
+.bd-greenspring-light    { border-color : var(--greenspring-light); }
+.bd-greenspring-dark     { border-color : var(--greenspring-dark); }
+.bd-greenspring-black    { border-color : var(--greenspring-black); }
 
 .bd-cyan          { border-color : var(--cyan); }
 .bd-cyan-pale     { border-color : var(--cyan-pale); }
@@ -64,17 +64,17 @@
 .bd-cyan-dark     { border-color : var(--cyan-dark); }
 .bd-cyan-black    { border-color : var(--cyan-black); }
 
-.bd-blue          { border-color : var(--blue); }
-.bd-blue-pale     { border-color : var(--blue-pale); }
-.bd-blue-light    { border-color : var(--blue-light); }
-.bd-blue-dark     { border-color : var(--blue-dark); }
-.bd-blue-black    { border-color : var(--blue-black); }
+.bd-bluesky          { border-color : var(--bluesky); }
+.bd-bluesky-pale     { border-color : var(--bluesky-pale); }
+.bd-bluesky-light    { border-color : var(--bluesky-light); }
+.bd-bluesky-dark     { border-color : var(--bluesky-dark); }
+.bd-bluesky-black    { border-color : var(--bluesky-black); }
 
-.bd-indigo        { border-color : var(--indigo); }
-.bd-indigo-pale   { border-color : var(--indigo-pale); }
-.bd-indigo-light  { border-color : var(--indigo-light); }
-.bd-indigo-dark   { border-color : var(--indigo-dark); }
-.bd-indigo-black  { border-color : var(--indigo-black); }
+.bd-blue        { border-color : var(--blue); }
+.bd-blue-pale   { border-color : var(--blue-pale); }
+.bd-blue-light  { border-color : var(--blue-light); }
+.bd-blue-dark   { border-color : var(--blue-dark); }
+.bd-blue-black  { border-color : var(--blue-black); }
 
 .bd-violet        { border-color : var(--violet); }
 .bd-violet-pale   { border-color : var(--violet-pale); }

@@ -3,14 +3,14 @@
 
   Colors class basename :
     bd-black, bd-white, bd-gray, bd-red, bd-orange,
-    bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
-    bd-indigo, bd-violet, bd-fuchsia, bd-pink
+    bd-yellow, bd-lime, bd-green, bd-greenspring, bd-cyan, bd-bluesky,
+    bd-blue, bd-violet, bd-fuchsia, bd-pink
 
   Modifiers : -pale,  -dark
 
   Ex : bd-gray-pale, bd-red, bd-pink-dark
 */
-/* PALETTE CSS VARS V.1.1 */
+/* PALETTE CSS VARS - V.1.2 */
 .bd-black { border-color: #000; }
 .bd-white { border-color: #fff; }
 .bd-gray { border-color: #808080; }
@@ -31,18 +31,18 @@
 .bd-green { border-color: #0f0; }
 .bd-green-pale { border-color: #e5ffe5; }
 .bd-green-dark { border-color: #090; }
-.bd-teal { border-color: #00ff80; }
-.bd-teal-pale { border-color: #e5fff2; }
-.bd-teal-dark { border-color: #00994d; }
+.bd-greenspring { border-color: #00ff80; }
+.bd-greenspring-pale { border-color: #e5fff2; }
+.bd-greenspring-dark { border-color: #00994d; }
 .bd-cyan { border-color: #0ff; }
 .bd-cyan-pale { border-color: #e5ffff; }
 .bd-cyan-dark { border-color: #099; }
-.bd-blue { border-color: #007fff; }
-.bd-blue-pale { border-color: #e5f2ff; }
-.bd-blue-dark { border-color: #004c99; }
-.bd-indigo { border-color: #00f; }
-.bd-indigo-pale { border-color: #e5e5ff; }
-.bd-indigo-dark { border-color: #009; }
+.bd-bluesky { border-color: #007fff; }
+.bd-bluesky-pale { border-color: #e5f2ff; }
+.bd-bluesky-dark { border-color: #004c99; }
+.bd-blue { border-color: #00f; }
+.bd-blue-pale { border-color: #e5e5ff; }
+.bd-blue-dark { border-color: #009; }
 .bd-violet { border-color: #7f00ff; }
 .bd-violet-pale { border-color: #f2e5ff; }
 .bd-violet-dark { border-color: #4c0099; }

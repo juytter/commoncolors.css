@@ -3,14 +3,14 @@
 
   Colors class basename :
     bg-black, bg-white, bg-gray, red, bg-orange,
-    bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
-    bg-indigo, bg-violet, bg-fuchsia, bg-pink
+    bg-yellow, bg-lime, bg-green, bg-greenspring, bg-cyan, bg-bluesky,
+    bg-blue, bg-violet, bg-fuchsia, bg-pink
 
   Modifiers : -pale, -light, -dark, -black
 
   Ex : bg-gray-pale, bg-red, bg-pink-dark
 */
-/* PALETTE CSS VARS V.1.1 */
+/* PALETTE CSS VARS - V.1.2 */
 .bg-black { background-color: #000; }
 .bg-white { background-color: #fff; }
 .bg-gray { background-color: #808080; }
@@ -43,26 +43,26 @@
 .bg-green-light { background-color: #9f9; }
 .bg-green-dark { background-color: #090; }
 .bg-green-black { background-color: #004d00; }
-.bg-teal { background-color: #00ff80; }
-.bg-teal-pale { background-color: #e5fff2; }
-.bg-teal-light { background-color: #9fc; }
-.bg-teal-dark { background-color: #00994d; }
-.bg-teal-black { background-color: #004d26; }
+.bg-greenspring { background-color: #00ff80; }
+.bg-greenspring-pale { background-color: #e5fff2; }
+.bg-greenspring-light { background-color: #9fc; }
+.bg-greenspring-dark { background-color: #00994d; }
+.bg-greenspring-black { background-color: #004d26; }
 .bg-cyan { background-color: #0ff; }
 .bg-cyan-pale { background-color: #e5ffff; }
 .bg-cyan-light { background-color: #9ff; }
 .bg-cyan-dark { background-color: #099; }
 .bg-cyan-black { background-color: #004c4d; }
-.bg-blue { background-color: #007fff; }
-.bg-blue-pale { background-color: #e5f2ff; }
-.bg-blue-light { background-color: #9cf; }
-.bg-blue-dark { background-color: #004c99; }
-.bg-blue-black { background-color: #00264d; }
-.bg-indigo { background-color: #00f; }
-.bg-indigo-pale { background-color: #e5e5ff; }
-.bg-indigo-light { background-color: #99f; }
-.bg-indigo-dark { background-color: #009; }
-.bg-indigo-black { background-color: #00004d; }
+.bg-bluesky { background-color: #007fff; }
+.bg-bluesky-pale { background-color: #e5f2ff; }
+.bg-bluesky-light { background-color: #9cf; }
+.bg-bluesky-dark { background-color: #004c99; }
+.bg-bluesky-black { background-color: #00264d; }
+.bg-blue { background-color: #00f; }
+.bg-blue-pale { background-color: #e5e5ff; }
+.bg-blue-light { background-color: #99f; }
+.bg-blue-dark { background-color: #009; }
+.bg-blue-black { background-color: #00004d; }
 .bg-violet { background-color: #7f00ff; }
 .bg-violet-pale { background-color: #f2e5ff; }
 .bg-violet-light { background-color: #c9f; }

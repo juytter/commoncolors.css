@@ -1,5 +1,5 @@
 
-/* PALETTE CSS VARS - V.1.1 */
+/* PALETTE CSS VARS - V.1.2 */
 
 :root {
   --black: rgb(0,0,0);
@@ -41,11 +41,11 @@
   --green-dark: color(hsl(120,100%,30%));
   --green-black: color(hsl(120,100%,15%));
 
-  --teal-pale: color(hsl(150,100%,95%));
-  --teal-light: color(hsl(150,100%,80%));
-  --teal: color(hsl(150,100%,50%));
-  --teal-dark: color(hsl(150,100%,30%));
-  --teal-black: color(hsl(150,100%,15%));
+  --greenspring-pale: color(hsl(150,100%,95%));
+  --greenspring-light: color(hsl(150,100%,80%));
+  --greenspring: color(hsl(150,100%,50%));
+  --greenspring-dark: color(hsl(150,100%,30%));
+  --greenspring-black: color(hsl(150,100%,15%));
 
   --cyan-pale: color(hsl(180,100%,95%));
   --cyan-light: color(hsl(180,100%,80%));
@@ -53,17 +53,17 @@
   --cyan-dark: color(hsl(180,100%,30%));
   --cyan-black: color(hsl(180,100%,15%));
 
-  --blue-pale: color(hsl(210,100%,95%));
-  --blue-light: color(hsl(210,100%,80%));
-  --blue: color(hsl(210,100%,50%));
-  --blue-dark: color(hsl(210,100%,30%));
-  --blue-black: color(hsl(210,100%,15%));
+  --bluesky-pale: color(hsl(210,100%,95%));
+  --bluesky-light: color(hsl(210,100%,80%));
+  --bluesky: color(hsl(210,100%,50%));
+  --bluesky-dark: color(hsl(210,100%,30%));
+  --bluesky-black: color(hsl(210,100%,15%));
 
-  --indigo-pale: color(hsl(240,100%,95%));
-  --indigo-light: color(hsl(240,100%,80%));
-  --indigo: color(hsl(240,100%,50%));
-  --indigo-dark: color(hsl(240,100%,30%));
-  --indigo-black: color(hsl(240,100%,15%));
+  --blue-pale: color(hsl(240,100%,95%));
+  --blue-light: color(hsl(240,100%,80%));
+  --blue: color(hsl(240,100%,50%));
+  --blue-dark: color(hsl(240,100%,30%));
+  --blue-black: color(hsl(240,100%,15%));
 
   --violet-pale: color(hsl(270,100%,95%));
   --violet-light: color(hsl(270,100%,80%));

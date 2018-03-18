@@ -3,8 +3,8 @@
 
   Colors class basename :
     bd-black, bd-white, bd-gray, bd-red, bd-orange,
-    bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
-    bd-indigo, bd-violet, bd-fuchsia, bd-pink
+    bd-yellow, bd-lime, bd-green, bd-greenspring, bd-cyan, bd-bluesky,
+    bd-blue, bd-violet, bd-fuchsia, bd-pink
 
   Modifiers : -pale,  -dark
 
@@ -40,21 +40,21 @@
 .bd-green-pale    { border-color : var(--green-pale); }
 .bd-green-dark    { border-color : var(--green-dark); }
 
-.bd-teal          { border-color : var(--teal); }
-.bd-teal-pale     { border-color : var(--teal-pale); }
-.bd-teal-dark     { border-color : var(--teal-dark); }
+.bd-greenspring          { border-color : var(--greenspring); }
+.bd-greenspring-pale     { border-color : var(--greenspring-pale); }
+.bd-greenspring-dark     { border-color : var(--greenspring-dark); }
 
 .bd-cyan          { border-color : var(--cyan); }
 .bd-cyan-pale     { border-color : var(--cyan-pale); }
 .bd-cyan-dark     { border-color : var(--cyan-dark); }
 
-.bd-blue          { border-color : var(--blue); }
-.bd-blue-pale     { border-color : var(--blue-pale); }
-.bd-blue-dark     { border-color : var(--blue-dark); }
+.bd-bluesky          { border-color : var(--bluesky); }
+.bd-bluesky-pale     { border-color : var(--bluesky-pale); }
+.bd-bluesky-dark     { border-color : var(--bluesky-dark); }
 
-.bd-indigo        { border-color : var(--indigo); }
-.bd-indigo-pale   { border-color : var(--indigo-pale); }
-.bd-indigo-dark   { border-color : var(--indigo-dark); }
+.bd-blue        { border-color : var(--blue); }
+.bd-blue-pale   { border-color : var(--blue-pale); }
+.bd-blue-dark   { border-color : var(--blue-dark); }
 
 .bd-violet        { border-color : var(--violet); }
 .bd-violet-pale   { border-color : var(--violet-pale); }

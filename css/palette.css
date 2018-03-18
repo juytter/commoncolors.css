@@ -1,5 +1,5 @@
 /*
-  PALETTE CSS LIB V.1.1
+  PALETTE CSS LIB V.1.2
   MIT License | https://github.com/juytter/palette-css
 
   Summary
@@ -8,16 +8,16 @@
   3. background-colors (.bg-colorName)
   4. border-colors (.bd-colorName)
 */
-/* PALETTE CSS VARS V.1.1 */
+/* PALETTE CSS VARS - V.1.2 */
 /*
   COLORS
 
-  Colors class basename :
+  Main colors classname :
     black, white, gray, red, orange,
-    yellow, lime, green, teal, cyan, blue,
-    indigo, violet, fuchsia, pink
+    yellow, lime, green, greenspring, cyan, bluesky,
+    blue, violet, fuchsia, pink
 
-  Modifiers : -pale, -light, -dark, -black
+  Shade modifiers : -pale, -light, -dark, -black
 
   Ex : gray-pale, red, pink-dark ...
 */
@@ -53,26 +53,26 @@
 .green-light { color: #9f9; }
 .green-dark { color: #090; }
 .green-black { color: #004d00; }
-.teal { color: #00ff80; }
-.teal-pale { color: #e5fff2; }
-.teal-light { color: #9fc; }
-.teal-dark { color: #00994d; }
-.teal-black { color: #004d26; }
+.greenspring { color: #00ff80; }
+.greenspring-pale { color: #e5fff2; }
+.greenspring-light { color: #9fc; }
+.greenspring-dark { color: #00994d; }
+.greenspring-black { color: #004d26; }
 .cyan { color: #0ff; }
 .cyan-pale { color: #e5ffff; }
 .cyan-light { color: #9ff; }
 .cyan-dark { color: #099; }
 .cyan-black { color: #004c4d; }
-.blue { color: #007fff; }
-.blue-pale { color: #e5f2ff; }
-.blue-light { color: #9cf; }
-.blue-dark { color: #004c99; }
-.blue-black { color: #00264d; }
-.indigo { color: #00f; }
-.indigo-pale { color: #e5e5ff; }
-.indigo-light { color: #99f; }
-.indigo-dark { color: #009; }
-.indigo-black { color: #00004d; }
+.bluesky { color: #007fff; }
+.bluesky-pale { color: #e5f2ff; }
+.bluesky-light { color: #9cf; }
+.bluesky-dark { color: #004c99; }
+.bluesky-black { color: #00264d; }
+.blue { color: #00f; }
+.blue-pale { color: #e5e5ff; }
+.blue-light { color: #99f; }
+.blue-dark { color: #009; }
+.blue-black { color: #00004d; }
 .violet { color: #7f00ff; }
 .violet-pale { color: #f2e5ff; }
 .violet-light { color: #c9f; }
@@ -93,8 +93,8 @@
 
   Colors class basename :
     bg-black, bg-white, bg-gray, red, bg-orange,
-    bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
-    bg-indigo, bg-violet, bg-fuchsia, bg-pink
+    bg-yellow, bg-lime, bg-green, bg-greenspring, bg-cyan, bg-bluesky,
+    bg-blue, bg-violet, bg-fuchsia, bg-pink
 
   Modifiers : -pale, -light, -dark, -black
 
@@ -132,26 +132,26 @@
 .bg-green-light { background-color: #9f9; }
 .bg-green-dark { background-color: #090; }
 .bg-green-black { background-color: #004d00; }
-.bg-teal { background-color: #00ff80; }
-.bg-teal-pale { background-color: #e5fff2; }
-.bg-teal-light { background-color: #9fc; }
-.bg-teal-dark { background-color: #00994d; }
-.bg-teal-black { background-color: #004d26; }
+.bg-greenspring { background-color: #00ff80; }
+.bg-greenspring-pale { background-color: #e5fff2; }
+.bg-greenspring-light { background-color: #9fc; }
+.bg-greenspring-dark { background-color: #00994d; }
+.bg-greenspring-black { background-color: #004d26; }
 .bg-cyan { background-color: #0ff; }
 .bg-cyan-pale { background-color: #e5ffff; }
 .bg-cyan-light { background-color: #9ff; }
 .bg-cyan-dark { background-color: #099; }
 .bg-cyan-black { background-color: #004c4d; }
-.bg-blue { background-color: #007fff; }
-.bg-blue-pale { background-color: #e5f2ff; }
-.bg-blue-light { background-color: #9cf; }
-.bg-blue-dark { background-color: #004c99; }
-.bg-blue-black { background-color: #00264d; }
-.bg-indigo { background-color: #00f; }
-.bg-indigo-pale { background-color: #e5e5ff; }
-.bg-indigo-light { background-color: #99f; }
-.bg-indigo-dark { background-color: #009; }
-.bg-indigo-black { background-color: #00004d; }
+.bg-bluesky { background-color: #007fff; }
+.bg-bluesky-pale { background-color: #e5f2ff; }
+.bg-bluesky-light { background-color: #9cf; }
+.bg-bluesky-dark { background-color: #004c99; }
+.bg-bluesky-black { background-color: #00264d; }
+.bg-blue { background-color: #00f; }
+.bg-blue-pale { background-color: #e5e5ff; }
+.bg-blue-light { background-color: #99f; }
+.bg-blue-dark { background-color: #009; }
+.bg-blue-black { background-color: #00004d; }
 .bg-violet { background-color: #7f00ff; }
 .bg-violet-pale { background-color: #f2e5ff; }
 .bg-violet-light { background-color: #c9f; }
@@ -172,8 +172,8 @@
 
   Colors class basename :
     bd-black, bd-white, bd-gray, red, bd-orange,
-    bd-yellow, bd-lime, bd-green, bd-teal, bd-cyan, bd-blue,
-    bd-indigo, bd-violet, bd-fuchsia, bd-pink
+    bd-yellow, bd-lime, bd-green, bd-greenspring, bd-cyan, bd-bluesky,
+    bd-blue, bd-violet, bd-fuchsia, bd-pink
 
   Modifiers : -pale, -light, -dark, -black,
 
@@ -211,26 +211,26 @@
 .bd-green-light { border-color: #9f9; }
 .bd-green-dark { border-color: #090; }
 .bd-green-black { border-color: #004d00; }
-.bd-teal { border-color: #00ff80; }
-.bd-teal-pale { border-color: #e5fff2; }
-.bd-teal-light { border-color: #9fc; }
-.bd-teal-dark { border-color: #00994d; }
-.bd-teal-black { border-color: #004d26; }
+.bd-greenspring { border-color: #00ff80; }
+.bd-greenspring-pale { border-color: #e5fff2; }
+.bd-greenspring-light { border-color: #9fc; }
+.bd-greenspring-dark { border-color: #00994d; }
+.bd-greenspring-black { border-color: #004d26; }
 .bd-cyan { border-color: #0ff; }
 .bd-cyan-pale { border-color: #e5ffff; }
 .bd-cyan-light { border-color: #9ff; }
 .bd-cyan-dark { border-color: #099; }
 .bd-cyan-black { border-color: #004c4d; }
-.bd-blue { border-color: #007fff; }
-.bd-blue-pale { border-color: #e5f2ff; }
-.bd-blue-light { border-color: #9cf; }
-.bd-blue-dark { border-color: #004c99; }
-.bd-blue-black { border-color: #00264d; }
-.bd-indigo { border-color: #00f; }
-.bd-indigo-pale { border-color: #e5e5ff; }
-.bd-indigo-light { border-color: #99f; }
-.bd-indigo-dark { border-color: #009; }
-.bd-indigo-black { border-color: #00004d; }
+.bd-bluesky { border-color: #007fff; }
+.bd-bluesky-pale { border-color: #e5f2ff; }
+.bd-bluesky-light { border-color: #9cf; }
+.bd-bluesky-dark { border-color: #004c99; }
+.bd-bluesky-black { border-color: #00264d; }
+.bd-blue { border-color: #00f; }
+.bd-blue-pale { border-color: #e5e5ff; }
+.bd-blue-light { border-color: #99f; }
+.bd-blue-dark { border-color: #009; }
+.bd-blue-black { border-color: #00004d; }
 .bd-violet { border-color: #7f00ff; }
 .bd-violet-pale { border-color: #f2e5ff; }
 .bd-violet-light { border-color: #c9f; }

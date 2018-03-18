@@ -1,10 +1,10 @@
 /*
   COLORS LITE
 
-  Colors class basename :
+  Main colors class basename :
     black, white, gray, red, orange,
-    yellow, lime, green, teal, cyan, blue,
-    indigo, violet, fuchsia, pink
+    yellow, lime, green, greenspring, cyan, bluesky,
+    blue, violet, fuchsia, pink
 
   Modifiers : -pale,  -dark
 
@@ -40,21 +40,21 @@
 .green-pale    { color : var(--green-pale); }
 .green-dark    { color : var(--green-dark); }
 
-.teal          { color : var(--teal); }
-.teal-pale     { color : var(--teal-pale); }
-.teal-dark     { color : var(--teal-dark); }
+.greenspring          { color : var(--greenspring); }
+.greenspring-pale     { color : var(--greenspring-pale); }
+.greenspring-dark     { color : var(--greenspring-dark); }
 
 .cyan          { color : var(--cyan); }
 .cyan-pale     { color : var(--cyan-pale); }
 .cyan-dark     { color : var(--cyan-dark); }
 
-.blue          { color : var(--blue); }
-.blue-pale     { color : var(--blue-pale); }
-.blue-dark     { color : var(--blue-dark); }
+.bluesky          { color : var(--bluesky); }
+.bluesky-pale     { color : var(--bluesky-pale); }
+.bluesky-dark     { color : var(--bluesky-dark); }
 
-.indigo        { color : var(--indigo); }
-.indigo-pale   { color : var(--indigo-pale); }
-.indigo-dark   { color : var(--indigo-dark); }
+.blue        { color : var(--blue); }
+.blue-pale   { color : var(--blue-pale); }
+.blue-dark   { color : var(--blue-dark); }
 
 .violet        { color : var(--violet); }
 .violet-pale   { color : var(--violet-pale); }

@@ -3,8 +3,8 @@
 
   Colors class basename :
     bg-black, bg-white, bg-gray, red, bg-orange,
-    bg-yellow, bg-lime, bg-green, bg-teal, bg-cyan, bg-blue,
-    bg-indigo, bg-violet, bg-fuchsia, bg-pink
+    bg-yellow, bg-lime, bg-green, bg-greenspring, bg-cyan, bg-bluesky,
+    bg-blue, bg-violet, bg-fuchsia, bg-pink
 
   Modifiers : -pale, -light, -dark, -black
 
@@ -52,11 +52,11 @@
 .bg-green-dark    { background-color : var(--green-dark); }
 .bg-green-black   { background-color : var(--green-black); }
 
-.bg-teal          { background-color : var(--teal); }
-.bg-teal-pale     { background-color : var(--teal-pale); }
-.bg-teal-light    { background-color : var(--teal-light); }
-.bg-teal-dark     { background-color : var(--teal-dark); }
-.bg-teal-black    { background-color : var(--teal-black); }
+.bg-greenspring          { background-color : var(--greenspring); }
+.bg-greenspring-pale     { background-color : var(--greenspring-pale); }
+.bg-greenspring-light    { background-color : var(--greenspring-light); }
+.bg-greenspring-dark     { background-color : var(--greenspring-dark); }
+.bg-greenspring-black    { background-color : var(--greenspring-black); }
 
 .bg-cyan          { background-color : var(--cyan); }
 .bg-cyan-pale     { background-color : var(--cyan-pale); }
@@ -64,17 +64,17 @@
 .bg-cyan-dark     { background-color : var(--cyan-dark); }
 .bg-cyan-black    { background-color : var(--cyan-black); }
 
-.bg-blue          { background-color : var(--blue); }
-.bg-blue-pale     { background-color : var(--blue-pale); }
-.bg-blue-light    { background-color : var(--blue-light); }
-.bg-blue-dark     { background-color : var(--blue-dark); }
-.bg-blue-black    { background-color : var(--blue-black); }
+.bg-bluesky          { background-color : var(--bluesky); }
+.bg-bluesky-pale     { background-color : var(--bluesky-pale); }
+.bg-bluesky-light    { background-color : var(--bluesky-light); }
+.bg-bluesky-dark     { background-color : var(--bluesky-dark); }
+.bg-bluesky-black    { background-color : var(--bluesky-black); }
 
-.bg-indigo        { background-color : var(--indigo); }
-.bg-indigo-pale   { background-color : var(--indigo-pale); }
-.bg-indigo-light  { background-color : var(--indigo-light); }
-.bg-indigo-dark   { background-color : var(--indigo-dark); }
-.bg-indigo-black  { background-color : var(--indigo-black); }
+.bg-blue        { background-color : var(--blue); }
+.bg-blue-pale   { background-color : var(--blue-pale); }
+.bg-blue-light  { background-color : var(--blue-light); }
+.bg-blue-dark   { background-color : var(--blue-dark); }
+.bg-blue-black  { background-color : var(--blue-black); }
 
 .bg-violet        { background-color : var(--violet); }
 .bg-violet-pale   { background-color : var(--violet-pale); }

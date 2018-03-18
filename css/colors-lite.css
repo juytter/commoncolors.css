@@ -1,16 +1,16 @@
 /*
   COLORS LITE
 
-  Colors class basename :
+  Main colors class basename :
     black, white, gray, red, orange,
-    yellow, lime, green, teal, cyan, blue,
-    indigo, violet, fuchsia, pink
+    yellow, lime, green, greenspring, cyan, bluesky,
+    blue, violet, fuchsia, pink
 
   Modifiers : -pale,  -dark
 
   Ex : gray-pale, red, pink-dark
 */
-/* PALETTE CSS VARS V.1.1 */
+/* PALETTE CSS VARS - V.1.2 */
 .black { color: #000; }
 .white { color: #fff; }
 .gray { color: #808080; }
@@ -31,18 +31,18 @@
 .green { color: #0f0; }
 .green-pale { color: #e5ffe5; }
 .green-dark { color: #090; }
-.teal { color: #00ff80; }
-.teal-pale { color: #e5fff2; }
-.teal-dark { color: #00994d; }
+.greenspring { color: #00ff80; }
+.greenspring-pale { color: #e5fff2; }
+.greenspring-dark { color: #00994d; }
 .cyan { color: #0ff; }
 .cyan-pale { color: #e5ffff; }
 .cyan-dark { color: #099; }
-.blue { color: #007fff; }
-.blue-pale { color: #e5f2ff; }
-.blue-dark { color: #004c99; }
-.indigo { color: #00f; }
-.indigo-pale { color: #e5e5ff; }
-.indigo-dark { color: #009; }
+.bluesky { color: #007fff; }
+.bluesky-pale { color: #e5f2ff; }
+.bluesky-dark { color: #004c99; }
+.blue { color: #00f; }
+.blue-pale { color: #e5e5ff; }
+.blue-dark { color: #009; }
 .violet { color: #7f00ff; }
 .violet-pale { color: #f2e5ff; }
 .violet-dark { color: #4c0099; }
