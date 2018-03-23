@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Introducing Palette.css</title>
+  <meta name="description" content="Petite color palette for CSS, easy to use with better names.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/min/palette.min.css">
+</head>
+
+<style>
+
+  body {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: athelas,georgia,serif;
+    transition: background-color 1000ms linear;
+  }
+
+  html {
+  box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    font-size: 3em;
+    line-height: 1.2;
+  }
+  main a { color:inherit; }
+  footer { padding-left : 2em; }
+  footer p { font-size: 0.9em; }
+
+  .max-w-m   { max-width: 32em; }
+  .caps {
+    font-size: 0.4em;
+    text-transform: uppercase;
+  }
+  .font-sz-auto {
+    font-size: 1em;
+  }
+
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .font-sz-auto {
+      font-size: 1.15em;
+    }
+  }
+  @media screen and (min-width: 60em) {
+    .font-sz-auto {
+      font-size:1.4em;
+      font-size:2.0vw;
+    }
+  }
+  .layout-auto {
+      max-width: 100%;
+      padding: .5em 1em;
+  }
+
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .layout-auto {
+        padding: .5em 2.5em;
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .layout-auto {
+        padding: .5em 4em;
+      }
+  }
+  </style>
+
+<body class="black font-sz-auto layout-auto">
+
+<article class="max-w-m">
+
+<header>
+  <h1>
+    <span class="caps">Introducing</span> <br>
+    Palette.css
+  </h1>
+</header>
+
+<main>
+<p><b>Color names is a strange and funny area. Especially on Web.<br/>
+  There is no problem picturing approximately a <em>Yellow</em> or a <em>Red</em> but ...</b></p>
+
+<p>What about the <em>DodgerBlue</em> ? It is a reference to the blue of <a href='https://en.wikipedia.org/wiki/Dodger_blue'>Dodgers</a>. You had to know it. Did you know that <em>Darkgrey</em> is actually lighter than <em>Gray</em> ? <em>Chartreuse</em> ? A French green liqueur that almost nobody has been able to see (and drink !) for years in France.  <em>Papayawhip</em> sounds very colorful but in fact, no. <em>Snow</em> is not exactly white and a warm color... Seriously ?</p>
+
+<p>
+  We have a <em>sensory</em> relationship to colors, there are millions and with different meanings depending on culture. Ask ten people to choose a  <em>Blue</em> color, they will pick ten different <em>Blue</em>.</p>
+<a href='http://www.latimes.com/sports/dodgers/la-sp-how-dodger-blue-became-part-of-the-internet-20171030-story.html'>The story of DodgerBlue</a> is self-explanatory : many Web color names do not evoke a color for the rest of the world, or even worse, are misleading.
+
+To make everyone agree, we can do it without words and use color code and a visual color chart, but we always need these <em>intermediaries</em> to choose and share colors.
+</p>
+
+<p>Hopefully, in day life someone can say that he loves Yellow without the need of a color code agreement !  No matter if it's imprecise.
+So, i decided to write a "humanized" color scheme.  I kept the most common colors name and added shades from these colors according to a simple design pattern from brightness.  We can <em>approximately</em> picturing what a <em>Red-Pale</em>, <em>Yellow-Black</em> or <em>Violet-light</em> represents, use this names without confusion and without necessarily using color code.</p>
+
+<p>This is <a href="https://github.com/juytter/palette-css">Palette.css</a>, a small CSS color scheme with unambiguous naming convention, at your fingertips.</p>
+
+</main>
+
+<footer>
+  <p>
+    — <a href='https://github.com/juytter' class="blue">@juytter</a>  Mar 2018
+  </p>
+  <p>
+    Questions, Comments, Suggestions? <a href="https://github.com/juytter/palette-css/issues/new?labels=question" title="open an issue on Github"class="blue">Open an Issue</a>
+  </p>
+</footer>
+
+</article>
+
+<script type="text/javascript">
+  var colors = [
+  "gray", "red", "orange", "yellow","green",
+  "cyan", "blue", "violet",
+  "fuchsia","pink"
+  ];
+  getRandom = function (list) {
+    return list[Math.floor((Math.random()*list.length))];
+  }
+  var myInterval = setInterval(function() {
+
+    var color = getRandom(colors) ;
+    var bgColor = "bg-" + color + "-pale" ;
+    color +=  "-black";
+    var bodyClass = bgColor + " " + color + " font-sz-auto layout-auto ";
+    document.body.className =  bodyClass ;
+  }, 5000);
+</script>
+
+</body>
+</html>

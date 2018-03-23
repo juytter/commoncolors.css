@@ -3,14 +3,13 @@
 
   Main colors classname :
     black, white, gray, red, orange,
-    yellow, lime, green, greenspring, cyan, bluesky,
-    blue, violet, fuchsia, pink
+    yellow, green, cyan, blue, violet, fuchsia, pink
 
   Shade modifiers : -pale, -light, -dark, -black
 
   Ex : gray-pale, red, pink-dark ...
 */
-/* PALETTE CSS VARS - V.1.2 */
+/* PALETTE CSS VARS - Beta V.0.9 */
 .black { color: #000; }
 .white { color: #fff; }
 .gray { color: #808080; }
@@ -33,36 +32,21 @@
 .yellow-light { color: #ff9; }
 .yellow-dark { color: #990; }
 .yellow-black { color: #4c4d00; }
-.lime { color: #80ff00; }
-.lime-pale { color: #f2ffe5; }
-.lime-light { color: #cf9; }
-.lime-dark { color: #4d9900; }
-.lime-black { color: #264d00; }
 .green { color: #0f0; }
 .green-pale { color: #e5ffe5; }
 .green-light { color: #9f9; }
 .green-dark { color: #090; }
 .green-black { color: #004d00; }
-.greenspring { color: #00ff80; }
-.greenspring-pale { color: #e5fff2; }
-.greenspring-light { color: #9fc; }
-.greenspring-dark { color: #00994d; }
-.greenspring-black { color: #004d26; }
 .cyan { color: #0ff; }
 .cyan-pale { color: #e5ffff; }
 .cyan-light { color: #9ff; }
 .cyan-dark { color: #099; }
 .cyan-black { color: #004c4d; }
-.bluesky { color: #007fff; }
-.bluesky-pale { color: #e5f2ff; }
-.bluesky-light { color: #9cf; }
-.bluesky-dark { color: #004c99; }
-.bluesky-black { color: #00264d; }
-.blue { color: #00f; }
-.blue-pale { color: #e5e5ff; }
-.blue-light { color: #99f; }
-.blue-dark { color: #009; }
-.blue-black { color: #00004d; }
+.blue { color: #0040ff; }
+.blue-pale { color: #e5ecff; }
+.blue-light { color: #99b3ff; }
+.blue-dark { color: #002699; }
+.blue-black { color: #00134d; }
 .violet { color: #7f00ff; }
 .violet-pale { color: #f2e5ff; }
 .violet-light { color: #c9f; }

@@ -3,8 +3,7 @@
 
   Main colors classname :
     black, white, gray, red, orange,
-    yellow, lime, green, greenspring, cyan, bluesky,
-    blue, violet, fuchsia, pink
+    yellow, green, cyan, blue, violet, fuchsia, pink
 
   Shade modifiers : -pale, -light, -dark, -black
 
@@ -40,23 +39,11 @@
 .yellow-dark   { color : var(--yellow-dark); }
 .yellow-black  { color : var(--yellow-black); }
 
-.lime          { color : var(--lime); }
-.lime-pale     { color : var(--lime-pale); }
-.lime-light    { color : var(--lime-light); }
-.lime-dark     { color : var(--lime-dark); }
-.lime-black    { color : var(--lime-black); }
-
 .green         { color : var(--green); }
 .green-pale    { color : var(--green-pale); }
 .green-light   { color : var(--green-light); }
 .green-dark    { color : var(--green-dark); }
 .green-black   { color : var(--green-black); }
-
-.greenspring          { color : var(--greenspring); }
-.greenspring-pale     { color : var(--greenspring-pale); }
-.greenspring-light    { color : var(--greenspring-light); }
-.greenspring-dark     { color : var(--greenspring-dark); }
-.greenspring-black    { color : var(--greenspring-black); }
 
 .cyan          { color : var(--cyan); }
 .cyan-pale     { color : var(--cyan-pale); }
@@ -64,17 +51,11 @@
 .cyan-dark     { color : var(--cyan-dark); }
 .cyan-black    { color : var(--cyan-black); }
 
-.bluesky          { color : var(--bluesky); }
-.bluesky-pale     { color : var(--bluesky-pale); }
-.bluesky-light    { color : var(--bluesky-light); }
-.bluesky-dark     { color : var(--bluesky-dark); }
-.bluesky-black    { color : var(--bluesky-black); }
-
-.blue        { color : var(--blue); }
-.blue-pale   { color : var(--blue-pale); }
-.blue-light  { color : var(--blue-light); }
-.blue-dark   { color : var(--blue-dark); }
-.blue-black  { color : var(--blue-black); }
+.blue          { color : var(--blue); }
+.blue-pale     { color : var(--blue-pale); }
+.blue-light    { color : var(--blue-light); }
+.blue-dark     { color : var(--blue-dark); }
+.blue-black    { color : var(--blue-black); }
 
 .violet        { color : var(--violet); }
 .violet-pale   { color : var(--violet-pale); }

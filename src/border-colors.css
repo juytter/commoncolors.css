@@ -1,11 +1,7 @@
 /*
   BORDER COLORS
 
-  Colors class basename :
-    bd-black, bd-white, bd-gray, red, bd-orange,
-    bd-yellow, bd-lime, bd-green, bd-greenspring, bd-cyan, bd-bluesky,
-    bd-blue, bd-violet, bd-fuchsia, bd-pink
-
+  Prefix : bd-
   Modifiers : -pale, -light, -dark, -black,
 
   Ex : bd-gray-pale, bd-red, bd-pink-dark
@@ -40,35 +36,17 @@
 .bd-yellow-dark   { border-color : var(--yellow-dark); }
 .bd-yellow-black  { border-color : var(--yellow-black); }
 
-.bd-lime          { border-color : var(--lime); }
-.bd-lime-pale     { border-color : var(--lime-pale); }
-.bd-lime-light    { border-color : var(--lime-light); }
-.bd-lime-dark     { border-color : var(--lime-dark); }
-.bd-lime-black    { border-color : var(--lime-black); }
-
 .bd-green         { border-color : var(--green); }
 .bd-green-pale    { border-color : var(--green-pale); }
 .bd-green-light   { border-color : var(--green-light); }
 .bd-green-dark    { border-color : var(--green-dark); }
 .bd-green-black   { border-color : var(--green-black); }
 
-.bd-greenspring          { border-color : var(--greenspring); }
-.bd-greenspring-pale     { border-color : var(--greenspring-pale); }
-.bd-greenspring-light    { border-color : var(--greenspring-light); }
-.bd-greenspring-dark     { border-color : var(--greenspring-dark); }
-.bd-greenspring-black    { border-color : var(--greenspring-black); }
-
 .bd-cyan          { border-color : var(--cyan); }
 .bd-cyan-pale     { border-color : var(--cyan-pale); }
 .bd-cyan-light    { border-color : var(--cyan-light); }
 .bd-cyan-dark     { border-color : var(--cyan-dark); }
 .bd-cyan-black    { border-color : var(--cyan-black); }
-
-.bd-bluesky          { border-color : var(--bluesky); }
-.bd-bluesky-pale     { border-color : var(--bluesky-pale); }
-.bd-bluesky-light    { border-color : var(--bluesky-light); }
-.bd-bluesky-dark     { border-color : var(--bluesky-dark); }
-.bd-bluesky-black    { border-color : var(--bluesky-black); }
 
 .bd-blue        { border-color : var(--blue); }
 .bd-blue-pale   { border-color : var(--blue-pale); }

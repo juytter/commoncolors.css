@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Palette.css</title>
-  <meta name="description" content="CSS colors at your fingertips">
+  <meta name="description" content="Petite color palette for CSS, easy to use with better names.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/min/palette.min.css">
@@ -18,6 +18,12 @@
   }
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+
+
+  header .intro {
+    padding: 2em 3em;
+    max-width: 35em;
   }
 
   .cover  {
@@ -35,7 +41,7 @@
     font-size: 3.5em;
     text-align: center;
     height : 5em;
-    height : 70vh;
+    height : 60vh;
     transition: all 300ms linear;
   }
 
@@ -46,11 +52,6 @@
   @media screen and (min-width: 40em) {
     .cover-inner {
       font-size: 6em;
-    }
-  }
-  @media screen and (min-width: 60em) {
-    .cover-inner {
-      font-size: 8.5em;
     }
   }
 
@@ -99,7 +100,6 @@
     margin-bottom: 0.5em;
   }
 
-
   footer { padding-left : 2em; }
   footer p { font-size: 0.9em; }
 
@@ -112,12 +112,17 @@
       <h1>Palette.css</h1>
     </div>
   </div>
+  <div class="intro">
+    <h2>
+      A small CSS color scheme with <a href="introducing.html" title="Introducing palette.css" class="blue"><em>unambiguous</em></a> color names, at your fingertips.
+    </h2>
+    <p> <b> <a href="https://github.com/juytter/palette-css" class="blue"> Github repository</a></b>
+    </p>
+  </div>
 </header>
 
 <main>
-  <h1>
-    <a href="https://github.com/juytter/palette-css" class="bluesky">Palette.css</a>  -  Css colors at your fingertips.
-  </h1>
+
 
   <div class="color-ref cf">
 
@@ -206,27 +211,6 @@
     </div>
 
     <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-lime-pale"></div>
-      lime-pale
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-lime-light"></div>
-      lime-light
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-lime"></div>
-      lime
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-lime-dark"></div>
-      lime-dark
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-lime-black"></div>
-      lime-black
-    </div>
-
-    <div class="color-ref-item">
       <div class="color-ref-item-bg bg-green-pale"></div>
       green-pale
     </div>
@@ -245,27 +229,6 @@
     <div class="color-ref-item">
       <div class="color-ref-item-bg bg-green-black"></div>
       green-black
-    </div>
-
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-greenspring-pale"></div>
-      greenspring-pale
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-greenspring-light"></div>
-      greenspring-light
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-greenspring"></div>
-      greenspring
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-greenspring-dark"></div>
-      greenspring-dark
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-greenspring-black"></div>
-      greenspring-black
     </div>
 
     <div class="color-ref-item">
@@ -289,26 +252,6 @@
       cyan-black
     </div>
 
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-bluesky-pale"></div>
-      bluesky-pale
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-bluesky-light"></div>
-      bluesky-light
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-bluesky"></div>
-      bluesky
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-bluesky-dark"></div>
-      bluesky-dark
-    </div>
-    <div class="color-ref-item">
-      <div class="color-ref-item-bg bg-bluesky-black"></div>
-      bluesky-black
-    </div>
 
     <div class="color-ref-item">
       <div class="color-ref-item-bg bg-blue-pale"></div>
@@ -401,7 +344,7 @@
 
 <footer class="gray">
   <div class="footer">
-    <p>MIT License | <a href="https://github.com/juytter/palette-css" class="gray">https://github.com/juytter/palette-css</a></p>
+    <p> &copy;<a href="https://github.com/juytter" class="gray">juytter</a> 2018 MIT License</p>
   </div>
 </footer>
 
@@ -410,8 +353,8 @@
   <script type="text/javascript">
 
     var colors = [
-    "gray", "red", "orange", "yellow","lime", "green",
-    "greenspring", "cyan", "bluesky", "blue", "violet",
+    "gray", "red", "orange", "yellow","green",
+    "cyan", "blue", "violet",
     "fuchsia","pink"
     ];
 

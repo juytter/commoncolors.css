@@ -1,15 +1,12 @@
 # Palette.css
 
-*Petite* CSS color palette. Easy to use.
+A small CSS color scheme with *unambiguous* color names, at your fingertips.
 
-#### Goal and principe 
+-  [Introducing](https://juytter.github.io/palette-css/indroducing.html) Palette.css
+-  Demo / test :  <https://juytter.github.io/palette-css/>
+-  Color scheme details: [palette-vars.css](src/palette-vars.css)
 
-Colors naming convention,  [hsl](https://en.wikipedia.org/wiki/HSL_and_HSV)  design-system, small color palette help designers and teams to memorize, use and compose with colors in CSS more easily.
-
-#### Demo and color references
-
--  <https://juytter.github.io/palette-css/>
-- See [palette-vars.css](src/palette-vars.css) for color references  and details.
+---
 
 ## Usage
 
@@ -25,7 +22,7 @@ Use [palette-vars.css](css/palette-vars.css)
 
 #### CSS lib, class utilities
 
-Use [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb) lib to color text, background or border with their className.
+Use [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (4 ko) lib to color text and background with class utilities.
 
 ##### Apply colors
 
@@ -34,23 +31,17 @@ Use [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (6 kb)
 <p class="red-pale"</p>
 ```
 
-##### Apply background colors  (add a prefix `bg-` ) 
+##### Apply background colors  (add a prefix `bg-` )
 
 ```html
-/* white text on red background */
+/* white on red background */
 <div class="bg-red white"></div>
 ```
 
-##### Apply border colors  (add a prefix `bd-` ) 
-
-```html
-/* red text with red borders */
-<div class="bd-red red" style="border:1px solid;"></div>
-```
 
 ## Build & contribute   
 
-- [CONTRIBUTING](CONTRIBUTING.md)
+- [Contributing](CONTRIBUTING.md)
 - Sources [/src](/src)
 - Tools and dependencies [package.json](package.json)
 - Build script  [gulpfile.js](gulpfile.js),  command line :  `gulp build`

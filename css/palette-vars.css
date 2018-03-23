@@ -1,4 +1,4 @@
-/* PALETTE CSS VARS - V.1.2 */
+/* PALETTE CSS VARS - Beta V.0.9 */
 
 :root {
     --black: #000;
@@ -23,36 +23,21 @@
     --yellow: #ff0;
     --yellow-dark: #990;
     --yellow-black: #4c4d00;
-    --lime-pale: #f2ffe5;
-    --lime-light: #cf9;
-    --lime: #80ff00;
-    --lime-dark: #4d9900;
-    --lime-black: #264d00;
     --green-pale: #e5ffe5;
     --green-light: #9f9;
     --green: #0f0;
     --green-dark: #090;
     --green-black: #004d00;
-    --greenspring-pale: #e5fff2;
-    --greenspring-light: #9fc;
-    --greenspring: #00ff80;
-    --greenspring-dark: #00994d;
-    --greenspring-black: #004d26;
     --cyan-pale: #e5ffff;
     --cyan-light: #9ff;
     --cyan: #0ff;
     --cyan-dark: #099;
     --cyan-black: #004c4d;
-    --bluesky-pale: #e5f2ff;
-    --bluesky-light: #9cf;
-    --bluesky: #007fff;
-    --bluesky-dark: #004c99;
-    --bluesky-black: #00264d;
-    --blue-pale: #e5e5ff;
-    --blue-light: #99f;
-    --blue: #00f;
-    --blue-dark: #009;
-    --blue-black: #00004d;
+    --blue-pale: #e5ecff;
+    --blue-light: #99b3ff;
+    --blue: #0040ff;
+    --blue-dark: #002699;
+    --blue-black: #00134d;
     --violet-pale: #f2e5ff;
     --violet-light: #c9f;
     --violet: #7f00ff;

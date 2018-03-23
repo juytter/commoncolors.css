@@ -1,16 +1,13 @@
 /*
-  PALETTE CSS LIB V.1.2
+  PALETTE CSS LIB - Beta V.0.9
   MIT License | https://github.com/juytter/palette-css
 
   Summary
-  1. Vars version
+  1. Vars Version
   2. colors (.colorName)
   3. background-colors (.bg-colorName)
-  4. border-colors (.bd-colorName)
 */
 
 @import './palette-vars';
-
 @import './colors';
 @import './background-colors';
-@import './border-colors';
