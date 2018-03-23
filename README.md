@@ -2,7 +2,7 @@
 
 A small CSS color scheme with *unambiguous* color names, at your fingertips.
 
--  [Introducing](https://juytter.github.io/palette-css/indroducing.html) Palette.css
+-  [Introducing](https://juytter.github.io/palette-css/introducing.html) Palette.css
 -  Demo / test :  <https://juytter.github.io/palette-css/>
 -  Color scheme details: [palette-vars.css](src/palette-vars.css)
 
