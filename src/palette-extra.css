@@ -1,0 +1,12 @@
+/*
+  PALETTE CSS LIB - extra - V.1.0.0
+  MIT License | https://github.com/juytter/palette-css
+
+  Summary
+  1. border-colors (.bd-colorName)
+  2. pseudo-colors (.hv_colorName)
+*/
+
+@import './palette--vars';
+@import './border-colors';
+@import './pseudo-colors';

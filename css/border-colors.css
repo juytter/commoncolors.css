@@ -1,12 +1,12 @@
 /*
   BORDER COLORS
 
-  Prefix : bd-
-  Modifiers : -pale, -light, -dark, -black,
+  Prefix of class name : bd-
+  Ex : border bd-gray-pale, border bd-red, border bd-pink-dark
 
-  Ex : bd-gray-pale, bd-red, bd-pink-dark
 */
-/* PALETTE CSS VARS - Beta V.0.9 */
+.border { border-style: solid; }
+/* N.B : border color can not be applied without specifying a border.  .border is a basic utility included. */
 .bd-black { border-color: #000; }
 .bd-white { border-color: #fff; }
 .bd-gray { border-color: #808080; }

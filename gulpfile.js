@@ -17,19 +17,19 @@ gulp.task('compile', function(done) {
         rgbaTohex({silent:true}),
         perfectionist({format:'compact'})
     ];
-    return gulp.src(['./src/*.css','!./src/palette-vars.css'])
+    return gulp.src(['./src/*.css','!./src/palette--vars.css'])
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('cast-vars', function () {
+gulp.task('build-vars', function () {
   var plugins = [
         customProperties({preserve:true}),
         colorFunction(),
         rgbaTohex({silent:true}),
         perfectionist()
     ];
-    return gulp.src('src/palette-vars.css')
+    return gulp.src('src/palette--vars.css')
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./css'));
 });
@@ -41,4 +41,4 @@ gulp.task('minify', ['compile'], function() {
         .pipe(gulp.dest('css/min/'));
 });
 
-gulp.task('build', ['compile','minify','cast-vars']);
+gulp.task('build', ['compile','minify','build-vars']);

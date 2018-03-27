@@ -1,15 +1,15 @@
 /*
   COLORS
 
-  Main colors classname :
-    black, white, gray, red, orange,
-    yellow, green, cyan, blue, violet, fuchsia, pink
+  Main colors classes :
+    .black, .white, .gray, .red, .orange,
+    .yellow, .green, .cyan, .blue, .violet, .fuchsia, .pink
 
-  Shade modifiers : -pale, -light, -dark, -black
+   name modifiers for shades :
+   -pale, -light, -dark, -black
 
   Ex : gray-pale, red, pink-dark ...
 */
-/* PALETTE CSS VARS - Beta V.0.9 */
 .black { color: #000; }
 .white { color: #fff; }
 .gray { color: #808080; }

@@ -1,0 +1,73 @@
+/*
+  PSEUDO COLORS
+
+  Apply color when an element is focused or hovered.
+
+  Prefix of class name : hv_
+  Ex : hv_gray-pale, hv_red, hv_pink-dark
+*/
+
+@import './palette--vars';
+
+.hv_black:hover, .hv_black:focus { background-color : var(--black); }
+.hv_white:hover, .hv_white:focus { background-color : var(--white); }
+
+.hv_gray:hover,       .hv_gray:focus       { background-color : var(--gray); }
+.hv_gray-pale:hover,  .hv_gray-pale:focus  { background-color : var(--gray-pale); }
+.hv_gray-light:hover, .hv_gray-light:focus { background-color : var(--gray-light); }
+.hv_gray-dark:hover,  .hv_gray-dark:focus  { background-color : var(--gray-dark); }
+.hv_gray-black:hover, .hv_gray-black:focus { background-color : var(--gray-black); }
+
+.hv_red:hover,       .hv_red:focus       { background-color : var(--red); }
+.hv_red-pale:hover,  .hv_red-pale:focus  { background-color : var(--red-pale); }
+.hv_red-light:hover, .hv_red-light:focus { background-color : var(--red-light); }
+.hv_red-dark:hover,  .hv_red-dark:focus  { background-color : var(--red-dark); }
+.hv_red-black:hover, .hv_red-black:focus { background-color : var(--red-black); }
+
+.hv_orange:hover,       .hv_orange:focus       { background-color : var(--orange); }
+.hv_orange-pale:hover,  .hv_orange-pale:focus  { background-color : var(--orange-pale); }
+.hv_orange-light:hover, .hv_orange-light:focus { background-color : var(--orange-light); }
+.hv_orange-dark:hover,  .hv_orange-dark:focus  { background-color : var(--orange-dark); }
+.hv_orange-black:hover, .hv_orange-black:focus { background-color : var(--orange-black); }
+
+.hv_yellow:hover,       .hv_yellow:focus       { background-color : var(--yellow); }
+.hv_yellow-pale:hover,  .hv_yellow-pale:focus  { background-color : var(--yellow-pale); }
+.hv_yellow-light:hover, .hv_yellow-light:focus { background-color : var(--yellow-light); }
+.hv_yellow-dark:hover,  .hv_yellow-dark:focus  { background-color : var(--yellow-dark); }
+.hv_yellow-black:hover, .hv_yellow-black:focus { background-color : var(--yellow-black); }
+
+.hv_green:hover,       .hv_green:focus       { background-color : var(--green); }
+.hv_green-pale:hover,  .hv_green-pale:focus  { background-color : var(--green-pale); }
+.hv_green-light:hover, .hv_green-light:focus { background-color : var(--green-light); }
+.hv_green-dark:hover,  .hv_green-dark:focus  { background-color : var(--green-dark); }
+.hv_green-black:hover, .hv_green-black:focus { background-color : var(--green-black); }
+
+.hv_cyan:hover,       .hv_cyan:focus       { background-color : var(--cyan); }
+.hv_cyan-pale:hover,  .hv_cyan-pale:focus  { background-color : var(--cyan-pale); }
+.hv_cyan-light:hover, .hv_cyan-light:focus { background-color : var(--cyan-light); }
+.hv_cyan-dark:hover,  .hv_cyan-dark:focus  { background-color : var(--cyan-dark); }
+.hv_cyan-black:hover, .hv_cyan-black:focus { background-color : var(--cyan-black); }
+
+.hv_blue:hover,       .hv_blue:focus       { background-color : var(--blue); }
+.hv_blue-pale:hover,  .hv_blue-pale:focus  { background-color : var(--blue-pale); }
+.hv_blue-light:hover, .hv_blue-light:focus { background-color : var(--blue-light); }
+.hv_blue-dark:hover,  .hv_blue-dark:focus  { background-color : var(--blue-dark); }
+.hv_blue-black:hover, .hv_blue-black:focus { background-color : var(--blue-black); }
+
+.hv_violet:hover,       .hv_violet:focus       { background-color : var(--violet); }
+.hv_violet-pale:hover,  .hv_violet-pale:focus  { background-color : var(--violet-pale); }
+.hv_violet-light:hover, .hv_violet-light:focus { background-color : var(--violet-light); }
+.hv_violet-dark:hover,  .hv_violet-dark:focus  { background-color : var(--violet-dark); }
+.hv_violet-black:hover, .hv_violet-black:focus { background-color : var(--violet-black); }
+
+.hv_fuchsia:hover,       .hv_fuchsia:focus       { background-color : var(--fuchsia); }
+.hv_fuchsia-pale:hover,  .hv_fuchsia-pale:focus  { background-color : var(--fuchsia-pale); }
+.hv_fuchsia-light:hover, .hv_fuchsia-light:focus { background-color : var(--fuchsia-light); }
+.hv_fuchsia-dark:hover,  .hv_fuchsia-dark:focus  { background-color : var(--fuchsia-dark); }
+.hv_fuchsia-black:hover, .hv_fuchsia-black:focus { background-color : var(--fuchsia-black); }
+
+.hv_pink:hover,       .hv_pink:focus       { background-color : var(--pink); }
+.hv_pink-pale:hover,  .hv_pink-pale:focus  { background-color : var(--pink-pale); }
+.hv_pink-light:hover, .hv_pink-light:focus { background-color : var(--pink-light); }
+.hv_pink-dark:hover,  .hv_pink-dark:focus  { background-color : var(--pink-dark); }
+.hv_pink-black:hover, .hv_pink-black:focus { background-color : var(--pink-black); }
