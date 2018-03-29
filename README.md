@@ -33,9 +33,9 @@ import [common-colors--vars.css](css/common-colors--vars.css)
 .warning-alt { color : var(--red-pale); }
 ```
 
-#### Common-colors css libs
+#### CSS libs
 
-Actually the best reliable way to integrate Common-colors Css and color names into a project.
+Actually the best reliable way to integrate Common Colors into a project.
 
 Link [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *text* and *background* with class names.
 
@@ -53,7 +53,7 @@ Link [common-colors.css](css/common-colors.css) or [minified](css/min/common-col
 <div class="bg-red white"></div>
 ```
 
-##### Common-colors css lib - Extra
+##### lib - Extra
 
 Link [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names
 
