@@ -12,7 +12,7 @@ Provide a simple 'human' interface for naming, choosing, using, and sharing colo
 - no need for color codes
 - no necessarily need a color chart to choose hues.
 
-[Introducing](https://github.com/juytter/common-colors-css/introducing.html) Common Colors css
+[Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors css
 
 ## Download
 
