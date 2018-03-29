@@ -1,20 +1,31 @@
 # 🌈✋Palette.css
 
 A small CSS color scheme and *unambiguous* color names, at your fingertips.
-
--  [Introducing](https://juytter.github.io/palette-css/introducing.html) Palette.css
--  Demo / color chart:  <https://juytter.github.io/palette-css/>
--  Color scheme details: [palette--vars.css](src/palette--vars.css)
+Demo & color chart:  <https://juytter.github.io/palette-css/>
 
 ---
+
+## Benefit
+
+Provide a simple 'human' interface for choosing, using, and sharing colors in a project.
+
+- no need for color codes
+- no necessarily need to refer a color chart to choose hues.
+
+[Introducing](https://juytter.github.io/palette-css/introducing.html) Palette.css
+
+## Download
+
+- [Releases](https://github.com/juytter/palette-css/releases) 
+- [Last version (zip)](dist/palette-lastest.zip)
 
 ## Usage
 
 #### CSS vars
 
-The most obvious way to use *Palette.css* is using [css variables](http://devdocs.io/css/--*). Unfortunately , var is currently *experimental* and should be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss).
+The obvious way to use *Palette.css* is using [css variables](http://devdocs.io/css/--*). (css var is currently *experimental*, but can be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss) ).
 
-Copy and use [palette--vars.css](css/palette--vars.css)
+import [palette--vars.css](css/palette--vars.css)
 
 ```css
 @import 'palette--vars.css';
@@ -22,14 +33,11 @@ Copy and use [palette--vars.css](css/palette--vars.css)
 .warning-alt { color : var(--red-pale); }
 ```
 
-#### CSS libs, class utilities
+#### Palette.css libs
 
-While this may be considered as 'unsemantic', the best reliable way to integrate palette.css into a project is currently using a library of  atomic/functional classes :
+Actually the best reliable way to integrate palette.css and color names into a project.
 
-- immutable classes with low specifications help to prevent side effects or conflicts with other CSS.
-- CSS files, without dependencies and high compatibility (CSS Level 1) is the best foundation for maintaining and updating over time.
-
-Copy and link [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (4 ko) lib to color *text* and *background* with class names.
+Link [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (4 ko) lib to color *text* and *background* with class names.
 
 ##### Apply colors
 
@@ -47,7 +55,7 @@ Copy and link [palette.css](css/palette.css) or [minified](css/min/palette.min.c
 
 ##### Palette-extra
 
-Copy and link [palette-extra.css](css/palette-extra.css) or [minified](css/min/palette-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names
+Link [palette-extra.css](css/palette-extra.css) or [minified](css/min/palette-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names
 
 ```html
 /* red border */
@@ -56,9 +64,9 @@ Copy and link [palette-extra.css](css/palette-extra.css) or [minified](css/min/p
 <a class="yellow hv_yellow-black"></a>
 ```
 
-##### Alt. individual CSS files
+##### Alt. specific CSS files
 
-see. [/css](/css)
+See. [/css](/css)
 
 
 ## Build & contribute   
