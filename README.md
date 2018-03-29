@@ -1,7 +1,7 @@
 # 🌈✋ Common Colors css
 
 A "human" CSS color scheme with *unambiguous* color names, at your fingertips.
-Demo & color chart:  <https://github.com/juytter/common-colors-css>
+Demo & color chart:  <https://juytter.github.io/common-colors-css/>
 
 ---
 
