@@ -1,6 +1,6 @@
 {
-  "name": "Palette css",
-  "version": "0.0.1",
+  "name": "common colors css",
+  "version": "1.2",
   "description": "Css colors at your fingertips",
   "devDependencies": {
     "gulp": "^3.9.1",

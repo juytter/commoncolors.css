@@ -18,7 +18,7 @@ gulp.task('compile', function(done) {
         rgbaTohex({silent:true}),
         perfectionist({format:'compact'})
     ];
-    return gulp.src(['./src/*.css','!./src/palette--vars.css'])
+    return gulp.src(['./src/*.css','!./src/common-colors--vars.css'])
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./css'));
 });
@@ -30,21 +30,21 @@ gulp.task('build-vars', function () {
         rgbaTohex({silent:true}),
         perfectionist()
     ];
-    return gulp.src('src/palette--vars.css')
+    return gulp.src('src/common-colors--vars.css')
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./css'));
 });
 
 gulp.task('minify', ['compile'], function() {
-    return gulp.src(['./css/*.css','!./css/palette-vars.css'])
+    return gulp.src(['./css/*.css','!./css/common-colors--vars.css'])
         .pipe(cleanCSS({level: 1}))
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('css/min/'));
 });
 
 gulp.task('dist', function() {
-    return gulp.src(['./css/palette*.css','./css/min/palette*.css'])
-        .pipe(zip('palette-lastest.zip'))
+    return gulp.src(['./css/common*.css','./css/min/common*.css'])
+        .pipe(zip('common-colors-lastest.zip'))
         .pipe(gulp.dest('dist'));
 });
 

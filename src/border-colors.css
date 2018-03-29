@@ -6,7 +6,7 @@
 
 */
 
-@import './palette--vars';
+@import './common-colors--vars';
 
 
 .border { border-style: solid; }

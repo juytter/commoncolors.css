@@ -5,7 +5,7 @@
   Ex : bg-gray-pale, bg-red, bg-pink-dark
 */
 
-@import './palette--vars';
+@import './common-colors--vars';
 
 .bg-black { background-color : var(--black); }
 .bg-white { background-color : var(--white); }

@@ -11,7 +11,7 @@
   Ex : gray-pale, red, pink-dark ...
 */
 
-@import './palette--vars';
+@import './common-colors--vars';
 
 .black { color : var(--black); }
 .white { color : var(--white); }

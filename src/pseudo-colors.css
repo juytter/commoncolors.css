@@ -7,7 +7,7 @@
   Ex : hv_gray-pale, hv_red, hv_pink-dark
 */
 
-@import './palette--vars';
+@import './common-colors--vars';
 
 .hv_black:hover, .hv_black:focus { background-color : var(--black); }
 .hv_white:hover, .hv_white:focus { background-color : var(--white); }

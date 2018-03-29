@@ -1,7 +1,7 @@
-# 🌈✋Palette.css
+# 🌈✋ Common-colors-css
 
-A small CSS color scheme and *unambiguous* color names, at your fingertips.
-Demo & color chart:  <https://juytter.github.io/palette-css/>
+A "human" CSS color scheme with *unambiguous* color names, at your fingertips.
+Demo & color chart:  <https://github.com/juytter/common-colors-css>
 
 ---
 
@@ -12,32 +12,32 @@ Provide a simple 'human' interface for choosing, using, and sharing colors in a 
 - no need for color codes
 - no necessarily need to refer a color chart to choose hues.
 
-[Introducing](https://juytter.github.io/palette-css/introducing.html) Palette.css
+[Introducing](https://github.com/juytter/common-colors-css/introducing.html) Common-colors.css
 
 ## Download
 
-- [Releases](https://github.com/juytter/palette-css/releases) 
-- [Last version (zip)](dist/palette-lastest.zip)
+- [Releases](https://github.com/juytter/common-colors-css/releases)
+- [Last version (zip)](dist/common-colors-css-lastest.zip)
 
 ## Usage
 
 #### CSS vars
 
-The obvious way to use *Palette.css* is using [css variables](http://devdocs.io/css/--*). (css var is currently *experimental*, but can be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss) ).
+The obvious way to use *common colors* is using [css variables](http://devdocs.io/css/--*). (css var is currently *experimental*, but can be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss) ).
 
-import [palette--vars.css](css/palette--vars.css)
+import [common-colors--vars.css](css/common-colors--vars.css)
 
 ```css
-@import 'palette--vars.css';
+@import 'common-colors--vars.css';
 .warning { color : var(--red); }
 .warning-alt { color : var(--red-pale); }
 ```
 
-#### Palette.css libs
+#### Common-colors css libs
 
-Actually the best reliable way to integrate palette.css and color names into a project.
+Actually the best reliable way to integrate Common-colors Css and color names into a project.
 
-Link [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (4 ko) lib to color *text* and *background* with class names.
+Link [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *text* and *background* with class names.
 
 ##### Apply colors
 
@@ -53,9 +53,9 @@ Link [palette.css](css/palette.css) or [minified](css/min/palette.min.css) (4 ko
 <div class="bg-red white"></div>
 ```
 
-##### Palette-extra
+##### Common-colors css lib - Extra
 
-Link [palette-extra.css](css/palette-extra.css) or [minified](css/min/palette-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names
+Link [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names
 
 ```html
 /* red border */

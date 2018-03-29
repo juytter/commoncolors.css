@@ -10,7 +10,7 @@ You are Welcome !
 
 ## Project goal
 
-**Produce a web color-scheme with unambiguous color names and css tools to use them**
+**Produce a web color-scheme with unambiguous and "human-sharable" color names + css tools to use them**
 
 ## Dev & Build
 
