@@ -1,4 +1,4 @@
-# 🌈✋ Common-colors-css
+# 🌈✋ Common Colors css
 
 A "human" CSS color scheme with *unambiguous* color names, at your fingertips.
 Demo & color chart:  <https://github.com/juytter/common-colors-css>
@@ -7,12 +7,12 @@ Demo & color chart:  <https://github.com/juytter/common-colors-css>
 
 ## Benefit
 
-Provide a simple 'human' interface for choosing, using, and sharing colors in a project.
+Provide a simple 'human' interface for naming, choosing, using, and sharing colors in a project :
 
 - no need for color codes
-- no necessarily need to refer a color chart to choose hues.
+- no necessarily need a color chart to choose hues.
 
-[Introducing](https://github.com/juytter/common-colors-css/introducing.html) Common-colors.css
+[Introducing](https://github.com/juytter/common-colors-css/introducing.html) Common Colors css
 
 ## Download
 
