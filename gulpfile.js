@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var cleanCSS = require('gulp-clean-css');
+var zip = require("gulp-zip");
 var rename = require('gulp-rename');
 var postcss = require('gulp-postcss');
   // postcss plugins
@@ -39,6 +40,12 @@ gulp.task('minify', ['compile'], function() {
         .pipe(cleanCSS({level: 1}))
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('css/min/'));
+});
+
+gulp.task('dist', function() {
+    return gulp.src(['./css/palette*.css','./css/min/palette*.css'])
+        .pipe(zip('palette-lastest.zip'))
+        .pipe(gulp.dest('dist'));
 });
 
 gulp.task('build', ['compile','minify','build-vars']);
