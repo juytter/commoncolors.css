@@ -1,16 +1,16 @@
 # 🌈✋ Common Colors css
 
-A "human" CSS color scheme with *unambiguous* color names, at your fingertips.
+A "human" CSS color scheme and *unambiguous* color names, at your fingertips.
 Demo & color chart:  <https://juytter.github.io/common-colors-css/>
 
 ---
 
 ## Benefit
 
-Provide a simple 'human' interface for naming, choosing, using, and sharing colors in a project :
+Provide a simple "human interface" for naming, choosing, using, and sharing colors in css more efficiently :
 
 - no need for color codes
-- no necessarily need a color chart to choose hues.
+- no necessarily need a color chart as a visual reference.
 
 [Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors css
 
@@ -23,7 +23,7 @@ Provide a simple 'human' interface for naming, choosing, using, and sharing colo
 
 #### CSS vars
 
-The obvious way to use *common colors* is using [css variables](http://devdocs.io/css/--*). (css var is currently *experimental*, but can be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss) ).
+The obvious way to use *Common Colors* is using [css variables](http://devdocs.io/css/--*). (css var is currently *experimental*, but can be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss) ).
 
 import [common-colors--vars.css](css/common-colors--vars.css)
 
