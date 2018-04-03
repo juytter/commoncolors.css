@@ -1,4 +1,4 @@
-# 🌈✋ Common Colors Css
+# Common Colors Css 🌈✋
 
 A small CSS color scheme and *intuitive* color names, at your fingertips.
 Demo & color chart:  <https://juytter.github.io/common-colors-css/>
