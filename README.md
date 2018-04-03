@@ -1,31 +1,29 @@
-# 🌈✋ Common Colors css
+# 🌈✋ Common Colors Css
 
-A "human" CSS color scheme and *unambiguous* color names, at your fingertips.
+A small CSS color scheme and *intuitive* color names, at your fingertips.
 Demo & color chart:  <https://juytter.github.io/common-colors-css/>
 
 ---
 
-## Benefit
+## Benefits
 
-Provide a simple "human interface" for naming, choosing, using, and sharing colors in css more efficiently :
+- The naming pattern allows you to name and use colors intuitively without confusion or ambiguity.
+- Spend less time on color codes or refer to a color chart.
 
-- no need for color codes
-- no necessarily need a color chart as a visual reference.
-
-[Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors css
+see. [Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors CSS
 
 ## Download
 
-- [Releases](https://github.com/juytter/common-colors-css/releases)
 - [Last version (zip)](dist/common-colors-css-lastest.zip)
+- [Releases](https://github.com/juytter/common-colors-css/releases)
 
 ## Usage
 
 #### CSS vars
 
-The obvious way to use *Common Colors* is using [css variables](http://devdocs.io/css/--*). (css var is currently *experimental*, but can be used with css preprocessors, such as [postcss](https://github.com/postcss/postcss) ).
+[css variables](http://devdocs.io/css/--*) is the obvious way to use *Common Colors*.
 
-import [common-colors--vars.css](css/common-colors--vars.css)
+Use [common-colors--vars.css](css/common-colors--vars.css)
 
 ```css
 @import 'common-colors--vars.css';
@@ -35,9 +33,9 @@ import [common-colors--vars.css](css/common-colors--vars.css)
 
 #### CSS libs
 
-Actually the best reliable way to integrate Common Colors into a project.
+Libs are *Low-level* css colors classes in css files, the best simple reliable way to use Common Colors : All browsers support (css level 1), no dependencies, immutable css classes ...
 
-Link [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *text* and *background* with class names.
+Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *text* and *background* with class names.
 
 ##### Apply colors
 
@@ -53,9 +51,9 @@ Link [common-colors.css](css/common-colors.css) or [minified](css/min/common-col
 <div class="bg-red white"></div>
 ```
 
-##### lib - Extra
+##### Lib - Extra
 
-Link [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names
+Use [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names.
 
 ```html
 /* red border */
@@ -64,7 +62,7 @@ Link [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/mi
 <a class="yellow hv_yellow-black"></a>
 ```
 
-##### Alt. specific CSS files
+##### Alt.  CSS modules files
 
 See. [/css](/css)
 
