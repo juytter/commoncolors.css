@@ -1,4 +1,4 @@
-# Common Colors Css 🌈✋
+# Common Colors CSS 🌈✋
 
 A small CSS color scheme and *intuitive* color names, at your fingertips.
 Demo & color chart:  <https://juytter.github.io/common-colors-css/>
@@ -7,8 +7,8 @@ Demo & color chart:  <https://juytter.github.io/common-colors-css/>
 
 ## Benefits
 
-- The naming pattern allows you to name and use colors intuitively without confusion or ambiguity.
-- Spend less time on color codes or refer to a color chart.
+- The naming pattern convention allows you to name and use colors intuitively without confusion.
+- No longer use color codes that are unintuitive and spend less time referring to a color chart.
 
 see. [Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors CSS
 
