@@ -7,8 +7,8 @@ Demo & color chart:  <https://juytter.github.io/common-colors-css/>
 
 ## Benefits
 
-- The naming pattern convention allows you to name and use colors intuitively without confusion.
-- No longer use unintuitive color codes and spend less time referring to a color chart.
+- The naming pattern convention allows you to name and use colors intuitively.
+- No longer use unintuitive color codes, spend less time referring to a color chart/ visual feedback.
 
 see. [Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors CSS
 
@@ -19,9 +19,7 @@ see. [Introducing](https://juytter.github.io/common-colors-css/introducing.html)
 
 ## Usage
 
-#### CSS vars
-
-[css variables](http://devdocs.io/css/--*) is the obvious way to use *Common Colors*.
+#### CSS [variables](http://devdocs.io/css/--*)
 
 Use [common-colors--vars.css](css/common-colors--vars.css)
 
@@ -33,7 +31,7 @@ Use [common-colors--vars.css](css/common-colors--vars.css)
 
 #### CSS libs
 
-Libs are *Low-level* css colors classes in css files, a reliable way to use Common Colors : All browsers support (css level 1), no dependencies, immutable css classes ...
+Libs are *Low-level* css colors classes in *plain* css files : all browsers support (css level 1), no dependencies, immutable css classes ...
 
 Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *text* and *background* with class names.
 
