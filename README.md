@@ -5,12 +5,9 @@ Demo & color chart:  <https://juytter.github.io/common-colors-css/>
 
 ---
 
-## Benefits
+## Benefit
 
-- The naming pattern convention allows you to name and use colors intuitively.
-- No longer use unintuitive color codes, spend less time referring to a color chart/ visual feedback.
-
-see. [Introducing](https://juytter.github.io/common-colors-css/introducing.html) Common Colors CSS
+Web color names are weird ([Dodger blue](http://www.latimes.com/sports/dodgers/la-sp-how-dodger-blue-became-part-of-the-internet-20171030-story.html), Chartreuse … ) and color codes are counter intuitive for  using colors in a web project and sharing them with people. Common Colors provides css *variables* and *lightweight css libraries* designed with a simple and intuitive pattern to share, use and reuse colors intuitively.
 
 ## Download
 
@@ -19,9 +16,9 @@ see. [Introducing](https://juytter.github.io/common-colors-css/introducing.html)
 
 ## Usage
 
-#### CSS [variables](http://devdocs.io/css/--*)
+#### CSS vars
 
-Use [common-colors--vars.css](css/common-colors--vars.css)
+Use [common-colors--vars.css](css/common-colors—vars.css), and [CSS variables](http://devdocs.io/css/--*)
 
 ```css
 @import 'common-colors--vars.css';
@@ -31,7 +28,7 @@ Use [common-colors--vars.css](css/common-colors--vars.css)
 
 #### CSS libs
 
-Libs are *Low-level* css colors classes in *plain* css files : all browsers support (css level 1), no dependencies, immutable css classes ...
+The bullet-proof way to use Common Colors : all browsers support (css level 1), no dependencies, immutable css classes ...
 
 Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *text* and *background* with class names.
 
@@ -51,7 +48,7 @@ Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colo
 
 ##### Lib - Extra
 
-Use [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *borders* and *pseudo* (hover/focus) on elements with class names.
+Use [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *borders* and *pseudo* elements (hover/focus)  with class names.
 
 ```html
 /* red border */
@@ -60,7 +57,7 @@ Use [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min
 <a class="yellow hv_yellow-black"></a>
 ```
 
-##### Alt.  CSS modules files
+##### Alt.  CSS files
 
 See. [/css](/css)
 
@@ -71,3 +68,4 @@ See. [/css](/css)
 - Sources [/src](/src)
 - Tools and dependencies [package.json](package.json)
 - Build script  [gulpfile.js](gulpfile.js),  command line :  `gulp build`
+

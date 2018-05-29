@@ -1,7 +1,7 @@
 /*
   BORDER COLORS
 
-  Prefix of class name : bd-
+  Prefix  class name : bd-
   Ex : border bd-gray-pale, border bd-red, border bd-pink-dark
 
 */
@@ -9,8 +9,8 @@
 @import './common-colors--vars';
 
 
-.border { border-style: solid; }
-/* N.B : border color can not be applied without specifying a border.  .border is a basic utility included. */
+.border { border-style: solid; border-width: 1px;}
+/* N.B : utility to set a border */
 
 .bd-black { border-color : var(--black); }
 .bd-white { border-color : var(--white); }

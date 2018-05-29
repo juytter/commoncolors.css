@@ -59,6 +59,23 @@
     }
   }
 
+  .layout-auto {
+      max-width: 100%;
+      padding: .5em 1em;
+  }
+
+  @media screen and (min-width: 30em) and (max-width: 60em) {
+    .layout-auto {
+        padding: .5em 2.5em;
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .layout-auto {
+        padding: .5em 4em;
+      }
+  }
+
   .sans-serif {
     font-family: -apple-system, BlinkMacSystemFont,
                  'avenir next', avenir,
@@ -70,21 +87,11 @@
   }
 
 
-  header .title {
-    padding: 1em 2em ;
-    max-width: 35em;
-    margin : 0;
-  }
-
   header h2 {
     font-size: 1.2em;
     line-height: 1.3;
+    max-width: 35em;
   }
-
-
-  main {
-    padding: 0 2em;
-   }
 
    /* clearfix hack */
   .cf:before,
@@ -100,21 +107,26 @@
   }
 
 
-  .color-ref {
+  .color-ref-grid {
     width: 100%;
   }
 
   .color-ref-item {
     float : left;
-    padding: 1em;
+    padding: 0.5em;
     width: 50%;
     text-align: center;
   }
 
+  @media screen and (min-width: 40em) {
+    .color-ref-item {
+      width: 33%; }
+    }
   @media screen and (min-width: 55em) {
     .color-ref-item {
       width: 20%; }
     }
+
   .color-ref-item-bg {
     width:  100% ;
     height: 8em;
@@ -136,18 +148,17 @@
     </div>
   </div>
 
-  <div class="title sans-serif">
+  <div class="sans-serif layout-auto">
   <h2><a href="https://github.com/juytter/common-colors-css" class="blue">Common Colors CSS</a> —
-    A small CSS color scheme and <em>intuitive</em> color names, at your fingertips. <a href="https://github.com/juytter/common-colors-css/raw/master/dist/common-colors-lastest.zip" class="blue">Download</a>. <a href="introducing.html" class="blue">Introducing</a> for webdesign.
-  More on <a href="https://github.com/juytter/common-colors-css" class="blue"> Github</a> ...
+    A small CSS color scheme and <em>intuitive</em> color names, at your fingertips. <a href="https://github.com/juytter/common-colors-css/raw/master/dist/common-colors-lastest.zip" class="blue">Download</a>. More on <a href="https://github.com/juytter/common-colors-css" class="blue"> Github</a> ...
   </h2>
   </div>
 
 </div>
 </header>
 
-<main>
-  <div class="color-ref cf font-sz-auto sans-serif">
+<main class="layout-auto">
+  <div class="color-ref-grid cf font-sz-auto sans-serif">
     <div class="color-ref-item">
       <div class="color-ref-item-bg bg-gray-pale"></div>
       gray-pale
