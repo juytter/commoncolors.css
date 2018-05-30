@@ -1,5 +1,5 @@
 {
-  "name": "common colors css",
+  "name": "common-colors-css",
   "version": "1.2",
   "description": "Css colors at your fingertips",
   "devDependencies": {
@@ -16,5 +16,6 @@
     "postcss-rgba-hex": "^0.3.7"
   },
   "author": "juytter",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
