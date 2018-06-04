@@ -8,9 +8,8 @@
 
 @import './common-colors--vars';
 
-
+/* minimum utility to set a border all-around */
 .border { border-style: solid; border-width: 1px;}
-/* N.B : utility to set a border */
 
 .bd-black { border-color : var(--black); }
 .bd-white { border-color : var(--white); }
