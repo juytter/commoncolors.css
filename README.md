@@ -10,26 +10,25 @@ Demo :  <https://juytter.github.io/common-colors-css/>
 - [Last version (zip)](dist/common-colors-css-lastest.zip)
 - [Releases](https://github.com/juytter/common-colors-css/releases)
 
-## Usage
+## Principe
 
-#### Intuitive accessible colors.
+This color scheme makes it easy to represent colors by naming them. No weird color names like *papayawhip* or b*lue dodger*, or cryptic color codes # 456788 ... 
 
-The color scheme is built from a *design pattern* consisting of 10 main colors (+ black & white) and for each one 4 others representing a shade of lightness.
-
-This color scheme makes it easy to represent colors by naming them (no more weird web names like  *papayawhip* or *dodger blue*, or color codes *#456788* ...).
-It means: a small palette, but 42 colors easily accessible to use, reuse and share into a project.
+The color scheme  is a *design pattern* consisting of 10 main colors (+ black & white) x 4 colors for each representing a shade of brightness. 42 colors easily accessible to use, reuse and share into a project.
 
 ##### Main colors
 
 `black, white, gray, red, orange, yellow, green, cyan, blue, violet, fuchsia, pink`
 
-##### Lightness modifiers
+##### Brightness modifiers
 
 `-pale, -light, -dark, -black`
 
 ##### Examples
 
 `gray-pale, red, pink-dark  ...`
+
+## Usage
 
 #### CSS vars
 
@@ -52,7 +51,7 @@ Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colo
 <p class="red-pale"</p>
 ```
 
-#####  background colors  (add a prefix `bg-` )
+#####  background colors  (add a prefix `bd-` )
 
 ```html
 /* white on red background */
@@ -88,3 +87,4 @@ See. [/css](/css)
 - Sources [/src](/src)
 - Tools and dependencies [package.json](package.json)
 - Build script  [gulpfile.js](gulpfile.js),  command line :  `gulp build`
+
