@@ -12,9 +12,7 @@ Demo :  <https://juytter.github.io/common-colors-css/>
 
 ## Principe
 
-This color scheme makes it easy to represent colors by naming them. No weird color names like *papayawhip* or b*lue dodger*, or cryptic color codes # 456788 ... 
-
-The color scheme  is a *design pattern* consisting of 10 main colors (+ black & white) x 4 colors for each representing a shade of brightness. 42 colors easily accessible to use, reuse and share into a project.
+The color scheme  is a *design pattern* representing  10 'common' colors (+ black & white) x 4 shade of brightness  for each. 42 colors accessible easy to remember, to use, reuse and share into a project.
 
 ##### Main colors
 
@@ -87,4 +85,3 @@ See. [/css](/css)
 - Sources [/src](/src)
 - Tools and dependencies [package.json](package.json)
 - Build script  [gulpfile.js](gulpfile.js),  command line :  `gulp build`
-
