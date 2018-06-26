@@ -1,32 +1,34 @@
 # Common Colors CSS 🌈✋
 
 A small CSS color scheme and *intuitive* color names, at your fingertips.
-Demo :  <https://juytter.github.io/common-colors-css/>
 
 ---
+## Principe
+
+The color scheme  is a *design pattern* representing  10 'common' colors (+ black & white) x 4 shade of brightness  for each. 42 colors accessible easy to remember, to use, reuse and share into a project.
+
+## Demo
+
+<https://juytter.github.io/common-colors-css/>
 
 ## Download
 
 - [Last version (zip)](dist/common-colors-css-lastest.zip)
 - [Releases](https://github.com/juytter/common-colors-css/releases)
 
-## Principe
+## Usage
 
-The color scheme  is a *design pattern* representing  10 'common' colors (+ black & white) x 4 shade of brightness  for each. 42 colors accessible easy to remember, to use, reuse and share into a project.
-
-##### Main colors
+#### Main colors
 
 `black, white, gray, red, orange, yellow, green, cyan, blue, violet, fuchsia, pink`
 
-##### Brightness modifiers
+#### Brightness modifiers
 
 `-pale, -light, -dark, -black`
 
-##### Examples
+#### Examples
 
 `gray-pale, red, pink-dark  ...`
-
-## Usage
 
 #### CSS vars
 
