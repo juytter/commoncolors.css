@@ -1,11 +1,11 @@
 # Common Colors CSS 🌈✋
 
-A small CSS color scheme and *intuitive* color names, at your fingertips.
+A small, intuitive css color scheme at your fingertips
 
 ---
 ## Principe
 
-The color scheme  is a *design pattern* representing  10 'common' colors (+ black & white) x 4 shade of brightness  for each. 42 colors accessible easy to remember, to use, reuse and share into a project.
+A color scheme easy to use and memorize, with no abstraction (color code), exotic or confusing names (dodger blue, Papaya Whip ...)
 
 ## Demo
 
@@ -30,9 +30,9 @@ The color scheme  is a *design pattern* representing  10 'common' colors (+ blac
 
 `gray-pale, red, pink-dark  ...`
 
-#### CSS vars
+#### CSS variables
 
-Use [common-colors--vars.css](css/common-colors--vars.css), and [CSS variables](http://devdocs.io/css/--*)
+Use [common-colors--vars.css](css/common-colors--vars.css). see [CSS variables](http://devdocs.io/css/--*)
 
 ```css
 @import 'common-colors--vars.css';
@@ -42,13 +42,13 @@ Use [common-colors--vars.css](css/common-colors--vars.css), and [CSS variables](
 
 #### CSS color class libs
 
-Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colors.min.css) (4 Ko) lib to color *texts*,  *backgrounds* and *borders* with class names.
+Use [common-colors.css](css/common-colors.css) / [minified](css/min/common-colors.min.css) (4 Ko) to color *texts*,  *backgrounds* and *borders* with class names.
 
 ##### Text colors
 
 ```html
 <p class="red"></p>
-<p class="red-pale"</p>
+<p class="red-pale"></p>
 ```
 
 #####  background colors  (add a prefix `bd-` )
@@ -67,7 +67,7 @@ Use [common-colors.css](css/common-colors.css) or [minified](css/min/common-colo
 
 ##### Lib - Extra
 
-Use [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min/common-colors-extra.min.css) to color *pseudo* elements (hover)  with class names.
+Use [common-colors-extra.css](css/common-colors-extra.css) / [minified](css/min/common-colors-extra.min.css) to color *pseudo* (hover) elements  with class names.
 
 ```html
 /* red border */
@@ -79,7 +79,6 @@ Use [common-colors-extra.css](css/common-colors-extra.css) or [minified](css/min
 ##### Alt.  CSS files
 
 See. [/css](/css)
-
 
 ## Build & contribute   
 
