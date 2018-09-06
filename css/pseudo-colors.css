@@ -1,10 +1,8 @@
 /*
   PSEUDO COLORS
-
-  Apply color when an element is hovered.
-
-  Prefix  class name : hv_
-  Ex : hv_bd-red, hv_red, hv_bg-red
+    color when hovered.
+    Prefix  class name : hv_
+    Ex : hv_bd-red, hv_red, hv_bg-red
 */
 .hv_black:hover { color: #000; }
 .hv_white:hover { color: #fff; }

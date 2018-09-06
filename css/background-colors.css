@@ -1,8 +1,7 @@
 /*
   BACKGROUND COLORS
-
-  Prefix of class name : bg-
-  Ex : bg-gray-pale, bg-red, bg-pink-dark
+    Prefix of class name : bg-
+    Ex : bg-gray-pale, bg-red, bg-pink-dark
 */
 .bg-black { background-color: #000; }
 .bg-white { background-color: #fff; }

@@ -3,7 +3,7 @@
 COMMON-COLORS CSS LIB  V.1.3
 MIT License | https://github.com/juytter/common-colors-css
 
-  Summary
+  Summary :
   pseudo-colors for
   1. color (.hv_colorName)
   2. background (.hv_bg-colorName)
@@ -12,11 +12,9 @@ MIT License | https://github.com/juytter/common-colors-css
 */
 /*
   PSEUDO COLORS
-
-  Apply color when an element is hovered.
-
-  Prefix  class name : hv_
-  Ex : hv_bd-red, hv_red, hv_bg-red
+    color when hovered.
+    Prefix  class name : hv_
+    Ex : hv_bd-red, hv_red, hv_bg-red
 */
 .hv_black:hover { color: #000; }
 .hv_white:hover { color: #fff; }

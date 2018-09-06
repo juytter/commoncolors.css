@@ -11,19 +11,45 @@ var postcss = require('gulp-postcss');
   var colorFunction = require('postcss-color-function');
   var perfectionist = require('postcss-perfectionist');
 
-gulp.task('compile', function(done) {
+// gulp.task('compile', function(done) {
+//   var plugins = [
+//         cssimport(),
+//         cssnext({browserslist:['> 0.2%']}),
+//         rgbaTohex({silent:true}),
+//         perfectionist({format:'compact'})
+//     ];
+//     return gulp.src(['./src/*.css','!./src/common-colors--vars.css'])
+//         .pipe(postcss(plugins))
+//         .pipe(gulp.dest('./css'));
+// });
+
+function compile() {
   var plugins = [
         cssimport(),
         cssnext({browserslist:['> 0.2%']}),
         rgbaTohex({silent:true}),
         perfectionist({format:'compact'})
     ];
-    return gulp.src(['./src/*.css','!./src/common-colors--vars.css'])
-        .pipe(postcss(plugins))
-        .pipe(gulp.dest('./css'));
-});
+  return gulp.src(['./src/*.css','!./src/common-colors--vars.css'])
+  .pipe(postcss(plugins))
+  .pipe(gulp.dest('./css'));
+}
 
-gulp.task('build-vars', function () {
+// gulp.task('compile', compile);
+
+// gulp.task('build-vars', function () {
+//   var plugins = [
+//         customProperties({preserve:true}),
+//         colorFunction(),
+//         rgbaTohex({silent:true}),
+//         perfectionist()
+//     ];
+//     return gulp.src('src/common-colors--vars.css')
+//         .pipe(postcss(plugins))
+//         .pipe(gulp.dest('./css'));
+// });
+
+function buildvars() {
   var plugins = [
         customProperties({preserve:true}),
         colorFunction(),
@@ -33,19 +59,37 @@ gulp.task('build-vars', function () {
     return gulp.src('src/common-colors--vars.css')
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./css'));
-});
+}
 
-gulp.task('minify', ['compile'], function() {
-    return gulp.src(['./css/*.css','!./css/common-colors--vars.css'])
-        .pipe(cleanCSS({level: 1}))
-        .pipe(rename({suffix: '.min'}))
-        .pipe(gulp.dest('css/min/'));
-});
+// gulp.task('minify', ['compile'], function() {
+//     return gulp.src(['./css/*.css','!./css/common-colors--vars.css'])
+//         .pipe(cleanCSS({level: 1}))
+//         .pipe(rename({suffix: '.min'}))
+//         .pipe(gulp.dest('css/min/'));
+// });
 
-gulp.task('dist', function() {
-    return gulp.src(['./css/common*.css','./css/min/common*.css'])
-        .pipe(zip('common-colors-lastest.zip'))
-        .pipe(gulp.dest('dist'));
-});
+function minify() {
+  return gulp.src(['./css/*.css','!./css/common-colors--vars.css'])
+      .pipe(cleanCSS({level: 1}))
+      .pipe(rename({suffix: '.min'}))
+      .pipe(gulp.dest('css/min/'));
+}
 
-gulp.task('build', ['compile','minify','build-vars']);
+// gulp.task('dist', function() {
+//     return gulp.src(['./css/common*.css','./css/min/common*.css'])
+//         .pipe(zip('common-colors-lastest.zip'))
+//         .pipe(gulp.dest('dist'));
+// });
+
+function dist() {
+  return gulp.src(['./css/common*.css','./css/min/common*.css'])
+      .pipe(zip('common-colors-lastest.zip'))
+      .pipe(gulp.dest('dist'));
+}
+
+var build = gulp.series(compile, gulp.parallel(minify, buildvars));
+gulp.task('build', build);
+
+var dist = gulp.series(build, dist);
+gulp.task('dist', dist);
+// gulp.task('build', ['compile','minify','build-vars']);

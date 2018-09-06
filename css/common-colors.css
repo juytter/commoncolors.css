@@ -1,9 +1,9 @@
 /*
 
-COMMON COLORS CSS LIB  V.1.3
+COMMON COLORS CSS LIB  V.1.3.0
 MIT License | https://github.com/juytter/common-colors-css
 
-  Summary
+  Summary :
   1. colors (.colorName)
   2. background-colors (.bg-colorName)
   3. border-colors (.bd-colorName)
@@ -16,7 +16,7 @@ MIT License | https://github.com/juytter/common-colors-css
     .black, .white, .gray, .red, .orange,
     .yellow, .green, .cyan, .blue, .violet, .fuchsia, .pink
 
-   name modifiers for shades :
+   Brightness name modifiers :
    -pale, -light, -dark, -black
 
   Ex : gray-pale, red, pink-dark ...
@@ -75,9 +75,8 @@ MIT License | https://github.com/juytter/common-colors-css
 .pink-black { color: #4d0026; }
 /*
   BACKGROUND COLORS
-
-  Prefix of class name : bg-
-  Ex : bg-gray-pale, bg-red, bg-pink-dark
+    Prefix of class name : bg-
+    Ex : bg-gray-pale, bg-red, bg-pink-dark
 */
 .bg-black { background-color: #000; }
 .bg-white { background-color: #fff; }
@@ -133,12 +132,10 @@ MIT License | https://github.com/juytter/common-colors-css
 .bg-pink-black { background-color: #4d0026; }
 /*
   BORDER COLORS
-
-  Prefix  class name : bd-
-  Ex : border bd-gray-pale, border bd-red, border bd-pink-dark
-
+    Prefix  class name : bd-
+    Ex : border bd-gray-pale, border bd-red, border bd-pink-dark
 */
-/* minimum utility to set a border all-around */
+/* basic class utility to set  borders on element */
 .border { border-style: solid; border-width: 1px; }
 .bd-black { border-color: #000; }
 .bd-white { border-color: #fff; }

@@ -1,11 +1,9 @@
 /*
   BORDER COLORS
-
-  Prefix  class name : bd-
-  Ex : border bd-gray-pale, border bd-red, border bd-pink-dark
-
+    Prefix  class name : bd-
+    Ex : border bd-gray-pale, border bd-red, border bd-pink-dark
 */
-/* minimum utility to set a border all-around */
+/* basic class utility to set  borders on element */
 .border { border-style: solid; border-width: 1px; }
 .bd-black { border-color: #000; }
 .bd-white { border-color: #fff; }
