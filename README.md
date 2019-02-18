@@ -18,7 +18,5 @@
 - Related project : [Open color](https://yeun.github.io/open-color/)
 - contribute :  see [Contributing](CONTRIBUTING.md)
 
-
-
 MIT (c) 2019 juytter. See [License](LICENSE.md)
 

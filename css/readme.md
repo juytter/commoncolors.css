@@ -6,7 +6,7 @@ common colors CSS vars and class libs
 
 ## Download
 
-- [Last version (zip)](https://github.com/juytter/common-colors/blob/master/dist/common-colors-css-lastest.zip)
+- [Last version (zip)](https://github.com/juytter/common-colors/raw/master/css/common-colors-css-lastest.zip)
 
 ## Usage
 
