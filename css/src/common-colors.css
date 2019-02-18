@@ -1,14 +1,7 @@
 /*
-  COLORS
 
-  Main colors classes :
-    .black, .white, .gray, .red, .orange,
-    .yellow, .green, .cyan, .blue, .violet, .fuchsia, .pink
+  Colors
 
-   Brightness name modifiers :
-   -pale, -light, -dark, -black
-
-  Ex : gray-pale, red, pink-dark ...
 */
 
 @import './common-colors--vars';
@@ -17,61 +10,61 @@
 .white { color : var(--white); }
 
 .gray        { color : var(--gray); }
-.gray-pale   { color : var(--gray-pale); }
+.gray-white  { color : var(--gray-white); }
 .gray-light  { color : var(--gray-light); }
 .gray-dark   { color : var(--gray-dark); }
 .gray-black  { color : var(--gray-black); }
 
 .red         { color : var(--red); }
-.red-pale    { color : var(--red-pale); }
+.red-white   { color : var(--red-white); }
 .red-light   { color : var(--red-light); }
 .red-dark    { color : var(--red-dark); }
 .red-black   { color : var(--red-black); }
 
 .orange        { color : var(--orange); }
-.orange-pale   { color : var(--orange-pale); }
+.orange-white  { color : var(--orange-white); }
 .orange-light  { color : var(--orange-light); }
 .orange-dark   { color : var(--orange-dark); }
 .orange-black  { color : var(--orange-black); }
 
 .yellow        { color : var(--yellow); }
-.yellow-pale   { color : var(--yellow-pale); }
+.yellow-white  { color : var(--yellow-white); }
 .yellow-light  { color : var(--yellow-light); }
 .yellow-dark   { color : var(--yellow-dark); }
 .yellow-black  { color : var(--yellow-black); }
 
 .green         { color : var(--green); }
-.green-pale    { color : var(--green-pale); }
+.green-white   { color : var(--green-white); }
 .green-light   { color : var(--green-light); }
 .green-dark    { color : var(--green-dark); }
 .green-black   { color : var(--green-black); }
 
 .cyan          { color : var(--cyan); }
-.cyan-pale     { color : var(--cyan-pale); }
+.cyan-white    { color : var(--cyan-white); }
 .cyan-light    { color : var(--cyan-light); }
 .cyan-dark     { color : var(--cyan-dark); }
 .cyan-black    { color : var(--cyan-black); }
 
 .blue          { color : var(--blue); }
-.blue-pale     { color : var(--blue-pale); }
+.blue-white    { color : var(--blue-white); }
 .blue-light    { color : var(--blue-light); }
 .blue-dark     { color : var(--blue-dark); }
 .blue-black    { color : var(--blue-black); }
 
 .violet        { color : var(--violet); }
-.violet-pale   { color : var(--violet-pale); }
+.violet-white  { color : var(--violet-white); }
 .violet-light  { color : var(--violet-light); }
 .violet-dark   { color : var(--violet-dark); }
 .violet-black  { color : var(--violet-black); }
 
 .fuchsia       { color : var(--fuchsia); }
-.fuchsia-pale  { color : var(--fuchsia-pale); }
+.fuchsia-white { color : var(--fuchsia-white); }
 .fuchsia-light { color : var(--fuchsia-light); }
 .fuchsia-dark  { color : var(--fuchsia-dark); }
 .fuchsia-black { color : var(--fuchsia-black); }
 
 .pink          { color : var(--pink); }
-.pink-pale     { color : var(--pink-pale); }
+.pink-white    { color : var(--pink-white); }
 .pink-light    { color : var(--pink-light); }
 .pink-dark     { color : var(--pink-dark); }
 .pink-black    { color : var(--pink-black); }

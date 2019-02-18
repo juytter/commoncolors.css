@@ -1,8 +1,7 @@
 /*
-  PSEUDO COLORS
-    color when hovered.
-    Prefix  class name : hv_
-    Ex : hv_bd-red, hv_red, hv_bg-red
+
+  Hover colors - Prefix : 'hv_'
+
 */
 
 @import './common-colors--vars';
@@ -11,61 +10,61 @@
 .hv_white:hover { color : var(--white); }
 
 .hv_gray:hover       { color : var(--gray); }
-.hv_gray-pale:hover  { color : var(--gray-pale); }
+.hv_gray-white:hover { color : var(--gray-white); }
 .hv_gray-light:hover { color : var(--gray-light); }
 .hv_gray-dark:hover  { color : var(--gray-dark); }
 .hv_gray-black:hover { color : var(--gray-black); }
 
 .hv_red:hover       { color : var(--red); }
-.hv_red-pale:hover  { color : var(--red-pale); }
+.hv_red-white:hover { color : var(--red-white); }
 .hv_red-light:hover { color : var(--red-light); }
 .hv_red-dark:hover  { color : var(--red-dark); }
 .hv_red-black:hover { color : var(--red-black); }
 
 .hv_orange:hover       { color : var(--orange); }
-.hv_orange-pale:hover  { color : var(--orange-pale); }
+.hv_orange-white:hover { color : var(--orange-white); }
 .hv_orange-light:hover { color : var(--orange-light); }
 .hv_orange-dark:hover  { color : var(--orange-dark); }
 .hv_orange-black:hover { color : var(--orange-black); }
 
 .hv_yellow:hover       { color : var(--yellow); }
-.hv_yellow-pale:hover  { color : var(--yellow-pale); }
+.hv_yellow-white:hover { color : var(--yellow-white); }
 .hv_yellow-light:hover { color : var(--yellow-light); }
 .hv_yellow-dark:hover  { color : var(--yellow-dark); }
 .hv_yellow-black:hover { color : var(--yellow-black); }
 
 .hv_green:hover       { color : var(--green); }
-.hv_green-pale:hover  { color : var(--green-pale); }
+.hv_green-white:hover { color : var(--green-white); }
 .hv_green-light:hover { color : var(--green-light); }
 .hv_green-dark:hover  { color : var(--green-dark); }
 .hv_green-black:hover { color : var(--green-black); }
 
 .hv_cyan:hover       { color : var(--cyan); }
-.hv_cyan-pale:hover  { color : var(--cyan-pale); }
+.hv_cyan-white:hover { color : var(--cyan-white); }
 .hv_cyan-light:hover { color : var(--cyan-light); }
 .hv_cyan-dark:hover  { color : var(--cyan-dark); }
 .hv_cyan-black:hover { color : var(--cyan-black); }
 
 .hv_blue:hover       { color : var(--blue); }
-.hv_blue-pale:hover  { color : var(--blue-pale); }
+.hv_blue-white:hover { color : var(--blue-white); }
 .hv_blue-light:hover { color : var(--blue-light); }
 .hv_blue-dark:hover  { color : var(--blue-dark); }
 .hv_blue-black:hover { color : var(--blue-black); }
 
 .hv_violet:hover       { color : var(--violet); }
-.hv_violet-pale:hover  { color : var(--violet-pale); }
+.hv_violet-white:hover { color : var(--violet-white); }
 .hv_violet-light:hover { color : var(--violet-light); }
 .hv_violet-dark:hover  { color : var(--violet-dark); }
 .hv_violet-black:hover { color : var(--violet-black); }
 
 .hv_fuchsia:hover       { color : var(--fuchsia); }
-.hv_fuchsia-pale:hover  { color : var(--fuchsia-pale); }
+.hv_fuchsia-white:hover { color : var(--fuchsia-white); }
 .hv_fuchsia-light:hover { color : var(--fuchsia-light); }
 .hv_fuchsia-dark:hover  { color : var(--fuchsia-dark); }
 .hv_fuchsia-black:hover { color : var(--fuchsia-black); }
 
 .hv_pink:hover       { color : var(--pink); }
-.hv_pink-pale:hover  { color : var(--pink-pale); }
+.hv_pink-white:hover { color : var(--pink-white); }
 .hv_pink-light:hover { color : var(--pink-light); }
 .hv_pink-dark:hover  { color : var(--pink-dark); }
 .hv_pink-black:hover { color : var(--pink-black); }
@@ -76,61 +75,61 @@
 .hv_bg-white:hover { background-color : var(--white); }
 
 .hv_bg-gray:hover       { background-color : var(--gray); }
-.hv_bg-gray-pale:hover  { background-color : var(--gray-pale); }
+.hv_bg-gray-white:hover { background-color : var(--gray-white); }
 .hv_bg-gray-light:hover { background-color : var(--gray-light); }
 .hv_bg-gray-dark:hover  { background-color : var(--gray-dark); }
 .hv_bg-gray-black:hover { background-color : var(--gray-black); }
 
 .hv_bg-red:hover       { background-color : var(--red); }
-.hv_bg-red-pale:hover  { background-color : var(--red-pale); }
+.hv_bg-red-white:hover { background-color : var(--red-white); }
 .hv_bg-red-light:hover { background-color : var(--red-light); }
 .hv_bg-red-dark:hover  { background-color : var(--red-dark); }
 .hv_bg-red-black:hover { background-color : var(--red-black); }
 
 .hv_bg-orange:hover       { background-color : var(--orange); }
-.hv_bg-orange-pale:hover  { background-color : var(--orange-pale); }
+.hv_bg-orange-white:hover { background-color : var(--orange-white); }
 .hv_bg-orange-light:hover { background-color : var(--orange-light); }
 .hv_bg-orange-dark:hover  { background-color : var(--orange-dark); }
 .hv_bg-orange-black:hover { background-color : var(--orange-black); }
 
 .hv_bg-yellow:hover       { background-color : var(--yellow); }
-.hv_bg-yellow-pale:hover  { background-color : var(--yellow-pale); }
+.hv_bg-yellow-white:hover { background-color : var(--yellow-white); }
 .hv_bg-yellow-light:hover { background-color : var(--yellow-light); }
 .hv_bg-yellow-dark:hover  { background-color : var(--yellow-dark); }
 .hv_bg-yellow-black:hover { background-color : var(--yellow-black); }
 
 .hv_bg-green:hover       { background-color : var(--green); }
-.hv_bg-green-pale:hover  { background-color : var(--green-pale); }
+.hv_bg-green-white:hover { background-color : var(--green-white); }
 .hv_bg-green-light:hover { background-color : var(--green-light); }
 .hv_bg-green-dark:hover  { background-color : var(--green-dark); }
 .hv_bg-green-black:hover { background-color : var(--green-black); }
 
 .hv_bg-cyan:hover       { background-color : var(--cyan); }
-.hv_bg-cyan-pale:hover  { background-color : var(--cyan-pale); }
+.hv_bg-cyan-white:hover { background-color : var(--cyan-white); }
 .hv_bg-cyan-light:hover { background-color : var(--cyan-light); }
 .hv_bg-cyan-dark:hover  { background-color : var(--cyan-dark); }
 .hv_bg-cyan-black:hover { background-color : var(--cyan-black); }
 
 .hv_bg-blue:hover       { background-color : var(--blue); }
-.hv_bg-blue-pale:hover  { background-color : var(--blue-pale); }
+.hv_bg-blue-white:hover { background-color : var(--blue-white); }
 .hv_bg-blue-light:hover { background-color : var(--blue-light); }
 .hv_bg-blue-dark:hover  { background-color : var(--blue-dark); }
 .hv_bg-blue-black:hover { background-color : var(--blue-black); }
 
 .hv_bg-violet:hover       { background-color : var(--violet); }
-.hv_bg-violet-pale:hover  { background-color : var(--violet-pale); }
+.hv_bg-violet-white:hover { background-color : var(--violet-white); }
 .hv_bg-violet-light:hover { background-color : var(--violet-light); }
 .hv_bg-violet-dark:hover  { background-color : var(--violet-dark); }
 .hv_bg-violet-black:hover { background-color : var(--violet-black); }
 
 .hv_bg-fuchsia:hover       { background-color : var(--fuchsia); }
-.hv_bg-fuchsia-pale:hover  { background-color : var(--fuchsia-pale); }
+.hv_bg-fuchsia-white:hover { background-color : var(--fuchsia-white); }
 .hv_bg-fuchsia-light:hover { background-color : var(--fuchsia-light); }
 .hv_bg-fuchsia-dark:hover  { background-color : var(--fuchsia-dark); }
 .hv_bg-fuchsia-black:hover { background-color : var(--fuchsia-black); }
 
 .hv_bg-pink:hover       { background-color : var(--pink); }
-.hv_bg-pink-pale:hover  { background-color : var(--pink-pale); }
+.hv_bg-pink-white:hover { background-color : var(--pink-white); }
 .hv_bg-pink-light:hover { background-color : var(--pink-light); }
 .hv_bg-pink-dark:hover  { background-color : var(--pink-dark); }
 .hv_bg-pink-black:hover { background-color : var(--pink-black); }
@@ -141,61 +140,61 @@
 .hv_bd-white:hover { border-color : var(--white); }
 
 .hv_bd-gray:hover       { border-color : var(--gray); }
-.hv_bd-gray-pale:hover  { border-color : var(--gray-pale); }
+.hv_bd-gray-white:hover { border-color : var(--gray-white); }
 .hv_bd-gray-light:hover { border-color : var(--gray-light); }
 .hv_bd-gray-dark:hover  { border-color : var(--gray-dark); }
 .hv_bd-gray-black:hover { border-color : var(--gray-black); }
 
 .hv_bd-red:hover       { border-color : var(--red); }
-.hv_bd-red-pale:hover  { border-color : var(--red-pale); }
+.hv_bd-red-white:hover { border-color : var(--red-white); }
 .hv_bd-red-light:hover { border-color : var(--red-light); }
 .hv_bd-red-dark:hover  { border-color : var(--red-dark); }
 .hv_bd-red-black:hover { border-color : var(--red-black); }
 
 .hv_bd-orange:hover       { border-color : var(--orange); }
-.hv_bd-orange-pale:hover  { border-color : var(--orange-pale); }
+.hv_bd-orange-white:hover { border-color : var(--orange-white); }
 .hv_bd-orange-light:hover { border-color : var(--orange-light); }
 .hv_bd-orange-dark:hover  { border-color : var(--orange-dark); }
 .hv_bd-orange-black:hover { border-color : var(--orange-black); }
 
 .hv_bd-yellow:hover       { border-color : var(--yellow); }
-.hv_bd-yellow-pale:hover  { border-color : var(--yellow-pale); }
+.hv_bd-yellow-white:hover { border-color : var(--yellow-white); }
 .hv_bd-yellow-light:hover { border-color : var(--yellow-light); }
 .hv_bd-yellow-dark:hover  { border-color : var(--yellow-dark); }
 .hv_bd-yellow-black:hover { border-color : var(--yellow-black); }
 
 .hv_bd-green:hover       { border-color : var(--green); }
-.hv_bd-green-pale:hover  { border-color : var(--green-pale); }
+.hv_bd-green-white:hover { border-color : var(--green-white); }
 .hv_bd-green-light:hover { border-color : var(--green-light); }
 .hv_bd-green-dark:hover  { border-color : var(--green-dark); }
 .hv_bd-green-black:hover { border-color : var(--green-black); }
 
 .hv_bd-cyan:hover       { border-color : var(--cyan); }
-.hv_bd-cyan-pale:hover  { border-color : var(--cyan-pale); }
+.hv_bd-cyan-white:hover { border-color : var(--cyan-white); }
 .hv_bd-cyan-light:hover { border-color : var(--cyan-light); }
 .hv_bd-cyan-dark:hover  { border-color : var(--cyan-dark); }
 .hv_bd-cyan-black:hover { border-color : var(--cyan-black); }
 
 .hv_bd-blue:hover       { border-color : var(--blue); }
-.hv_bd-blue-pale:hover  { border-color : var(--blue-pale); }
+.hv_bd-blue-white:hover { border-color : var(--blue-white); }
 .hv_bd-blue-light:hover { border-color : var(--blue-light); }
 .hv_bd-blue-dark:hover  { border-color : var(--blue-dark); }
 .hv_bd-blue-black:hover { border-color : var(--blue-black); }
 
 .hv_bd-violet:hover       { border-color : var(--violet); }
-.hv_bd-violet-pale:hover  { border-color : var(--violet-pale); }
+.hv_bd-violet-white:hover { border-color : var(--violet-white); }
 .hv_bd-violet-light:hover { border-color : var(--violet-light); }
 .hv_bd-violet-dark:hover  { border-color : var(--violet-dark); }
 .hv_bd-violet-black:hover { border-color : var(--violet-black); }
 
 .hv_bd-fuchsia:hover       { border-color : var(--fuchsia); }
-.hv_bd-fuchsia-pale:hover  { border-color : var(--fuchsia-pale); }
+.hv_bd-fuchsia-white:hover { border-color : var(--fuchsia-white); }
 .hv_bd-fuchsia-light:hover { border-color : var(--fuchsia-light); }
 .hv_bd-fuchsia-dark:hover  { border-color : var(--fuchsia-dark); }
 .hv_bd-fuchsia-black:hover { border-color : var(--fuchsia-black); }
 
 .hv_bd-pink:hover       { border-color : var(--pink); }
-.hv_bd-pink-pale:hover  { border-color : var(--pink-pale); }
+.hv_bd-pink-white:hover { border-color : var(--pink-white); }
 .hv_bd-pink-light:hover { border-color : var(--pink-light); }
 .hv_bd-pink-dark:hover  { border-color : var(--pink-dark); }
 .hv_bd-pink-black:hover { border-color : var(--pink-black); }

@@ -1,0 +1,58 @@
+/*! Common colors css v.1.0 | MIT License | https://github.com/juytter/common-colors-css */
+/*
+
+  Border colors - Prefix : 'bd-'
+
+*/
+.bd-black { border-color: #000; }
+.bd-white { border-color: #fff; }
+.bd-gray { border-color: #808080; }
+.bd-gray-white { border-color: #f2f2f2; }
+.bd-gray-light { border-color: #bfbfbf; }
+.bd-gray-dark { border-color: #404040; }
+.bd-gray-black { border-color: #1a1a1a; }
+.bd-red { border-color: #f00; }
+.bd-red-white { border-color: #ffe5e5; }
+.bd-red-light { border-color: #ff8080; }
+.bd-red-dark { border-color: #800000; }
+.bd-red-black { border-color: #300; }
+.bd-orange { border-color: #ff8000; }
+.bd-orange-white { border-color: #fff2e5; }
+.bd-orange-light { border-color: #ffbf80; }
+.bd-orange-dark { border-color: #804000; }
+.bd-orange-black { border-color: #331a00; }
+.bd-yellow { border-color: #ff0; }
+.bd-yellow-white { border-color: #ffffe5; }
+.bd-yellow-light { border-color: #ffff80; }
+.bd-yellow-dark { border-color: #7f8000; }
+.bd-yellow-black { border-color: #330; }
+.bd-green { border-color: #0f0; }
+.bd-green-white { border-color: #e5ffe5; }
+.bd-green-light { border-color: #80ff80; }
+.bd-green-dark { border-color: #008000; }
+.bd-green-black { border-color: #030; }
+.bd-cyan { border-color: #0ff; }
+.bd-cyan-white { border-color: #e5ffff; }
+.bd-cyan-light { border-color: #80ffff; }
+.bd-cyan-dark { border-color: #007f80; }
+.bd-cyan-black { border-color: #033; }
+.bd-blue { border-color: #05f; }
+.bd-blue-white { border-color: #e5eeff; }
+.bd-blue-light { border-color: #80aaff; }
+.bd-blue-dark { border-color: #002a80; }
+.bd-blue-black { border-color: #013; }
+.bd-violet { border-color: #7f00ff; }
+.bd-violet-white { border-color: #f2e5ff; }
+.bd-violet-light { border-color: #bf80ff; }
+.bd-violet-dark { border-color: #400080; }
+.bd-violet-black { border-color: #190033; }
+.bd-fuchsia { border-color: #f0f; }
+.bd-fuchsia-white { border-color: #ffe5ff; }
+.bd-fuchsia-light { border-color: #ff80ff; }
+.bd-fuchsia-dark { border-color: #80007f; }
+.bd-fuchsia-black { border-color: #303; }
+.bd-pink { border-color: #ff0080; }
+.bd-pink-white { border-color: #ffe5f2; }
+.bd-pink-light { border-color: #ff80bf; }
+.bd-pink-dark { border-color: #800040; }
+.bd-pink-black { border-color: #33001a; }
