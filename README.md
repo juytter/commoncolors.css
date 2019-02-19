@@ -3,14 +3,14 @@
 **A small, intuitive color palette** <https://juytter.github.io/common-colors/>
 
 - **Small.** Lightweight and easily memorable.
-- **Intuitive.** No exotic color names or unintelligible code references. The naming convention and lightness pattern are easy to learn, does not require a visual feedback, help to share and compose with colors.
+- **Intuitive.** No exotic color names or unintelligible code references. The lightness pattern is easy to learn, does not require a visual feedback and help to compose with colors.
 
 ## Usage
 
-- **10 color names match a  "main" color :**  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `fuchsia` `pink`. `black` &  `white` are also main colors but with no *lightness* shades.
-- **Adding a *Lightness suffix*** to match a darker or lighter color :  `-white`  `-light`   `-dark`  `-black` 
+- **10 color names** match a  "main" color :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `fuchsia` `pink`. Plus, `black` &  `white` (no *lightness* shades).
+- **Adding a *Lightness suffix*** match a darker or lighter color :  `-white`  `-light`   `-dark`  `-black` 
 - **Examples :** `black` `red-white` `red` `pink-dark` ...
-- **CSS**.  Actually,  the color scheme is (only) available for CSS.  see [**/css**](./css/README.md)
+- **CSS colors** see [**/css**](./css)
 
 ## Links
 
