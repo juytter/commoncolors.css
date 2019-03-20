@@ -1,6 +1,6 @@
-# Commoncolors.css
+# commoncolors.css
 
-**A small, intuitive CSS color scheme at your fingertips**
+**A small, intuitive CSS color scheme at your fingertips.** https://juytter.github.io/commoncolors.css
 
 - **Small.** Lightweight and easily memorable.
 - **Intuitive.** No exotic color names or unintelligible code references. it's easy to learn, does not require a visual feedback and help to compose with colors.
