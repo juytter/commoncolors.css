@@ -17,7 +17,7 @@
 
 ## CSS tools
 
-###variables
+### variables
 
 import **[common-colors--vars.css](./css/common-colors--vars.css).**
 
