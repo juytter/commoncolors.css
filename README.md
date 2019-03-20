@@ -19,10 +19,10 @@
 
 ### variables
 
-import **[common-colors--vars.css](./css/common-colors--vars.css).**
+import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 ```css
-@import 'common-colors--vars.css';
+@import 'commoncolors--vars.css';
 .warning {
   width: 100%;
   color : var(--red);
@@ -32,7 +32,7 @@ import **[common-colors--vars.css](./css/common-colors--vars.css).**
 
 ### Class libs
 
-**[common-colors-lib.css](./css/common-colors-lib.css)([minified](./css/min/common-colors-lib.min.css)) is a lightweight CSS utility library**  to color *text*,  *background* and *border*.
+**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight CSS utility library**  to color *text*,  *background* and *border*.
 
 `.colorname`  to color text, `.bgc-colorname` to color  background, `.bdc-colorname` to color border.
 
@@ -50,7 +50,7 @@ import **[common-colors--vars.css](./css/common-colors--vars.css).**
 
 ## Other systems &  specification
 
-Refer to  [common-colors--vars.css](src/common-colors--vars.css) for the color scheme specification.
+Refer to  [commoncolors--vars.css](src/commoncolors--vars.css) for the color scheme specification.
 
 ## Related
 
