@@ -32,7 +32,7 @@ import **[common-colors--vars.css](./css/common-colors--vars.css).**
 
 ### Class libs
 
-**[common-colors-lib.css](./css/common-colors-lib.css)([minified](./css/min/common-colors-lib.min.css)) is a lightweight css lib**  to color *text*,  *background* and *border* in html.
+**[common-colors-lib.css](./css/common-colors-lib.css)([minified](./css/min/common-colors-lib.min.css)) is a lightweight CSS utility library**  to color *text*,  *background* and *border*.
 
 `.colorname`  to color text, `.bgc-colorname` to color  background, `.bdc-colorname` to color border.
 

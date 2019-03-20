@@ -40,7 +40,7 @@ function compile() {
         rgbaTohex({silent:true}),
         perfectionist({format:'compact'})
     ];
-  return gulp.src(['./src/[^_]*.css','!./src/common-colors--vars.css'])
+  return gulp.src(['./src/[^_]*.css','!./src/commoncolors--vars.css'])
   .pipe(insert.prepend(header))
   .pipe(postcss(plugins))
   .pipe(gulp.dest('./css'));
@@ -54,7 +54,7 @@ function compile_vars() {
         rgbaTohex({silent:true}),
         perfectionist()
     ];
-    return gulp.src('src/common-colors--vars.css')
+    return gulp.src('src/commoncolors--vars.css')
         .pipe(insert.prepend(header))
         .pipe(postcss(plugins))
         .pipe(gulp.dest('./css'));
@@ -62,7 +62,7 @@ function compile_vars() {
 
 function minify() {
   // create-update  minified files.
-  return gulp.src(['./css/*.css','!./css/common-colors--vars.css'])
+  return gulp.src(['./css/*.css','!./css/commoncolors--vars.css'])
       .pipe(cleanCSS({level: 1}))
       .pipe(rename({suffix: '.min'}))
       .pipe(gulp.dest('css/min/'));
