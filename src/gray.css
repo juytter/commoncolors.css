@@ -1,0 +1,18 @@
+@import './common-colors--vars';
+/*
+  gray
+*/
+.c-gray        { color : var(--gray); }
+.c-gray-pale   { color : var(--gray-pale); }
+.c-gray-light  { color : var(--gray-light); }
+.c-gray-dark   { color : var(--gray-dark); }
+
+.bdc-gray        { border-color : var(--gray); }
+.bdc-gray-pale   { border-color : var(--gray-pale); }
+.bdc-gray-light  { border-color : var(--gray-light); }
+.bdc-gray-dark   { border-color : var(--gray-dark); }
+
+.bgc-gray        { background-color : var(--gray); }
+.bgc-gray-pale   { background-color : var(--gray-pale); }
+.bgc-gray-light  { background-color : var(--gray-light); }
+.bgc-gray-dark   { background-color : var(--gray-dark); }

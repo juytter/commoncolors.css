@@ -1,0 +1,16 @@
+/*! commoncolors.css v.1.0.0-alpha Build #190319 */
+/*
+  fuchsia
+*/
+.fuchsia { color: #f0f; }
+.fuchsia-pale { color: #ffe5ff; }
+.fuchsia-light { color: #ff80ff; }
+.fuchsia-dark { color: #606; }
+.bdc-fuchsia { border-color: #f0f; }
+.bdc-fuchsia-pale { border-color: #ffe5ff; }
+.bdc-fuchsia-light { border-color: #ff80ff; }
+.bdc-fuchsia-dark { border-color: #606; }
+.bgc-fuchsia { background-color: #f0f; }
+.bgc-fuchsia-pale { background-color: #ffe5ff; }
+.bgc-fuchsia-light { background-color: #ff80ff; }
+.bgc-fuchsia-dark { background-color: #606; }

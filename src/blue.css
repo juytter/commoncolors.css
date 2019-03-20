@@ -1,0 +1,18 @@
+@import './common-colors--vars';
+/*
+  blue
+*/
+.c-blue        { color : var(--blue); }
+.c-blue-pale   { color : var(--blue-pale); }
+.c-blue-light  { color : var(--blue-light); }
+.c-blue-dark   { color : var(--blue-dark); }
+
+.bdc-blue        { border-color : var(--blue); }
+.bdc-blue-pale   { border-color : var(--blue-pale); }
+.bdc-blue-light  { border-color : var(--blue-light); }
+.bdc-blue-dark   { border-color : var(--blue-dark); }
+
+.bgc-blue        { background-color : var(--blue); }
+.bgc-blue-pale   { background-color : var(--blue-pale); }
+.bgc-blue-light  { background-color : var(--blue-light); }
+.bgc-blue-dark   { background-color : var(--blue-dark); }

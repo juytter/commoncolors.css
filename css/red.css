@@ -1,0 +1,16 @@
+/*! commoncolors.css v.1.0.0-alpha Build #190320 */
+/*
+  red
+*/
+.c-red { color: #f00; }
+.c-red-pale { color: #ffe5e5; }
+.c-red-light { color: #ff8080; }
+.c-red-dark { color: #600; }
+.bdc-red { border-color: #f00; }
+.bdc-red-pale { border-color: #ffe5e5; }
+.bdc-red-light { border-color: #ff8080; }
+.bdc-red-dark { border-color: #600; }
+.bgc-red { background-color: #f00; }
+.bgc-red-pale { background-color: #ffe5e5; }
+.bgc-red-light { background-color: #ff8080; }
+.bgc-red-dark { background-color: #600; }

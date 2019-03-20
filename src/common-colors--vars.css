@@ -1,0 +1,56 @@
+:root {
+
+  --black: color(hsl(0,0%,0%));
+  --white: color(hsl(0,0%,100%));
+
+  --gray-pale: color(hsl(0,0%,95%));
+  --gray-light: color(hsl(0,0%,75%));
+  --gray: color(hsl(0,0%,50%));
+  --gray-dark: color(hsl(0,0%,20%));
+  
+  --red-pale: color(hsl(0,100%,95%));
+  --red-light: color(hsl(0,100%,75%));
+  --red: color(hsl(0,100%,50%));
+  --red-dark: color(hsl(0,100%,20%));
+  
+  --orange-pale: color(hsl(30,100%,95%));
+  --orange-light: color(hsl(30,100%,75%));
+  --orange: color(hsl(30,100%,50%));
+  --orange-dark: color(hsl(30,100%,20%));
+  
+  --yellow-pale: color(hsl(60,100%,95%));
+  --yellow-light: color(hsl(60,100%,75%));
+  --yellow: color(hsl(60,100%,50%));
+  --yellow-dark: color(hsl(60,100%,20%));
+  
+  --green-pale: color(hsl(120,100%,95%));
+  --green-light: color(hsl(120,100%,75%));
+  --green: color(hsl(120,100%,50%));
+  --green-dark: color(hsl(120,100%,20%));
+  
+  --cyan-pale: color(hsl(180,100%,95%));
+  --cyan-light: color(hsl(180,100%,75%));
+  --cyan: color(hsl(180,100%,50%));
+  --cyan-dark: color(hsl(180,100%,20%));
+  
+  --blue-pale: color(hsl(220,100%,95%));
+  --blue-light: color(hsl(220,100%,75%));
+  --blue: color(hsl(220,100%,50%));
+  --blue-dark: color(hsl(220,100%,20%));
+  
+  --purple-pale: color(hsl(270,100%,95%));
+  --purple-light: color(hsl(270,100%,75%));
+  --purple: color(hsl(270,100%,50%));
+  --purple-dark: color(hsl(270,100%,20%));
+  
+  --magenta-pale: color(hsl(300,100%,95%));
+  --magenta-light: color(hsl(300,100%,75%));
+  --magenta: color(hsl(300,100%,50%));
+  --magenta-dark: color(hsl(300,100%,20%));
+  
+  --pink-pale: color(hsl(330,100%,95%));
+  --pink-light: color(hsl(330,100%,75%));
+  --pink: color(hsl(330,100%,50%));
+  --pink-dark: color(hsl(330,100%,20%));
+  
+}

@@ -1,0 +1,46 @@
+/*! commoncolors.css v.1.0.0-alpha Build #190320 */
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --gray-pale: #f2f2f2;
+    --gray-light: #bfbfbf;
+    --gray: #808080;
+    --gray-dark: #333;
+    --red-pale: #ffe5e5;
+    --red-light: #ff8080;
+    --red: #f00;
+    --red-dark: #600;
+    --orange-pale: #fff2e5;
+    --orange-light: #ffbf80;
+    --orange: #ff8000;
+    --orange-dark: #630;
+    --yellow-pale: #ffffe5;
+    --yellow-light: #ffff80;
+    --yellow: #ff0;
+    --yellow-dark: #660;
+    --green-pale: #e5ffe5;
+    --green-light: #80ff80;
+    --green: #0f0;
+    --green-dark: #060;
+    --cyan-pale: #e5ffff;
+    --cyan-light: #80ffff;
+    --cyan: #0ff;
+    --cyan-dark: #066;
+    --blue-pale: #e5eeff;
+    --blue-light: #80aaff;
+    --blue: #05f;
+    --blue-dark: #026;
+    --purple-pale: #f2e5ff;
+    --purple-light: #bf80ff;
+    --purple: #7f00ff;
+    --purple-dark: #306;
+    --magenta-pale: #ffe5ff;
+    --magenta-light: #ff80ff;
+    --magenta: #f0f;
+    --magenta-dark: #606;
+    --pink-pale: #ffe5f2;
+    --pink-light: #ff80bf;
+    --pink: #ff0080;
+    --pink-dark: #603;
+}

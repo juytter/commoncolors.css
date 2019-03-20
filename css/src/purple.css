@@ -1,0 +1,18 @@
+@import './common-colors--vars';
+/*
+  purple
+*/
+.purple        { color : var(--purple); }
+.purple-pale   { color : var(--purple-pale); }
+.purple-light  { color : var(--purple-light); }
+.purple-dark   { color : var(--purple-dark); }
+
+.bdc-purple        { border-color : var(--purple); }
+.bdc-purple-pale   { border-color : var(--purple-pale); }
+.bdc-purple-light  { border-color : var(--purple-light); }
+.bdc-purple-dark   { border-color : var(--purple-dark); }
+
+.bgc-purple        { background-color : var(--purple); }
+.bgc-purple-pale   { background-color : var(--purple-pale); }
+.bgc-purple-light  { background-color : var(--purple-light); }
+.bgc-purple-dark   { background-color : var(--purple-dark); }

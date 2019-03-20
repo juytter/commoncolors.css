@@ -1,0 +1,18 @@
+@import './common-colors--vars';
+/*
+  cyan
+*/
+.c-cyan       { color : var(--cyan); }
+.c-cyan-pale  { color : var(--cyan-pale); }
+.c-cyan-light { color : var(--cyan-light); }
+.c-cyan-dark  { color : var(--cyan-dark); }
+
+.bdc-cyan        { border-color : var(--cyan); }
+.bdc-cyan-pale   { border-color : var(--cyan-pale); }
+.bdc-cyan-light  { border-color : var(--cyan-light); }
+.bdc-cyan-dark   { border-color : var(--cyan-dark); }
+
+.bgc-cyan       { background-color : var(--cyan); }
+.bgc-cyan-pale  { background-color : var(--cyan-pale); }
+.bgc-cyan-light { background-color : var(--cyan-light); }
+.bgc-cyan-dark  { background-color : var(--cyan-dark); }

@@ -1,0 +1,18 @@
+@import './common-colors--vars';
+/*
+  magenta
+*/
+.magenta        { color : var(--magenta); }
+.magenta-pale   { color : var(--magenta-pale); }
+.magenta-light  { color : var(--magenta-light); }
+.magenta-dark   { color : var(--magenta-dark); }
+
+.bdc-magenta        { border-color : var(--magenta); }
+.bdc-magenta-pale   { border-color : var(--magenta-pale); }
+.bdc-magenta-light  { border-color : var(--magenta-light); }
+.bdc-magenta-dark   { border-color : var(--magenta-dark); }
+
+.bgc-magenta        { background-color : var(--magenta); }
+.bgc-magenta-pale   { background-color : var(--magenta-pale); }
+.bgc-magenta-light  { background-color : var(--magenta-light); }
+.bgc-magenta-dark   { background-color : var(--magenta-dark); }

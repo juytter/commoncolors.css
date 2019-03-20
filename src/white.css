@@ -1,0 +1,7 @@
+@import './common-colors--vars';
+/*
+  white
+*/
+.c-white     { color : var(--white); }
+.bdc-white  { border-color : var(--white); }
+.bgc-white  { background-color : var(--white); }

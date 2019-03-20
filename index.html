@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Common-colors</title>
+  <meta charset="utf-8">
+  <title>Commoncolors.css: A small, intuitive css color scheme at your fingertips.</title>
   <meta name="description" content="A small, intuitive css color scheme at your fingertips">
    <meta name="keywords" content="Color names,css colors, design system">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,103 +10,87 @@
   <!--[if lt IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
-  <link rel="stylesheet" href="css/dist/min/common-colors-lib.min.css">
+  <link rel="stylesheet" href="css/min/common-colors-lib.min.css">
 </head>
 
 <style>
 
   html {
-    font-size: 1em;
+    font-size: 100%;
+    box-sizing: border-box;
   }
-
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
   body {
-    margin: 0 ;
+    margin: 0 auto;
     font-family: sans-serif;
     line-height: 1.4;
+    font-size: 1em;
+    width: 92%;
+    max-width: 55em;
    }
+   @media screen and (min-width: 40em)  {
+     body { font-size: 1.15em; }
+   }
+   @media screen and (min-width: 60em)  {
+     body { font-size: 1.4em; }
+   }
+   @media screen and (min-width: 90em)  {
+     body { font-size:1.5vw; }
+   }
+  a {
+    color: #0088cc;
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
 
   header {
-    max-width: 32em;
-    margin : 1em 0;
+    max-width: 38em;
+    margin : 3em 0;
   }
-  header h1 { font-size: 1.2em; margin:0; }
-  header .logo { margin: .5em 0; }
+  header h1 { font-size: 1em; margin: 0; }
   header nav ul  { list-style: none; padding-left : 0; margin:.25em 0; }
   header nav ul li { font-size: 0.85em; display:inline; margin-right: 1em;}
+  .border { border-width: 1px; border-style: solid;}
 
-
-  .sz-auto {
-    font-size: 1em;
-  }
-  @media screen and (min-width: 30em) and (max-width: 60em) {
-    .sz-auto {
-      font-size: 1.15em;
-    }
-  }
-  @media screen and (min-width: 60em) {
-    .sz-auto {
-      font-size:1.4em;
-    }
-  }
-
-  .container {
-      max-width: 100%;
-      padding: .5em 1em;
-  }
-  @media screen and (min-width: 30em) and (max-width: 60em) {
-    .container {
-        padding: .5em 2em;
-    }
-  }
-  @media screen and (min-width: 60em) {
-    .container {
-        padding: .5em 3em;
-      }
-  }
-
-   /* clearfix */
-  .row:before,
+  .row { margin:  0 -1em; }
   .row:after {
-      content: " ";
+      content: "";
+      clear: both;
       display: table;
-  } .row:after {clear: both;} .row { *zoom: 1;}
+  }
+
+  .column  { width: 100%; padding: 0  1em; margin-bottom: 1em;}
+  @media only screen {
+    .column {
+      float: left;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  @media only screen and (min-width: 40em) { .column { width: 50%; } }
+  @media only screen and (min-width: 60em) { .column { width: 25%; } }
+
 
   .colorgrid {
+    font-size: 0.875rem;
     width: 100%;
     font-variant: small-caps;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
+
   .colorgrid h2 {
     margin-top: 1em;
     font-size: 1rem;
   }
 
-  .colorgrid-item {
-    font-size: 0.875rem;
-    font-weight: bold;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    width: 50%;
-    box-sizing: border-box;
-    float : left;
-    _display: inline;
-    padding-right: 1.5em;
-    margin: 0.5em 0 0 0;
-    overflow: hidden;
-  }
-  @media screen and (min-width: 55em) {
-    .colorgrid-item {
-      width: 20%; }
-  }
-
-  .colorgrid-item-bg {
+  .box-color-ref {
     width:  100% ;
     height: 5em;
-    margin-bottom: 0.2em;
-  }
-  .colorgrid-item-ref {
-    font-size: .7em;
-    float: right;
-    padding: .5em;
+    margin-bottom: .2em;
   }
 
 footer { font-size: 1rem; margin: 1.5em 0; text-align: right;}
@@ -114,267 +98,247 @@ footer { font-size: 1rem; margin: 1.5em 0; text-align: right;}
 </style>
 
 <body>
-<div role="main" class="container sz-auto">
+<div role="main">
 
 <header>
-  <div class="logo"><img src="docs/logo/c-c-logo.svg" alt="" height="65"></div>
-   <h1>Common-colors</h1>
-    A small, intuitive color palette.
+   <h1>Commoncolors.css</h1>
+    A small, intuitive css color scheme at your fingertips.
 <nav>
   <ul>
-    <li><a href="https://github.com/juytter/common-colors-css" title="github project" class="blue">Project page</a></li>
-    <li><a href="https://github.com/juytter/common-colors/raw/master/css/common-colors-css-lastest.zip" class="blue" title="css libs and vars">Download CSS</a> <span class="gray">(last version .zip)</span> </li>
+    <li><a href="css/common-colors--vars.css" title="commoncolors CSS3 variables" target="_blank">css Variables</a></li>
+    <li><a href="css/common-colors-lib.css" target="_blank " title="commoncolors low level css Library">css Library</a> (<a href="css/min/common-colors-lib.min.css" title="minifed version">min.</a>) </li>
+    <li> <a href="https://github.com/juytter/common-colors-css" title="github project" >more on Github&hellip;</a></li> 
   </ul>
 </nav>
 </header>
 
 <article class="colorgrid">
 
+<h2><a href="css/gray.css" target="_blank" title="css file">gray.css</a></h2>
 <div class="row">
-<h2 class="gray row">#gray</h2>
-  <div class="colorgrid-item">
-    <div class="colorgrid-item-bg bg-gray-white"></div>
-    gray-white
+  <div class="column">
+    <div class="box-color-ref bgc-gray-pale"></div>
+    <span class="color-name">gray-pale</span>
   </div>
-  <div class="colorgrid-item">
-    <div class="colorgrid-item-bg bg-gray-light"></div>
-    gray-light
+  <div class="column">
+    <div class="box-color-ref bgc-gray-light"></div>
+    <span class="color-name">gray-light</span>
   </div>
-  <div class="colorgrid-item">
-    <div class="colorgrid-item-bg bg-gray"></div>
-    gray
-    <span class="colorgrid-item-ref gray" title="HSL code reference"></span>
+  <div class="column">
+    <div class="box-color-ref bgc-gray"></div>
+    <span class="color-name">gray</span>
   </div>
-  <div class="colorgrid-item">
-    <div class="colorgrid-item-bg bg-gray-dark"></div>
-    gray-dark
-  </div>
-  <div class="colorgrid-item">
-    <div class="colorgrid-item-bg bg-gray-black"></div>
-    gray-black
+  <div class="column">
+    <div class="box-color-ref bgc-gray-dark"></div>
+    <span class="color-name">gray-dark</span>
   </div>
 </div>
 
+
+
+<h2><a href="css/red.css" target="_blank" title="css file">red.css</a></h2>
 <div class="row">
-<h2 class="red">#red</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-red-white"></div>
-  red-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-red-light"></div>
-  red-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-red"></div>
-  red
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-red-dark"></div>
-  red-dark
-</div>
-<div class="colorgrid-item ">
-  <div class="colorgrid-item-bg bg-red-black"></div>
-  red-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-red-pale"></div>
+    <span class="color-name">red-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-red-light"></div>
+    <span class="color-name">red-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-red"></div>
+    <span class="color-name">red</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-red-dark"></div>
+    <span class="color-name">red-dark</span>
+  </div>
 </div>
 
+<h2><a href="css/orange.css" target="_blank" title="css file">orange.css</a></h2>
 <div class="row">
-<h2 class="orange">#orange</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-orange-white"></div>
-  orange-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-orange-light"></div>
-  orange-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-orange"></div>
-  orange
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-orange-dark"></div>
-  orange-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-orange-black"></div>
-  orange-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-orange-pale"></div>
+    <span class="color-name">orange-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-orange-light"></div>
+    <span class="color-name">orange-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-orange"></div>
+    <span class="color-name">orange</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-orange-dark"></div>
+    <span class="color-name">orange-dark</span>
+  </div>
 </div>
 
+<h2><a href="css/yellow.css" target="_blank" title="css file">yellow.css</a></h2>
 <div class="row">
-<h2 class="yellow">#yellow</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-yellow-white"></div>
-  yellow-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-yellow-light"></div>
-  yellow-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-yellow"></div>
-  yellow
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-yellow-dark"></div>
-  yellow-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-yellow-black"></div>
-  yellow-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-yellow-pale"></div>
+    <span class="color-name">yellow-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-yellow-light"></div>
+    <span class="color-name">yellow-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-yellow"></div>
+    <span class="color-name">yellow</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-yellow-dark"></div>
+    <span class="color-name">yellow-dark</span>
+  </div>
 </div>
 
+<h2><a href="css/green.css" target="_blank" title="css file">green.css</a></h2>
 <div class="row">
-<h2 class="green">#green</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-green-white"></div>
-  green-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-green-light"></div>
-  green-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-green"></div>
-  green
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-green-dark"></div>
-  green-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-green-black"></div>
-  green-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-green-pale"></div>
+    <span class="color-name">green-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-green-light"></div>
+    <span class="color-name">green-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-green"></div>
+    <span class="color-name">green</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-green-dark"></div>
+    <span class="color-name">green-dark</span>
+  </div>
 </div>
 
+<h2><a href="css/cyan.css" target="_blank" title="css file">cyan.css</a></h2>
 <div class="row">
-<h2 class="cyan">#cyan</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-cyan-white"></div>
-  cyan-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-cyan-light"></div>
-  cyan-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-cyan"></div>
-  cyan
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-cyan-dark"></div>
-  cyan-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-cyan-black"></div>
-  cyan-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-cyan-pale"></div>
+    <span class="color-name">cyan-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-cyan-light"></div>
+    <span class="color-name">cyan-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-cyan"></div>
+    <span class="color-name">cyan</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-cyan-dark"></div>
+    <span class="color-name">cyan-dark</span>
+  </div>
 </div>
 
+
+<h2><a href="css/blue.css" target="_blank" title="css file">blue.css</a></h2>
 <div class="row">
-<h2 class="blue">#blue</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-blue-white"></div>
-  blue-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-blue-light"></div>
-  blue-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-blue"></div>
-  blue
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-blue-dark"></div>
-  blue-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-blue-black"></div>
-  blue-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-blue-pale"></div>
+    <span class="color-name">blue-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-blue-light"></div>
+    <span class="color-name">blue-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-blue"></div>
+    <span class="color-name">blue</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-blue-dark"></div>
+    <span class="color-name">blue-dark</span>
+  </div>
 </div>
 
+
+<h2><a href="css/purple.css" target="_blank" title="css file">purple.css</a></h2>
 <div class="row">
-<h2 class="violet">#violet</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-violet-white"></div>
-  violet-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-violet-light"></div>
-  violet-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-violet"></div>
-  violet
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-violet-dark"></div>
-  violet-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-violet-black"></div>
-  violet-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-purple-pale"></div>
+    <span class="color-name">purple-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-purple-light"></div>
+    <span class="color-name">purple-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-purple"></div>
+    <span class="color-name">purple</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-purple-dark"></div>
+    <span class="color-name">purple-dark</span>
+  </div>
 </div>
 
+
+<h2><a href="css/magenta.css" target="_blank" title="css file">magenta.css</a></h2>
 <div class="row">
-<h2 class="fuchsia">#fuchsia</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-fuchsia-white"></div>
-  fuchsia-white
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-fuchsia-light"></div>
-  fuchsia-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-fuchsia"></div>
-  fuchsia
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-fuchsia-dark"></div>
-  fuchsia-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-fuchsia-black"></div>
-  fuchsia-black
-</div>
+  <div class="column">
+    <div class="box-color-ref bgc-magenta-pale"></div>
+    <span class="color-name">magenta-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-magenta-light"></div>
+    <span class="color-name">magenta-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-magenta"></div>
+    <span class="color-name">magenta</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-magenta-dark"></div>
+    <span class="color-name">magenta-dark</span>
+  </div>
 </div>
 
+
+<h2><a href="css/pink.css" target="_blank" title="css file">pink.css</a></h2>
 <div class="row">
-<h2 class="pink">#pink</h2>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-pink-white"></div>
-  pink-white
+  <div class="column">
+    <div class="box-color-ref bgc-pink-pale"></div>
+    <span class="color-name">pink-pale</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-pink-light"></div>
+    <span class="color-name">pink-light</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-pink"></div>
+    <span class="color-name">pink</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-pink-dark"></div>
+    <span class="color-name">pink-dark</span>
+  </div>
 </div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-pink-light"></div>
-  pink-light
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-pink"></div>
-  pink
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-pink-dark"></div>
-  pink-dark
-</div>
-<div class="colorgrid-item">
-  <div class="colorgrid-item-bg bg-pink-black"></div>
-  pink-black
-</div>
+
+<h2>
+  <a href="css/black.css" target="_blank" title="css file">black.css</a>
+  <a href="css/white.css" target="_blank" title="css file">white.css</a>
+</h2>
+<div class="row">
+  <div class="column">
+    <div class="box-color-ref bgc-black"></div>
+    <span class="color-name">black</span>
+  </div>
+  <div class="column">
+    <div class="box-color-ref bgc-white border bdc-gray-light"></div>
+    <span class="color-name">white</span>
+  </div>
 </div>
 
 </article>
 
 <footer>
-  <p class="gray"> <a href="https://github.com/juytter" class="gray">juytter</a> <small>&copy;2019 MIT License</small></p>
+  <p> <a href="https://github.com/juytter/common-colors-css" title="github project page">commoncolors.css</a> <small><a href="LICENSE.md" title="MIT License">&copy;</a></small> <a href="https://github.com/juytter" title="author">juytter</a> </p>
 </footer>
 
 </div>

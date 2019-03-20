@@ -1,0 +1,19 @@
+{
+  "name": "commoncolors.css",
+  "version": "1.0.0-alpha",
+  "description": "A small, intuitive css color scheme at your fingertips.",
+  "author": "juytter",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-insert": "^0.5.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "postcss-color-function": "^4.0.1",
+    "postcss-custom-properties": "^8.0.9",
+    "postcss-import": "^11.0.0",
+    "postcss-perfectionist": "^2.3.9",
+    "postcss-rgba-hex": "^0.3.7"
+  }
+}
