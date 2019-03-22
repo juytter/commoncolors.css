@@ -8,7 +8,7 @@
 
 ## Naming convention
 
-- **9 *common* color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta`. Plus, `black` &  `white`.
+- **9  ‘common’ color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta`. Plus, `black` &  `white`.
 - **3 *Lightness suffix*** match a darker or lighter color :  `-pale`  `-light` `-dark`
 
 ```
@@ -32,9 +32,9 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 ### Class libs
 
-**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight CSS utility library**  to color *text*,  *background* and *border*.
+**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight class utilities library**  to color *text*,  *background* and *border*.
 
-`.colorname`  to color text, `.bgc-colorname` to color  background, `.bdc-colorname` to color border.
+`.c-colorname`  to color text, `.bgc-colorname` to color  background, `.bdc-colorname` to color border.
 
 ```html
 <div class="red bdc-red bgc-red-pale">warning</div>
