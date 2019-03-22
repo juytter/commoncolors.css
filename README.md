@@ -4,12 +4,12 @@
 
 - **Small.** Lightweight and easily memorable.
 - **Intuitive.** No exotic color names or unintelligible code references. it's easy to learn, does not require a visual feedback and help to compose with colors.
-- **At your fingertips.** Ready-to-use css variables or color class utilities .  
+- **At your fingertips.** Ready-to-use css variables / color class utilities .  
 
 ## Naming convention
 
-- **10 *common* color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `fuchsia` `pink`. Plus, `black` &  `white`.
-- **3 *Lightness suffix*** match a darker or lighter color :  `-pale`  `-light`   `-dark`
+- **9 *common* color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta`. Plus, `black` &  `white`.
+- **3 *Lightness suffix*** match a darker or lighter color :  `-pale`  `-light` `-dark`
 
 ```
  black red-pale red pink-dark ...
@@ -40,17 +40,17 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 <div class="red bdc-red bgc-red-pale">warning</div>
 ```
 
-**Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css),  [fuchsia.css](css/fuchsia.css),  [pink.css](css/pink.css)          
+**Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css),  [magenta.css](css/magenta.css).        
 
 ### Build css files
 
-- Sources :  [/src](./src)
-- Tools and dependencies [package.json](package.json)
+- source files in :  [/src](./src)
+- Tools and dependencies [package.json](package.json) , install dev tools `npm install -D`
 - Build with [gulp](https://gulpjs.com) and [gulpfile.js](gulpfile.js) script,  command-line :  `gulp build`
 
-## Other systems &  specification
+## Other systems &  Specification
 
-Refer to  [commoncolors--vars.css](src/commoncolors--vars.css) for the color scheme specification.
+See  [commoncolors--vars.css](src/commoncolors--vars.css)  in  [/src](./src)  is  the **hsl () color specification**. Compiled version [commoncolors--vars.css](./css/commoncolors—vars.css)  in [/css](./css)  is the **hexadecimal color spec**.
 
 ## Related
 

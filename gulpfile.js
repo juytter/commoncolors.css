@@ -25,7 +25,7 @@ function buildNumber() {
 }
 
 var pckg = require('./package.json');
-version = pckg.version;
+var version = pckg.version;
 
 // edit header here
 var header = `/*! commoncolors.css v.${version} Build #${buildNumber()} */  \n`;

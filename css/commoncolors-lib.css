@@ -1,4 +1,4 @@
-/*! commoncolors.css v.1.0.0-alpha Build #190321 */
+/*! commoncolors.css v.1.0.0-alpha-2 Build #190322 */
 /*  Low-level css Library <https://juytter.github.io/common-colors> */
 /*
   black
@@ -147,18 +147,3 @@
 .bgc-magenta-pale { background-color: #ffe5ff; }
 .bgc-magenta-light { background-color: #ff80ff; }
 .bgc-magenta-dark { background-color: #606; }
-/*
-  pink
-*/
-.c-pink { color: #ff0080; }
-.c-pink-pale { color: #ffe5f2; }
-.c-pink-light { color: #ff80bf; }
-.c-pink-dark { color: #603; }
-.bdc-pink { border-color: #ff0080; }
-.bdc-pink-pale { border-color: #ffe5f2; }
-.bdc-pink-light { border-color: #ff80bf; }
-.bdc-pink-dark { border-color: #603; }
-.bgc-pink { background-color: #ff0080; }
-.bgc-pink-pale { background-color: #ffe5f2; }
-.bgc-pink-light { background-color: #ff80bf; }
-.bgc-pink-dark { background-color: #603; }
