@@ -54,19 +54,20 @@
   header nav ul li { font-size: 0.85em; display:inline; margin-right: 1em;}
   .border { border-width: 1px; border-style: solid;}
 
-  .row { margin:  0 -1em; }
-  .row:after {
-      content: "";
-      clear: both;
-      display: table;
-  }
+  .column  { width: 100%; margin-bottom: 1em;}
 
-  .column  { width: 100%; padding: 0  1em; margin-bottom: 1em;}
   @media only screen {
+    .row { margin:  0 -1em; }
+    .row:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
     .column {
       float: left;
       width: 100%;
       box-sizing: border-box;
+      padding: 0  1em;
     }
   }
   @media only screen and (min-width: 40em) { .column { width: 50%; } }
