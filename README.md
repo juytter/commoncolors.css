@@ -50,7 +50,7 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 ## Other systems &  Specification
 
-See  [commoncolors--vars.css](src/commoncolors--vars.css)  in  [/src](./src)  is  the **hsl () color specification**. Compiled version [commoncolors--vars.css](./css/commoncolors—vars.css)  in [/css](./css)  is the **hexadecimal color spec**.
+See  [commoncolors--vars.css](src/commoncolors--vars.css)  in  [/src](./src)  for **hsl () color reference**.
 
 ## Related
 
