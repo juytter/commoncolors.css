@@ -1,4 +1,4 @@
-/*! commoncolors.css v.1.0.0-alpha-2 Build #190322 */
+/*! commoncolors.css v.1.0.0-alpha-3 Build #190327 */
 
 :root {
     --black: #000;
@@ -31,10 +31,10 @@
     --blue-light: #80aaff;
     --blue: #05f;
     --blue-dark: #026;
-    --purple-pale: #f2e5ff;
-    --purple-light: #bf80ff;
-    --purple: #7f00ff;
-    --purple-dark: #306;
+    --violet-pale: #f2e5ff;
+    --violet-light: #bf80ff;
+    --violet: #7f00ff;
+    --violet-dark: #306;
     --magenta-pale: #ffe5ff;
     --magenta-light: #ff80ff;
     --magenta: #f0f;

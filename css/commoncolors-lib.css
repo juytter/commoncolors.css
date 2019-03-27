@@ -1,4 +1,4 @@
-/*! commoncolors.css v.1.0.0-alpha-2 Build #190322 */
+/*! commoncolors.css v.1.0.0-alpha-3 Build #190327 */
 /*  Low-level css Library <https://juytter.github.io/common-colors> */
 /*
   black
@@ -118,20 +118,20 @@
 .bgc-blue-light { background-color: #80aaff; }
 .bgc-blue-dark { background-color: #026; }
 /*
-  purple
+  violet
 */
-.c-purple { color: #7f00ff; }
-.c-purple-pale { color: #f2e5ff; }
-.c-purple-light { color: #bf80ff; }
-.c-purple-dark { color: #306; }
-.bdc-purple { border-color: #7f00ff; }
-.bdc-purple-pale { border-color: #f2e5ff; }
-.bdc-purple-light { border-color: #bf80ff; }
-.bdc-purple-dark { border-color: #306; }
-.bgc-purple { background-color: #7f00ff; }
-.bgc-purple-pale { background-color: #f2e5ff; }
-.bgc-purple-light { background-color: #bf80ff; }
-.bgc-purple-dark { background-color: #306; }
+.c-violet { color: #7f00ff; }
+.c-violet-pale { color: #f2e5ff; }
+.c-violet-light { color: #bf80ff; }
+.c-violet-dark { color: #306; }
+.bdc-violet { border-color: #7f00ff; }
+.bdc-violet-pale { border-color: #f2e5ff; }
+.bdc-violet-light { border-color: #bf80ff; }
+.bdc-violet-dark { border-color: #306; }
+.bgc-violet { background-color: #7f00ff; }
+.bgc-violet-pale { background-color: #f2e5ff; }
+.bgc-violet-light { background-color: #bf80ff; }
+.bgc-violet-dark { background-color: #306; }
 /*
   magenta
 */

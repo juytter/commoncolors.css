@@ -38,10 +38,10 @@
   --blue: color(hsl(220,100%,50%));
   --blue-dark: color(hsl(220,100%,20%));
 
-  --purple-pale: color(hsl(270,100%,95%));
-  --purple-light: color(hsl(270,100%,75%));
-  --purple: color(hsl(270,100%,50%));
-  --purple-dark: color(hsl(270,100%,20%));
+  --violet-pale: color(hsl(270,100%,95%));
+  --violet-light: color(hsl(270,100%,75%));
+  --violet: color(hsl(270,100%,50%));
+  --violet-dark: color(hsl(270,100%,20%));
 
   --magenta-pale: color(hsl(300,100%,95%));
   --magenta-light: color(hsl(300,100%,75%));

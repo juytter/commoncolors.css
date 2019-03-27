@@ -1,0 +1,18 @@
+@import './commoncolors--vars';
+/*
+  violet
+*/
+.c-violet        { color : var(--violet); }
+.c-violet-pale   { color : var(--violet-pale); }
+.c-violet-light  { color : var(--violet-light); }
+.c-violet-dark   { color : var(--violet-dark); }
+
+.bdc-violet        { border-color : var(--violet); }
+.bdc-violet-pale   { border-color : var(--violet-pale); }
+.bdc-violet-light  { border-color : var(--violet-light); }
+.bdc-violet-dark   { border-color : var(--violet-dark); }
+
+.bgc-violet        { background-color : var(--violet); }
+.bgc-violet-pale   { background-color : var(--violet-pale); }
+.bgc-violet-light  { background-color : var(--violet-light); }
+.bgc-violet-dark   { background-color : var(--violet-dark); }
