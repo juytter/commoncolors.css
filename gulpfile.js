@@ -47,7 +47,7 @@ function compile() {
 }
 
 function compile_vars() {
-  // postcss (process colors but preserve --vars)
+  // postcss (process colors, but preserve --vars)
   var plugins = [
         customProperties({preserve:true}),
         colorFunction(),
