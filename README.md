@@ -1,15 +1,15 @@
 # commoncolors.css
 
-**A small, intuitive CSS color scheme at your fingertips.** https://juytter.github.io/commoncolors.css
+**A simplified, intuitive css color palette at your fingertips.** https://juytter.github.io/commoncolors.css
 
-- **Small.** Lightweight and easily memorable.
-- **Intuitive.** No exotic color names or unintelligible code references. it's easy to learn, does not require a visual feedback and help to compose with colors.
+- **Simplified.** Just common color names and a limited lightness pattern for shades (pale, light, dark).
+- **Intuitive.** No exotic color names or unintelligible code references. Lightweight, human-readable and easily memorable. 
 - **At your fingertips.** Ready-to-use css variables / color class utilities .  
 
 ## Naming convention
 
-- **9  ‘common’ color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta`. Plus, `black` &  `white`.
-- **3 *Lightness suffix*** match a darker or lighter color :  `-pale`  `-light` `-dark`
+- **10  ‘common’ color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta` `pink`. Plus, `black` &  `white`.
+- **3 *Lightness suffix*** for shades :  `-pale`  `-light` `-dark`
 
 ```
  black red-pale red pink-dark ...
@@ -24,7 +24,6 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 ```css
 @import 'commoncolors--vars.css';
 .warning {
-  width: 100%;
   color : var(--red);
   background-color:  var(--red-pale);
 }
@@ -40,13 +39,13 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 <div class="red bdc-red bgc-red-pale">warning</div>
 ```
 
-**Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css),  [magenta.css](css/magenta.css).        
+**Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
 
 ### Build css files
 
-- source files in :  [/src](./src)
+- source files dir :  [/src](./src)
 - Tools and dependencies [package.json](package.json) , install dev tools `npm install -D`
-- Build with [gulp](https://gulpjs.com) and [gulpfile.js](gulpfile.js) script,  command-line :  `gulp build`
+- Build using [gulp](https://gulpjs.com) and [gulpfile.js](gulpfile.js),  command-line :  `gulp build`
 
 ## Other systems &  Specification
 

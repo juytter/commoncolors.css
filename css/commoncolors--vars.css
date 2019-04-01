@@ -1,4 +1,4 @@
-/*! commoncolors.css v.1.0.0-alpha-3 Build #190327 */
+/*! commoncolors.css v.1.0.0-alpha-4 Build #190401 */
 
 :root {
     --black: #000;
@@ -39,4 +39,8 @@
     --magenta-light: #ff70ff;
     --magenta: #f0f;
     --magenta-dark: #606;
+    --pink-pale: #ffe5f2;
+    --pink-light: #ff70b8;
+    --pink: #ff0080;
+    --pink-dark: #603;
 }

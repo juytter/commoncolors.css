@@ -48,4 +48,9 @@
   --magenta: color(hsl(300,100%,50%));
   --magenta-dark: color(hsl(300,100%,20%));
 
+  --pink-pale: color(hsl(330,100%,95%));
+  --pink-light: color(hsl(330,100%,72%));
+  --pink: color(hsl(330,100%,50%));
+  --pink-dark: color(hsl(330,100%,20%));
+
 }
