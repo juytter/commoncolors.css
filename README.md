@@ -2,9 +2,9 @@
 
 **A simplified, intuitive css color palette at your fingertips.** https://juytter.github.io/commoncolors.css
 
-- **Simplified.** Just common color names and a limited lightness pattern for shades (pale, light, dark).
-- **Intuitive.** No exotic color names or unintelligible code references. Lightweight, human-readable and easily memorable. 
-- **At your fingertips.** Ready-to-use css variables / color class utilities .  
+- **Simplified.** Just common color names and a limited lightness shades pattern (pale, light, dark).
+- **Intuitive.** No exotic color names or unintelligible code references. Lightweight, human-readable and easily memorable.
+- **At your fingertips.** Ready-to-use css variables or class libs .  
 
 ## Naming convention
 
@@ -15,7 +15,7 @@
  black red-pale red pink-dark ...
 ```
 
-## CSS tools
+## CSS usage
 
 ### variables
 
@@ -31,7 +31,7 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 ### Class libs
 
-**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight class utilities library**  to color *text*,  *background* and *border*.
+**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight class library**  to color *text*,  *background* and *border*.
 
 `.c-colorname`  to color text, `.bgc-colorname` to color  background, `.bdc-colorname` to color border.
 
@@ -47,9 +47,9 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 - Tools and dependencies [package.json](package.json) , install dev tools `npm install -D`
 - Build using [gulp](https://gulpjs.com) and [gulpfile.js](gulpfile.js),  command-line :  `gulp build`
 
-## Other systems &  Specification
+## Specification
 
-See  [commoncolors--vars.css](src/commoncolors--vars.css)  in  [/src](./src)  for **hsl () color reference**.
+**hsl () color reference.** see  [commoncolors--vars.css](src/commoncolors--vars.css)  in  [/src](./src).
 
 ## Related
 
