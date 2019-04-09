@@ -2,6 +2,6 @@
 /*
   white
 */
-.c-white     { color : var(--white); }
-.bdc-white  { border-color : var(--white); }
-.bgc-white  { background-color : var(--white); }
+.c\(white\)     { color : var(--white); }
+.bd-c\(white\)  { border-color : var(--white); }
+.bg-c\(white\)  { background-color : var(--white); }

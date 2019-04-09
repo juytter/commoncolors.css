@@ -2,9 +2,9 @@
 
 **A simplified, intuitive css color palette at your fingertips.** https://juytter.github.io/commoncolors.css
 
-- **Simplified.** Just common color names and a limited lightness shades pattern (pale, light, dark).
+- **Simplified.** Just common color names and a limited shades pattern (pale, light, dark).
 - **Intuitive.** No exotic color names or unintelligible code references. Lightweight, human-readable and easily memorable.
-- **At your fingertips.** Ready-to-use css variables or class libs .  
+- **At your fingertips.** Ready-to-use css variables or color class utilities .  
 
 ## Naming convention
 
@@ -17,7 +17,7 @@
 
 ## CSS usage
 
-### variables
+### css vars
 
 import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
@@ -31,9 +31,9 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 ### Class libs
 
-**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight class library**  to color *text*,  *background* and *border*.
+**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight *atomic* css colors library**  to color *texts*,  *backgrounds* and *borders*.
 
-`.c-colorname`  to color text, `.bgc-colorname` to color  background, `.bdc-colorname` to color border.
+`.c(colorname)`  to color text, `.bg-c(colorname)` to color  background, `.bd-c(colorname)` to color border.
 
 ```html
 <div class="red bdc-red bgc-red-pale">warning</div>
@@ -41,21 +41,20 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 **Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
 
-### Build css files
+### Build CSS files
 
-- source files dir :  [/src](./src)
-- Tools and dependencies [package.json](package.json) , install dev tools `npm install -D`
-- Build using [gulp](https://gulpjs.com) and [gulpfile.js](gulpfile.js),  command-line :  `gulp build`
+- source files :  [/src](./src)
+- Tools and dependencies [package.json](package.json) : install dev tools `npm install -D`
+- Build using [gulp](https://gulpjs.com) / [gulpfile.js](gulpfile.js) :  command-line >  `gulp build`
 
-## Specification
+## Specification  / reference
 
-**hsl () color reference.** see  [commoncolors--vars.css](src/commoncolors--vars.css)  in  [/src](./src).
+**hsl () color reference.** [commoncolors--vars.css](src/commoncolors--vars.css)
 
 ## Related
 
 - Further reading about ‘common’ colors : https://en.wikipedia.org/wiki/Color_term
 - Similar project : [Open color](https://yeun.github.io/open-color/)
-
 
 
 MIT (c) 2019 juytter.  [License](LICENSE.md)

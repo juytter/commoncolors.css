@@ -14,7 +14,7 @@ var postcss = require('gulp-postcss');
   var perfectionist = require('postcss-perfectionist');
 
 function buildNumber() {
-    // build version number using YYMMDD date
+    // lazy build version number using YYMMDD date
     var now = new Date();
     var y = now.getFullYear().toString().substr(-2);
     var m = now.getMonth() + 1;
@@ -47,7 +47,7 @@ function compile() {
 }
 
 function compile_vars() {
-  // postcss (process colors, but preserve --vars)
+  // process colors, but preserve --vars
   var plugins = [
         customProperties({preserve:true}),
         colorFunction(),

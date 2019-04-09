@@ -1,7 +1,7 @@
-/*! commoncolors.css v.1.0.0-alpha-4 Build #190401 */
+/*! commoncolors.css v.1.0.0-alpha-4 Build #190408 */
 /*
   white
 */
-.c-white { color: #fff; }
-.bdc-white { border-color: #fff; }
-.bgc-white { background-color: #fff; }
+.c\(white\) { color: #fff; }
+.bd-c\(white\) { border-color: #fff; }
+.bg-c\(white\) { background-color: #fff; }

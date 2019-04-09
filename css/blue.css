@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-alpha-4 Build #190401 */
+/*! commoncolors.css v.1.0.0-alpha-4 Build #190408 */
 /*
   blue
 */
-.c-blue { color: #05f; }
-.c-blue-pale { color: #e5eeff; }
-.c-blue-light { color: #70a0ff; }
-.c-blue-dark { color: #026; }
-.bdc-blue { border-color: #05f; }
-.bdc-blue-pale { border-color: #e5eeff; }
-.bdc-blue-light { border-color: #70a0ff; }
-.bdc-blue-dark { border-color: #026; }
-.bgc-blue { background-color: #05f; }
-.bgc-blue-pale { background-color: #e5eeff; }
-.bgc-blue-light { background-color: #70a0ff; }
-.bgc-blue-dark { background-color: #026; }
+.c\(blue\) { color: #05f; }
+.c\(blue-pale\) { color: #e5eeff; }
+.c\(blue-light\) { color: #70a0ff; }
+.c\(blue-dark\) { color: #026; }
+.bd-c\(blue\) { border-color: #05f; }
+.bd-c\(blue-pale\) { border-color: #e5eeff; }
+.bd-c\(blue-light\) { border-color: #70a0ff; }
+.bd-c\(blue-dark\) { border-color: #026; }
+.bg-c\(blue\) { background-color: #05f; }
+.bg-c\(blue-pale\) { background-color: #e5eeff; }
+.bg-c\(blue-light\) { background-color: #70a0ff; }
+.bg-c\(blue-dark\) { background-color: #026; }

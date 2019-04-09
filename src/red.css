@@ -2,17 +2,17 @@
 /*
   red
 */
-.c-red        { color : var(--red); }
-.c-red-pale   { color : var(--red-pale); }
-.c-red-light  { color : var(--red-light); }
-.c-red-dark   { color : var(--red-dark); }
+.c\(red\)        { color : var(--red); }
+.c\(red-pale\)   { color : var(--red-pale); }
+.c\(red-light\)  { color : var(--red-light); }
+.c\(red-dark\)   { color : var(--red-dark); }
 
-.bdc-red        { border-color : var(--red); }
-.bdc-red-pale   { border-color : var(--red-pale); }
-.bdc-red-light  { border-color : var(--red-light); }
-.bdc-red-dark   { border-color : var(--red-dark); }
+.bd-c\(red\)        { border-color : var(--red); }
+.bd-c\(red-pale\)   { border-color : var(--red-pale); }
+.bd-c\(red-light\)  { border-color : var(--red-light); }
+.bd-c\(red-dark\)   { border-color : var(--red-dark); }
 
-.bgc-red        { background-color : var(--red); }
-.bgc-red-pale   { background-color : var(--red-pale); }
-.bgc-red-light  { background-color : var(--red-light); }
-.bgc-red-dark   { background-color : var(--red-dark); }
+.bg-c\(red\)        { background-color : var(--red); }
+.bg-c\(red-pale\)   { background-color : var(--red-pale); }
+.bg-c\(red-light\)  { background-color : var(--red-light); }
+.bg-c\(red-dark\)   { background-color : var(--red-dark); }

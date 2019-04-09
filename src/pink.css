@@ -2,17 +2,17 @@
 /*
   pink
 */
-.c-pink        { color : var(--pink); }
-.c-pink-pale   { color : var(--pink-pale); }
-.c-pink-light  { color : var(--pink-light); }
-.c-pink-dark   { color : var(--pink-dark); }
+.c\(pink\)        { color : var(--pink); }
+.c\(pink-pale\)   { color : var(--pink-pale); }
+.c\(pink-light\)  { color : var(--pink-light); }
+.c\(pink-dark\)   { color : var(--pink-dark); }
 
-.bdc-pink        { border-color : var(--pink); }
-.bdc-pink-pale   { border-color : var(--pink-pale); }
-.bdc-pink-light  { border-color : var(--pink-light); }
-.bdc-pink-dark   { border-color : var(--pink-dark); }
+.bd-c\(pink\)        { border-color : var(--pink); }
+.bd-c\(pink-pale\)   { border-color : var(--pink-pale); }
+.bd-c\(pink-light\)  { border-color : var(--pink-light); }
+.bd-c\(pink-dark\)   { border-color : var(--pink-dark); }
 
-.bgc-pink        { background-color : var(--pink); }
-.bgc-pink-pale   { background-color : var(--pink-pale); }
-.bgc-pink-light  { background-color : var(--pink-light); }
-.bgc-pink-dark   { background-color : var(--pink-dark); }
+.bg-c\(pink\)        { background-color : var(--pink); }
+.bg-c\(pink-pale\)   { background-color : var(--pink-pale); }
+.bg-c\(pink-light\)  { background-color : var(--pink-light); }
+.bg-c\(pink-dark\)   { background-color : var(--pink-dark); }

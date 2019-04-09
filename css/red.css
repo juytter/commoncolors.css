@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-alpha-4 Build #190401 */
+/*! commoncolors.css v.1.0.0-alpha-4 Build #190408 */
 /*
   red
 */
-.c-red { color: #f00; }
-.c-red-pale { color: #ffe5e5; }
-.c-red-light { color: #ff7070; }
-.c-red-dark { color: #600; }
-.bdc-red { border-color: #f00; }
-.bdc-red-pale { border-color: #ffe5e5; }
-.bdc-red-light { border-color: #ff7070; }
-.bdc-red-dark { border-color: #600; }
-.bgc-red { background-color: #f00; }
-.bgc-red-pale { background-color: #ffe5e5; }
-.bgc-red-light { background-color: #ff7070; }
-.bgc-red-dark { background-color: #600; }
+.c\(red\) { color: #f00; }
+.c\(red-pale\) { color: #ffe5e5; }
+.c\(red-light\) { color: #ff7070; }
+.c\(red-dark\) { color: #600; }
+.bd-c\(red\) { border-color: #f00; }
+.bd-c\(red-pale\) { border-color: #ffe5e5; }
+.bd-c\(red-light\) { border-color: #ff7070; }
+.bd-c\(red-dark\) { border-color: #600; }
+.bg-c\(red\) { background-color: #f00; }
+.bg-c\(red-pale\) { background-color: #ffe5e5; }
+.bg-c\(red-light\) { background-color: #ff7070; }
+.bg-c\(red-dark\) { background-color: #600; }

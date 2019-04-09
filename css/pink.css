@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-alpha-4 Build #190401 */
+/*! commoncolors.css v.1.0.0-alpha-4 Build #190408 */
 /*
   pink
 */
-.c-pink { color: #ff0080; }
-.c-pink-pale { color: #ffe5f2; }
-.c-pink-light { color: #ff70b8; }
-.c-pink-dark { color: #603; }
-.bdc-pink { border-color: #ff0080; }
-.bdc-pink-pale { border-color: #ffe5f2; }
-.bdc-pink-light { border-color: #ff70b8; }
-.bdc-pink-dark { border-color: #603; }
-.bgc-pink { background-color: #ff0080; }
-.bgc-pink-pale { background-color: #ffe5f2; }
-.bgc-pink-light { background-color: #ff70b8; }
-.bgc-pink-dark { background-color: #603; }
+.c\(pink\) { color: #ff0080; }
+.c\(pink-pale\) { color: #ffe5f2; }
+.c\(pink-light\) { color: #ff70b8; }
+.c\(pink-dark\) { color: #603; }
+.bd-c\(pink\) { border-color: #ff0080; }
+.bd-c\(pink-pale\) { border-color: #ffe5f2; }
+.bd-c\(pink-light\) { border-color: #ff70b8; }
+.bd-c\(pink-dark\) { border-color: #603; }
+.bg-c\(pink\) { background-color: #ff0080; }
+.bg-c\(pink-pale\) { background-color: #ffe5f2; }
+.bg-c\(pink-light\) { background-color: #ff70b8; }
+.bg-c\(pink-dark\) { background-color: #603; }

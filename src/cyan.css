@@ -2,17 +2,17 @@
 /*
   cyan
 */
-.c-cyan       { color : var(--cyan); }
-.c-cyan-pale  { color : var(--cyan-pale); }
-.c-cyan-light { color : var(--cyan-light); }
-.c-cyan-dark  { color : var(--cyan-dark); }
+.c\(cyan\)       { color : var(--cyan); }
+.c\(cyan-pale\)  { color : var(--cyan-pale); }
+.c\(cyan-light\) { color : var(--cyan-light); }
+.c\(cyan-dark\)  { color : var(--cyan-dark); }
 
-.bdc-cyan        { border-color : var(--cyan); }
-.bdc-cyan-pale   { border-color : var(--cyan-pale); }
-.bdc-cyan-light  { border-color : var(--cyan-light); }
-.bdc-cyan-dark   { border-color : var(--cyan-dark); }
+.bd-c\(cyan\)        { border-color : var(--cyan); }
+.bd-c\(cyan-pale\)   { border-color : var(--cyan-pale); }
+.bd-c\(cyan-light\)  { border-color : var(--cyan-light); }
+.bd-c\(cyan-dark\)   { border-color : var(--cyan-dark); }
 
-.bgc-cyan       { background-color : var(--cyan); }
-.bgc-cyan-pale  { background-color : var(--cyan-pale); }
-.bgc-cyan-light { background-color : var(--cyan-light); }
-.bgc-cyan-dark  { background-color : var(--cyan-dark); }
+.bg-c\(cyan\)       { background-color : var(--cyan); }
+.bg-c\(cyan-pale\)  { background-color : var(--cyan-pale); }
+.bg-c\(cyan-light\) { background-color : var(--cyan-light); }
+.bg-c\(cyan-dark\)  { background-color : var(--cyan-dark); }

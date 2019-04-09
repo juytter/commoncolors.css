@@ -2,6 +2,6 @@
 /*
   black
 */
-.c-black     { color : var(--black); }
-.bdc-black  { border-color : var(--black); }
-.bgc-black  { background-color : var(--black); }
+.c\(black\)     { color : var(--black); }
+.bd-c\(black\)  { border-color : var(--black); }
+.bg-c\(black\)  { background-color : var(--black); }

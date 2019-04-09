@@ -2,17 +2,17 @@
 /*
   yellow
 */
-.c-yellow        { color : var(--yellow); }
-.c-yellow-pale   { color : var(--yellow-pale); }
-.c-yellow-light  { color : var(--yellow-light); }
-.c-yellow-dark   { color : var(--yellow-dark); }
+.c\(yellow\)        { color : var(--yellow); }
+.c\(yellow-pale\)   { color : var(--yellow-pale); }
+.c\(yellow-light\)  { color : var(--yellow-light); }
+.c\(yellow-dark\)   { color : var(--yellow-dark); }
 
-.bdc-yellow        { border-color : var(--yellow); }
-.bdc-yellow-pale   { border-color : var(--yellow-pale); }
-.bdc-yellow-light  { border-color : var(--yellow-light); }
-.bdc-yellow-dark   { border-color : var(--yellow-dark); }
+.bd-c\(yellow\)        { border-color : var(--yellow); }
+.bd-c\(yellow-pale\)   { border-color : var(--yellow-pale); }
+.bd-c\(yellow-light\)  { border-color : var(--yellow-light); }
+.bd-c\(yellow-dark\)   { border-color : var(--yellow-dark); }
 
-.bgc-yellow        { background-color : var(--yellow); }
-.bgc-yellow-pale   { background-color : var(--yellow-pale); }
-.bgc-yellow-light  { background-color : var(--yellow-light); }
-.bgc-yellow-dark   { background-color : var(--yellow-dark); }
+.bg-c\(yellow\)        { background-color : var(--yellow); }
+.bg-c\(yellow-pale\)   { background-color : var(--yellow-pale); }
+.bg-c\(yellow-light\)  { background-color : var(--yellow-light); }
+.bg-c\(yellow-dark\)   { background-color : var(--yellow-dark); }
