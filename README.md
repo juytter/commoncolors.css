@@ -36,7 +36,7 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 `.c(colorname)`  to color text, `.bg-c(colorname)` to color  background, `.bd-c(colorname)` to color border.
 
 ```html
-<div class="red bdc-red bgc-red-pale">warning</div>
+<div class="red bd-c(red) bg-c(red-pale)">warning</div>
 ```
 
 **Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
