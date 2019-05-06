@@ -2,10 +2,10 @@
 /*
   gray
 */
-.c\(gray\)        { color : var(--gray); }
-.c\(gray-pale\)   { color : var(--gray-pale); }
-.c\(gray-light\)  { color : var(--gray-light); }
-.c\(gray-dark\)   { color : var(--gray-dark); }
+.gray        { color : var(--gray); }
+.gray-pale   { color : var(--gray-pale); }
+.gray-light  { color : var(--gray-light); }
+.gray-dark   { color : var(--gray-dark); }
 
 .bd-c\(gray\)        { border-color : var(--gray); }
 .bd-c\(gray-pale\)   { border-color : var(--gray-pale); }

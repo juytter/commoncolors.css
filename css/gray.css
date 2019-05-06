@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   gray
 */
-.c\(gray\) { color: #808080; }
-.c\(gray-pale\) { color: #f2f2f2; }
-.c\(gray-light\) { color: #b8b8b8; }
-.c\(gray-dark\) { color: #333; }
+.gray { color: #808080; }
+.gray-pale { color: #f2f2f2; }
+.gray-light { color: #b8b8b8; }
+.gray-dark { color: #333; }
 .bd-c\(gray\) { border-color: #808080; }
 .bd-c\(gray-pale\) { border-color: #f2f2f2; }
 .bd-c\(gray-light\) { border-color: #b8b8b8; }

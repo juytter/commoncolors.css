@@ -2,10 +2,10 @@
 /*
   orange
 */
-.c\(orange\)        { color : var(--orange); }
-.c\(orange-pale\)   { color : var(--orange-pale); }
-.c\(orange-light\)  { color : var(--orange-light); }
-.c\(orange-dark\)   { color : var(--orange-dark); }
+.orange        { color : var(--orange); }
+.orange-pale   { color : var(--orange-pale); }
+.orange-light  { color : var(--orange-light); }
+.orange-dark   { color : var(--orange-dark); }
 
 .bd-c\(orange\)        { border-color : var(--orange); }
 .bd-c\(orange-pale\)   { border-color : var(--orange-pale); }

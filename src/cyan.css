@@ -2,10 +2,10 @@
 /*
   cyan
 */
-.c\(cyan\)       { color : var(--cyan); }
-.c\(cyan-pale\)  { color : var(--cyan-pale); }
-.c\(cyan-light\) { color : var(--cyan-light); }
-.c\(cyan-dark\)  { color : var(--cyan-dark); }
+.cyan       { color : var(--cyan); }
+.cyan-pale  { color : var(--cyan-pale); }
+.cyan-light { color : var(--cyan-light); }
+.cyan-dark  { color : var(--cyan-dark); }
 
 .bd-c\(cyan\)        { border-color : var(--cyan); }
 .bd-c\(cyan-pale\)   { border-color : var(--cyan-pale); }

@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   pink
 */
-.c\(pink\) { color: #ff0080; }
-.c\(pink-pale\) { color: #ffe5f2; }
-.c\(pink-light\) { color: #ff70b8; }
-.c\(pink-dark\) { color: #603; }
+.pink { color: #ff0080; }
+.pink-pale { color: #ffe5f2; }
+.pink-light { color: #ff70b8; }
+.pink-dark { color: #603; }
 .bd-c\(pink\) { border-color: #ff0080; }
 .bd-c\(pink-pale\) { border-color: #ffe5f2; }
 .bd-c\(pink-light\) { border-color: #ff70b8; }

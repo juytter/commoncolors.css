@@ -2,10 +2,10 @@
 /*
   yellow
 */
-.c\(yellow\)        { color : var(--yellow); }
-.c\(yellow-pale\)   { color : var(--yellow-pale); }
-.c\(yellow-light\)  { color : var(--yellow-light); }
-.c\(yellow-dark\)   { color : var(--yellow-dark); }
+.yellow        { color : var(--yellow); }
+.yellow-pale   { color : var(--yellow-pale); }
+.yellow-light  { color : var(--yellow-light); }
+.yellow-dark   { color : var(--yellow-dark); }
 
 .bd-c\(yellow\)        { border-color : var(--yellow); }
 .bd-c\(yellow-pale\)   { border-color : var(--yellow-pale); }

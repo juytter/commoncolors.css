@@ -2,10 +2,10 @@
 /*
   blue
 */
-.c\(blue\)        { color : var(--blue); }
-.c\(blue-pale\)   { color : var(--blue-pale); }
-.c\(blue-light\)  { color : var(--blue-light); }
-.c\(blue-dark\)   { color : var(--blue-dark); }
+.blue       { color : var(--blue); }
+.blue-pale  { color : var(--blue-pale); }
+.blue-light { color : var(--blue-light); }
+.blue-dark  { color : var(--blue-dark); }
 
 .bd-c\(blue\)        { border-color : var(--blue); }
 .bd-c\(blue-pale\)   { border-color : var(--blue-pale); }

@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   yellow
 */
-.c\(yellow\) { color: #ff0; }
-.c\(yellow-pale\) { color: #ffffe5; }
-.c\(yellow-light\) { color: #ffff70; }
-.c\(yellow-dark\) { color: #660; }
+.yellow { color: #ff0; }
+.yellow-pale { color: #ffffe5; }
+.yellow-light { color: #ffff70; }
+.yellow-dark { color: #660; }
 .bd-c\(yellow\) { border-color: #ff0; }
 .bd-c\(yellow-pale\) { border-color: #ffffe5; }
 .bd-c\(yellow-light\) { border-color: #ffff70; }

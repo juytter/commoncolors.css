@@ -2,10 +2,10 @@
 /*
   pink
 */
-.c\(pink\)        { color : var(--pink); }
-.c\(pink-pale\)   { color : var(--pink-pale); }
-.c\(pink-light\)  { color : var(--pink-light); }
-.c\(pink-dark\)   { color : var(--pink-dark); }
+.pink        { color : var(--pink); }
+.pink-pale   { color : var(--pink-pale); }
+.pink-light  { color : var(--pink-light); }
+.pink-dark   { color : var(--pink-dark); }
 
 .bd-c\(pink\)        { border-color : var(--pink); }
 .bd-c\(pink-pale\)   { border-color : var(--pink-pale); }

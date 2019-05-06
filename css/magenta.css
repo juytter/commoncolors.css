@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   magenta
 */
-.c\(magenta\) { color: #f0f; }
-.c\(magenta-pale\) { color: #ffe5ff; }
-.c\(magenta-light\) { color: #ff70ff; }
-.c\(magenta-dark\) { color: #606; }
+.magenta { color: #f0f; }
+.magenta-pale { color: #ffe5ff; }
+.magenta-light { color: #ff70ff; }
+.magenta-dark { color: #606; }
 .bd-c\(magenta\) { border-color: #f0f; }
 .bd-c\(magenta-pale\) { border-color: #ffe5ff; }
 .bd-c\(magenta-light\) { border-color: #ff70ff; }

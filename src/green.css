@@ -2,10 +2,10 @@
 /*
   green
 */
-.c\(green\)        { color : var(--green); }
-.c\(green-pale\)   { color : var(--green-pale); }
-.c\(green-light\)  { color : var(--green-light); }
-.c\(green-dark\)   { color : var(--green-dark); }
+.green        { color : var(--green); }
+.green-pale   { color : var(--green-pale); }
+.green-light  { color : var(--green-light); }
+.green-dark   { color : var(--green-dark); }
 
 .bd-c\(green\)        { border-color : var(--green); }
 .bd-c\(green-pale\)   { border-color : var(--green-pale); }

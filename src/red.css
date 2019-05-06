@@ -2,10 +2,10 @@
 /*
   red
 */
-.c\(red\)        { color : var(--red); }
-.c\(red-pale\)   { color : var(--red-pale); }
-.c\(red-light\)  { color : var(--red-light); }
-.c\(red-dark\)   { color : var(--red-dark); }
+.red        { color : var(--red); }
+.red-pale   { color : var(--red-pale); }
+.red-light  { color : var(--red-light); }
+.red-dark   { color : var(--red-dark); }
 
 .bd-c\(red\)        { border-color : var(--red); }
 .bd-c\(red-pale\)   { border-color : var(--red-pale); }

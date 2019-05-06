@@ -33,7 +33,7 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 **[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight *atomic* css colors library**  to color *texts*,  *backgrounds* and *borders*.
 
-`.c(colorname)`  to color text, `.bg-c(colorname)` to color  background, `.bd-c(colorname)` to color border.
+`.colorname`  to color text, `.bg-c(colorname)` to color  background, `.bd-c(colorname)` to color border.
 
 ```html
 <div class="red bd-c(red) bg-c(red-pale)">warning</div>

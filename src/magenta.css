@@ -2,10 +2,10 @@
 /*
   magenta
 */
-.c\(magenta\)        { color : var(--magenta); }
-.c\(magenta-pale\)   { color : var(--magenta-pale); }
-.c\(magenta-light\)  { color : var(--magenta-light); }
-.c\(magenta-dark\)   { color : var(--magenta-dark); }
+.magenta        { color : var(--magenta); }
+.magenta-pale   { color : var(--magenta-pale); }
+.magenta-light  { color : var(--magenta-light); }
+.magenta-dark   { color : var(--magenta-dark); }
 
 .bd-c\(magenta\)        { border-color : var(--magenta); }
 .bd-c\(magenta-pale\)   { border-color : var(--magenta-pale); }

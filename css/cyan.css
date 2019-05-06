@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   cyan
 */
-.c\(cyan\) { color: #0ff; }
-.c\(cyan-pale\) { color: #e5ffff; }
-.c\(cyan-light\) { color: #70ffff; }
-.c\(cyan-dark\) { color: #066; }
+.cyan { color: #0ff; }
+.cyan-pale { color: #e5ffff; }
+.cyan-light { color: #70ffff; }
+.cyan-dark { color: #066; }
 .bd-c\(cyan\) { border-color: #0ff; }
 .bd-c\(cyan-pale\) { border-color: #e5ffff; }
 .bd-c\(cyan-light\) { border-color: #70ffff; }

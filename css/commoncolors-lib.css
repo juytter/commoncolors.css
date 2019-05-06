@@ -1,24 +1,24 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*  Atomic css color Library <https://juytter.github.io/commoncolors.css/> */
 /*
   black
 */
-.c\(black\) { color: #000; }
+.black { color: #000; }
 .bd-c\(black\) { border-color: #000; }
 .bg-c\(black\) { background-color: #000; }
 /*
   white
 */
-.c\(white\) { color: #fff; }
+.white { color: #fff; }
 .bd-c\(white\) { border-color: #fff; }
 .bg-c\(white\) { background-color: #fff; }
 /*
   gray
 */
-.c\(gray\) { color: #808080; }
-.c\(gray-pale\) { color: #f2f2f2; }
-.c\(gray-light\) { color: #b8b8b8; }
-.c\(gray-dark\) { color: #333; }
+.gray { color: #808080; }
+.gray-pale { color: #f2f2f2; }
+.gray-light { color: #b8b8b8; }
+.gray-dark { color: #333; }
 .bd-c\(gray\) { border-color: #808080; }
 .bd-c\(gray-pale\) { border-color: #f2f2f2; }
 .bd-c\(gray-light\) { border-color: #b8b8b8; }
@@ -30,10 +30,10 @@
 /*
   red
 */
-.c\(red\) { color: #f00; }
-.c\(red-pale\) { color: #ffe5e5; }
-.c\(red-light\) { color: #ff7070; }
-.c\(red-dark\) { color: #600; }
+.red { color: #f00; }
+.red-pale { color: #ffe5e5; }
+.red-light { color: #ff7070; }
+.red-dark { color: #600; }
 .bd-c\(red\) { border-color: #f00; }
 .bd-c\(red-pale\) { border-color: #ffe5e5; }
 .bd-c\(red-light\) { border-color: #ff7070; }
@@ -45,10 +45,10 @@
 /*
   orange
 */
-.c\(orange\) { color: #ff8000; }
-.c\(orange-pale\) { color: #fff2e5; }
-.c\(orange-light\) { color: #ffb870; }
-.c\(orange-dark\) { color: #630; }
+.orange { color: #ff8000; }
+.orange-pale { color: #fff2e5; }
+.orange-light { color: #ffb870; }
+.orange-dark { color: #630; }
 .bd-c\(orange\) { border-color: #ff8000; }
 .bd-c\(orange-pale\) { border-color: #fff2e5; }
 .bd-c\(orange-light\) { border-color: #ffb870; }
@@ -60,10 +60,10 @@
 /*
   yellow
 */
-.c\(yellow\) { color: #ff0; }
-.c\(yellow-pale\) { color: #ffffe5; }
-.c\(yellow-light\) { color: #ffff70; }
-.c\(yellow-dark\) { color: #660; }
+.yellow { color: #ff0; }
+.yellow-pale { color: #ffffe5; }
+.yellow-light { color: #ffff70; }
+.yellow-dark { color: #660; }
 .bd-c\(yellow\) { border-color: #ff0; }
 .bd-c\(yellow-pale\) { border-color: #ffffe5; }
 .bd-c\(yellow-light\) { border-color: #ffff70; }
@@ -75,10 +75,10 @@
 /*
   green
 */
-.c\(green\) { color: #0f0; }
-.c\(green-pale\) { color: #e5ffe5; }
-.c\(green-light\) { color: #70ff70; }
-.c\(green-dark\) { color: #060; }
+.green { color: #0f0; }
+.green-pale { color: #e5ffe5; }
+.green-light { color: #70ff70; }
+.green-dark { color: #060; }
 .bd-c\(green\) { border-color: #0f0; }
 .bd-c\(green-pale\) { border-color: #e5ffe5; }
 .bd-c\(green-light\) { border-color: #70ff70; }
@@ -90,10 +90,10 @@
 /*
   cyan
 */
-.c\(cyan\) { color: #0ff; }
-.c\(cyan-pale\) { color: #e5ffff; }
-.c\(cyan-light\) { color: #70ffff; }
-.c\(cyan-dark\) { color: #066; }
+.cyan { color: #0ff; }
+.cyan-pale { color: #e5ffff; }
+.cyan-light { color: #70ffff; }
+.cyan-dark { color: #066; }
 .bd-c\(cyan\) { border-color: #0ff; }
 .bd-c\(cyan-pale\) { border-color: #e5ffff; }
 .bd-c\(cyan-light\) { border-color: #70ffff; }
@@ -105,10 +105,10 @@
 /*
   blue
 */
-.c\(blue\) { color: #05f; }
-.c\(blue-pale\) { color: #e5eeff; }
-.c\(blue-light\) { color: #70a0ff; }
-.c\(blue-dark\) { color: #026; }
+.blue { color: #05f; }
+.blue-pale { color: #e5eeff; }
+.blue-light { color: #70a0ff; }
+.blue-dark { color: #026; }
 .bd-c\(blue\) { border-color: #05f; }
 .bd-c\(blue-pale\) { border-color: #e5eeff; }
 .bd-c\(blue-light\) { border-color: #70a0ff; }
@@ -120,10 +120,10 @@
 /*
   violet
 */
-.c\(violet\) { color: #7f00ff; }
-.c\(violet-pale\) { color: #f2e5ff; }
-.c\(violet-light\) { color: #b870ff; }
-.c\(violet-dark\) { color: #306; }
+.violet { color: #7f00ff; }
+.violet-pale { color: #f2e5ff; }
+.violet-light { color: #b870ff; }
+.violet-dark { color: #306; }
 .bd-c\(violet\) { border-color: #7f00ff; }
 .bd-c\(violet-pale\) { border-color: #f2e5ff; }
 .bd-c\(violet-light\) { border-color: #b870ff; }
@@ -135,10 +135,10 @@
 /*
   magenta
 */
-.c\(magenta\) { color: #f0f; }
-.c\(magenta-pale\) { color: #ffe5ff; }
-.c\(magenta-light\) { color: #ff70ff; }
-.c\(magenta-dark\) { color: #606; }
+.magenta { color: #f0f; }
+.magenta-pale { color: #ffe5ff; }
+.magenta-light { color: #ff70ff; }
+.magenta-dark { color: #606; }
 .bd-c\(magenta\) { border-color: #f0f; }
 .bd-c\(magenta-pale\) { border-color: #ffe5ff; }
 .bd-c\(magenta-light\) { border-color: #ff70ff; }
@@ -150,10 +150,10 @@
 /*
   pink
 */
-.c\(pink\) { color: #ff0080; }
-.c\(pink-pale\) { color: #ffe5f2; }
-.c\(pink-light\) { color: #ff70b8; }
-.c\(pink-dark\) { color: #603; }
+.pink { color: #ff0080; }
+.pink-pale { color: #ffe5f2; }
+.pink-light { color: #ff70b8; }
+.pink-dark { color: #603; }
 .bd-c\(pink\) { border-color: #ff0080; }
 .bd-c\(pink-pale\) { border-color: #ffe5f2; }
 .bd-c\(pink-light\) { border-color: #ff70b8; }

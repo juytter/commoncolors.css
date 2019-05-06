@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   blue
 */
-.c\(blue\) { color: #05f; }
-.c\(blue-pale\) { color: #e5eeff; }
-.c\(blue-light\) { color: #70a0ff; }
-.c\(blue-dark\) { color: #026; }
+.blue { color: #05f; }
+.blue-pale { color: #e5eeff; }
+.blue-light { color: #70a0ff; }
+.blue-dark { color: #026; }
 .bd-c\(blue\) { border-color: #05f; }
 .bd-c\(blue-pale\) { border-color: #e5eeff; }
 .bd-c\(blue-light\) { border-color: #70a0ff; }

@@ -1,11 +1,11 @@
-/*! commoncolors.css v.1.0.0-alpha-5 Build #190409 */
+/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
 /*
   red
 */
-.c\(red\) { color: #f00; }
-.c\(red-pale\) { color: #ffe5e5; }
-.c\(red-light\) { color: #ff7070; }
-.c\(red-dark\) { color: #600; }
+.red { color: #f00; }
+.red-pale { color: #ffe5e5; }
+.red-light { color: #ff7070; }
+.red-dark { color: #600; }
 .bd-c\(red\) { border-color: #f00; }
 .bd-c\(red-pale\) { border-color: #ffe5e5; }
 .bd-c\(red-light\) { border-color: #ff7070; }
