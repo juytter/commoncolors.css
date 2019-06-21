@@ -3,54 +3,54 @@
   --black: color(hsl(0,0%,0%));
   --white: color(hsl(0,0%,100%));
 
-  --gray-pale: color(hsl(0,0%,95%));
-  --gray-light: color(hsl(0,0%,72%));
+  --gray-p: color(hsl(0,0%,97%));
+  --gray-l: color(hsl(0,0%,75%));
   --gray: color(hsl(0,0%,50%));
-  --gray-dark: color(hsl(0,0%,20%));
+  --gray-d: color(hsl(0,0%,20%));
 
-  --red-pale: color(hsl(0,100%,95%));
-  --red-light: color(hsl(0,100%,72%));
+  --red-p: color(hsl(0,100%,97%));
+  --red-l: color(hsl(0,100%,75%));
   --red: color(hsl(0,100%,50%));
-  --red-dark: color(hsl(0,100%,20%));
+  --red-d: color(hsl(0,100%,20%));
 
-  --orange-pale: color(hsl(30,100%,95%));
-  --orange-light: color(hsl(30,100%,72%));
+  --orange-p: color(hsl(30,100%,97%));
+  --orange-l: color(hsl(30,100%,75%));
   --orange: color(hsl(30,100%,50%));
-  --orange-dark: color(hsl(30,100%,20%));
+  --orange-d: color(hsl(30,100%,20%));
 
-  --yellow-pale: color(hsl(60,100%,95%));
-  --yellow-light: color(hsl(60,100%,72%));
+  --yellow-p: color(hsl(60,100%,97%));
+  --yellow-l: color(hsl(60,100%,75%));
   --yellow: color(hsl(60,100%,50%));
-  --yellow-dark: color(hsl(60,100%,20%));
+  --yellow-d: color(hsl(60,100%,20%));
 
-  --green-pale: color(hsl(120,100%,95%));
-  --green-light: color(hsl(120,100%,72%));
+  --green-p: color(hsl(120,100%,97%));
+  --green-l: color(hsl(120,100%,75%));
   --green: color(hsl(120,100%,50%));
-  --green-dark: color(hsl(120,100%,20%));
+  --green-d: color(hsl(120,100%,20%));
 
-  --cyan-pale: color(hsl(180,100%,95%));
-  --cyan-light: color(hsl(180,100%,72%));
+  --cyan-p: color(hsl(180,100%,97%));
+  --cyan-l: color(hsl(180,100%,75%));
   --cyan: color(hsl(180,100%,50%));
-  --cyan-dark: color(hsl(180,100%,20%));
+  --cyan-d: color(hsl(180,100%,20%));
 
-  --blue-pale: color(hsl(220,100%,95%));
-  --blue-light: color(hsl(220,100%,72%));
+  --blue-p: color(hsl(220,100%,97%));
+  --blue-l: color(hsl(220,100%,75%));
   --blue: color(hsl(220,100%,50%));
-  --blue-dark: color(hsl(220,100%,20%));
+  --blue-d: color(hsl(220,100%,20%));
 
-  --violet-pale: color(hsl(270,100%,95%));
-  --violet-light: color(hsl(270,100%,72%));
+  --violet-p: color(hsl(270,100%,97%));
+  --violet-l: color(hsl(270,100%,75%));
   --violet: color(hsl(270,100%,50%));
-  --violet-dark: color(hsl(270,100%,20%));
+  --violet-d: color(hsl(270,100%,20%));
 
-  --magenta-pale: color(hsl(300,100%,95%));
-  --magenta-light: color(hsl(300,100%,72%));
+  --magenta-p: color(hsl(300,100%,97%));
+  --magenta-l: color(hsl(300,100%,75%));
   --magenta: color(hsl(300,100%,50%));
-  --magenta-dark: color(hsl(300,100%,20%));
+  --magenta-d: color(hsl(300,100%,20%));
 
-  --pink-pale: color(hsl(330,100%,95%));
-  --pink-light: color(hsl(330,100%,72%));
+  --pink-p: color(hsl(330,100%,97%));
+  --pink-l: color(hsl(330,100%,75%));
   --pink: color(hsl(330,100%,50%));
-  --pink-dark: color(hsl(330,100%,20%));
+  --pink-d: color(hsl(330,100%,20%));
 
 }

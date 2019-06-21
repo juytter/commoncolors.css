@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
+/*! commoncolors.css v.1.0.0-alpha-7 Build #190621 */
 /*
   blue
 */
 .blue { color: #05f; }
-.blue-pale { color: #e5eeff; }
-.blue-light { color: #70a0ff; }
-.blue-dark { color: #026; }
-.bd-c\(blue\) { border-color: #05f; }
-.bd-c\(blue-pale\) { border-color: #e5eeff; }
-.bd-c\(blue-light\) { border-color: #70a0ff; }
-.bd-c\(blue-dark\) { border-color: #026; }
-.bg-c\(blue\) { background-color: #05f; }
-.bg-c\(blue-pale\) { background-color: #e5eeff; }
-.bg-c\(blue-light\) { background-color: #70a0ff; }
-.bg-c\(blue-dark\) { background-color: #026; }
+.blue-p { color: #f0f5ff; }
+.blue-l { color: #80aaff; }
+.blue-d { color: #026; }
+.border-blue { border-color: #05f; }
+.border-blue-p { border-color: #f0f5ff; }
+.border-blue-l { border-color: #80aaff; }
+.border-blue-d { border-color: #026; }
+.bg-blue { background-color: #05f; }
+.bg-blue-p { background-color: #f0f5ff; }
+.bg-blue-l { background-color: #80aaff; }
+.bg-blue-d { background-color: #026; }

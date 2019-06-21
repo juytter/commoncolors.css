@@ -3,16 +3,16 @@
   orange
 */
 .orange        { color : var(--orange); }
-.orange-pale   { color : var(--orange-pale); }
-.orange-light  { color : var(--orange-light); }
-.orange-dark   { color : var(--orange-dark); }
+.orange-p   { color : var(--orange-p); }
+.orange-l  { color : var(--orange-l); }
+.orange-d   { color : var(--orange-d); }
 
-.bd-c\(orange\)        { border-color : var(--orange); }
-.bd-c\(orange-pale\)   { border-color : var(--orange-pale); }
-.bd-c\(orange-light\)  { border-color : var(--orange-light); }
-.bd-c\(orange-dark\)   { border-color : var(--orange-dark); }
+.border-orange         { border-color : var(--orange); }
+.border-orange-p    { border-color : var(--orange-p); }
+.border-orange-l   { border-color : var(--orange-l); }
+.border-orange-d    { border-color : var(--orange-d); }
 
-.bg-c\(orange\)        { background-color : var(--orange); }
-.bg-c\(orange-pale\)   { background-color : var(--orange-pale); }
-.bg-c\(orange-light\)  { background-color : var(--orange-light); }
-.bg-c\(orange-dark\)   { background-color : var(--orange-dark); }
+.bg-orange         { background-color : var(--orange); }
+.bg-orange-p    { background-color : var(--orange-p); }
+.bg-orange-l   { background-color : var(--orange-l); }
+.bg-orange-d    { background-color : var(--orange-d); }

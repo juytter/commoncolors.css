@@ -1,7 +1,7 @@
 @import './commoncolors--vars';
 /*
-  black
+  color-0 (black)
 */
 .black     { color : var(--black); }
-.bd-c\(black\)  { border-color : var(--black); }
-.bg-c\(black\)  { background-color : var(--black); }
+.border-black   { border-color : var(--black); }
+.bg-black   { background-color : var(--black); }

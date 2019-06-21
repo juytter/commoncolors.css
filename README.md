@@ -1,23 +1,24 @@
-# commoncolors.css
+# Commoncolors.css
 
-**A simplified, intuitive css color palette at your fingertips.** https://juytter.github.io/commoncolors.css
+**A lightweight CSS color palette at your fingertips.** https://juytter.github.io/commoncolors.css
 
-- **Simplified.** Just common color names and a limited shades pattern (pale, light, dark).
-- **Intuitive.** No exotic color names or unintelligible code references. Lightweight, human-readable and easily memorable.
-- **At your fingertips.** Ready-to-use css variables or color class utilities .  
+- **Lightweight.** Limited to 12 'common' colors * 3 shades (pale, light, dark).
+- **Intuitive.** Easily memorable. No exotic color names.
+- **At your fingertips.** Ready-to-use css variables or class utilities.  
 
-## Naming convention
 
-- **10  ‘common’ color names** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta` `pink`. Plus, `black` &  `white`.
-- **3 *Lightness suffix*** for shades :  `-pale`  `-light` `-dark`
+## Usage
 
+### Names
+
+**10 colors compose the color scheme** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta` `pink`, **plus,** `black` &  `white`. **x 3**  *colorname-suffix* to match a color shade :  `-p` (pale)  `-l` (light) `-d` (dark)
+
+##### Example
 ```
- black red-pale red pink-dark ...
+ black red-p red pink-d ...
 ```
 
-## CSS usage
-
-### css vars
+### Vars css
 
 import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
@@ -25,36 +26,39 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 @import 'commoncolors--vars.css';
 .warning {
   color : var(--red);
-  background-color:  var(--red-pale);
+  background-color:  var(--red-p);
 }
 ```
 
-### Class libs
+### Libs css
 
-**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css)) is a lightweight *reusable* class library**  to color *texts*,  *backgrounds* and *borders*.
+**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css))**  is a lightweight lib to color *texts*,  *backgrounds* and *borders*. **Use ** `.colorname` class for texts, `.bg-colorname` for backgrounds, `.border-colorname` for  borders.
 
-`.colorname`  to color text, `.bg-c(colorname)` to color  background, `.bd-c(colorname)` to color border.
+#### Example
 
 ```html
-<div class="red bd-c(red) bg-c(red-pale)">warning</div>
+<div class="red border-red bg-red-p">warning</div>
 ```
 
-**Pick a color for your needs** :  [black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
+#### Separate files
 
-### Build CSS files
+Pick only the colors you need.
 
-- source files :  [/src](./src)
-- Tools and dependencies [package.json](package.json) : install dev tools `npm install -D`
-- Build using [gulp](https://gulpjs.com) / [gulpfile.js](gulpfile.js) :  command-line >  `gulp build`
+[black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
 
-## Specification  / reference
+## Build / Hack
 
-**hsl () color reference.** [commoncolors--vars.css](src/commoncolors--vars.css)
+- Source files :  [/src](./src)
+- Tools and dependencies [package.json](package.json) : install packages `npm install -D`
+- Build script [gulp](https://gulpjs.com) / [gulpfile.js](gulpfile.js) :  command-line >  `gulp build`
+- Colors reference : [commoncolors--vars.css](src/commoncolors--vars.css)
 
-## Related
+## Additional notes
 
-- Further reading about ‘common’ colors : https://en.wikipedia.org/wiki/Color_term
-- Similar project : [Open color](https://yeun.github.io/open-color/)
+- Web colors https://en.wikipedia.org/wiki/Web_colors
+- About ‘common’ colors : https://en.wikipedia.org/wiki/Color_term
 
+---
 
 MIT (c) 2019 juytter.  [License](LICENSE.md)
+

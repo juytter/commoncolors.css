@@ -3,16 +3,16 @@
   red
 */
 .red        { color : var(--red); }
-.red-pale   { color : var(--red-pale); }
-.red-light  { color : var(--red-light); }
-.red-dark   { color : var(--red-dark); }
+.red-p   { color : var(--red-p); }
+.red-l  { color : var(--red-l); }
+.red-d   { color : var(--red-d); }
 
-.bd-c\(red\)        { border-color : var(--red); }
-.bd-c\(red-pale\)   { border-color : var(--red-pale); }
-.bd-c\(red-light\)  { border-color : var(--red-light); }
-.bd-c\(red-dark\)   { border-color : var(--red-dark); }
+.border-red         { border-color : var(--red); }
+.border-red-p    { border-color : var(--red-p); }
+.border-red-l   { border-color : var(--red-l); }
+.border-red-d    { border-color : var(--red-d); }
 
-.bg-c\(red\)        { background-color : var(--red); }
-.bg-c\(red-pale\)   { background-color : var(--red-pale); }
-.bg-c\(red-light\)  { background-color : var(--red-light); }
-.bg-c\(red-dark\)   { background-color : var(--red-dark); }
+.bg-red         { background-color : var(--red); }
+.bg-red-p    { background-color : var(--red-p); }
+.bg-red-l   { background-color : var(--red-l); }
+.bg-red-d    { background-color : var(--red-d); }

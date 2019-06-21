@@ -1,7 +1,7 @@
 {
   "name": "commoncolors.css",
-  "version": "1.0.0-alpha-6",
-  "description": "A small, intuitive css color scheme at your fingertips.",
+  "version": "1.0.0-alpha-7",
+  "description": "A lightweight CSS color palette at your fingertips.",
   "author": "juytter",
   "license": "MIT",
   "devDependencies": {

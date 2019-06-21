@@ -3,16 +3,16 @@
   cyan
 */
 .cyan       { color : var(--cyan); }
-.cyan-pale  { color : var(--cyan-pale); }
-.cyan-light { color : var(--cyan-light); }
-.cyan-dark  { color : var(--cyan-dark); }
+.cyan-p  { color : var(--cyan-p); }
+.cyan-l { color : var(--cyan-l); }
+.cyan-d  { color : var(--cyan-d); }
 
-.bd-c\(cyan\)        { border-color : var(--cyan); }
-.bd-c\(cyan-pale\)   { border-color : var(--cyan-pale); }
-.bd-c\(cyan-light\)  { border-color : var(--cyan-light); }
-.bd-c\(cyan-dark\)   { border-color : var(--cyan-dark); }
+.border-cyan         { border-color : var(--cyan); }
+.border-cyan-p    { border-color : var(--cyan-p); }
+.border-cyan-l   { border-color : var(--cyan-l); }
+.border-cyan-d    { border-color : var(--cyan-d); }
 
-.bg-c\(cyan\)       { background-color : var(--cyan); }
-.bg-c\(cyan-pale\)  { background-color : var(--cyan-pale); }
-.bg-c\(cyan-light\) { background-color : var(--cyan-light); }
-.bg-c\(cyan-dark\)  { background-color : var(--cyan-dark); }
+.bg-cyan        { background-color : var(--cyan); }
+.bg-cyan-p   { background-color : var(--cyan-p); }
+.bg-cyan-l  { background-color : var(--cyan-l); }
+.bg-cyan-d   { background-color : var(--cyan-d); }

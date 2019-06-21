@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
+/*! commoncolors.css v.1.0.0-alpha-7 Build #190621 */
 /*
   pink
 */
 .pink { color: #ff0080; }
-.pink-pale { color: #ffe5f2; }
-.pink-light { color: #ff70b8; }
-.pink-dark { color: #603; }
-.bd-c\(pink\) { border-color: #ff0080; }
-.bd-c\(pink-pale\) { border-color: #ffe5f2; }
-.bd-c\(pink-light\) { border-color: #ff70b8; }
-.bd-c\(pink-dark\) { border-color: #603; }
-.bg-c\(pink\) { background-color: #ff0080; }
-.bg-c\(pink-pale\) { background-color: #ffe5f2; }
-.bg-c\(pink-light\) { background-color: #ff70b8; }
-.bg-c\(pink-dark\) { background-color: #603; }
+.pink-p { color: #fff0f7; }
+.pink-l { color: #ff80bf; }
+.pink-d { color: #603; }
+.border-pink { border-color: #ff0080; }
+.border-pink-p { border-color: #fff0f7; }
+.border-pink-l { border-color: #ff80bf; }
+.border-pink-d { border-color: #603; }
+.bg-pink { background-color: #ff0080; }
+.bg-pink-p { background-color: #fff0f7; }
+.bg-pink-l { background-color: #ff80bf; }
+.bg-pink-d { background-color: #603; }

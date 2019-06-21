@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-alpha-6 Build #190506 */
+/*! commoncolors.css v.1.0.0-alpha-7 Build #190621 */
 /*
   orange
 */
 .orange { color: #ff8000; }
-.orange-pale { color: #fff2e5; }
-.orange-light { color: #ffb870; }
-.orange-dark { color: #630; }
-.bd-c\(orange\) { border-color: #ff8000; }
-.bd-c\(orange-pale\) { border-color: #fff2e5; }
-.bd-c\(orange-light\) { border-color: #ffb870; }
-.bd-c\(orange-dark\) { border-color: #630; }
-.bg-c\(orange\) { background-color: #ff8000; }
-.bg-c\(orange-pale\) { background-color: #fff2e5; }
-.bg-c\(orange-light\) { background-color: #ffb870; }
-.bg-c\(orange-dark\) { background-color: #630; }
+.orange-p { color: #fff7f0; }
+.orange-l { color: #ffbf80; }
+.orange-d { color: #630; }
+.border-orange { border-color: #ff8000; }
+.border-orange-p { border-color: #fff7f0; }
+.border-orange-l { border-color: #ffbf80; }
+.border-orange-d { border-color: #630; }
+.bg-orange { background-color: #ff8000; }
+.bg-orange-p { background-color: #fff7f0; }
+.bg-orange-l { background-color: #ffbf80; }
+.bg-orange-d { background-color: #630; }

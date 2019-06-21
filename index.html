@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Commoncolors.css: A simplified, intuitive css color palette at your fingertips.</title>
+  <title>Commoncolors.css: A small, codified css color ptte at your fingertips.</title>
   <meta name="description" content="A small, intuitive css color scheme at your fingertips">
    <meta name="keywords" content="Color names,css colors, design system">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,14 +47,16 @@
   a:hover { text-decoration: underline; }
 
   header {
-    max-width: 38em;
     margin : 3em 0;
   }
-  header h1 { font-size: 1em; }
-  header nav ul  { list-style: none; padding-left : 0; margin:.25em 0; }
-  header nav ul li { font-size: 0.85em; display:inline; margin-right: 1em;}
-  .border { border-width: 1px; border-style: solid;}
 
+  header h1 { margin : 0; }
+
+
+  header nav ul  { list-style: none; padding-left : 0; }
+  header nav ul li { font-size: 0.85em; display:inline; margin-right: 1em;}
+
+  .border { border-width: 1px; border-style: solid;}
   .column  { width: 100%; margin-bottom: 1em;}
 
   @media only screen {
@@ -73,23 +75,18 @@
   @media only screen and (min-width: 40em) { .column { width: 50%; } }
   @media only screen and (min-width: 60em) { .column { width: 25%; } }
 
-
-  .colorgrid {
+  .color-grid {
     font-size: 0.875rem;
     width: 100%;
-    font-variant: small-caps;
-    font-weight: bold;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
 
-  .colorgrid h2 {
+  .color-grid h1, h2 {
     margin-top: 1em;
-    font-size: 1rem;
   }
 
-
-  .box-color {
+  .color-box {
     width:  100% ;
     height: 5em;
     margin-bottom: .2em;
@@ -100,238 +97,235 @@ footer { font-size: 1rem; margin: 1.5em 0; text-align: right;}
 </style>
 
 <body>
-<div role="main">
 
 <header>
    <h1>Commoncolors.css</h1>
-    A simplified, intuitive css color palette at your fingertips.
-<nav>
-  <ul>
-    <li><a href="css/commoncolors--vars.css" title="CSS3 color variables" target="_blank">css variables</a></li>
-    <li><a href="css/commoncolors-lib.css" target="_blank " title="atomic CSS color library">css library</a> (<a href="css/min/commoncolors-lib.min.css" title="minifed version" target="_blank">min.</a>) </li>
-    <li> <a href="https://github.com/juytter/commoncolors.css" title="github project" >More on Github&hellip;</a></li> 
-  </ul>
-</nav>
+    <p> A lightweight CSS color palette at your fingertips.  <a href="https://github.com/juytter/commoncolors.css" title="github project" >Project /  doc. &rarr;</a></p>
+    <nav>
+      <ul>
+        <li><a href="css/commoncolors--vars.css" title="CSS3 color variables" target="_blank"> Variables</a></li>
+        <li><a href="css/commoncolors-lib.css" target="_blank " title="atomic CSS color library">Library</a> (<a href="css/min/commoncolors-lib.min.css" title="minifed version" target="_blank">min.</a>) </li>
+        <li></li> 
+      </ul>
+    </nav>
 </header>
 
-<article class="colorgrid">
+<article class="color-grid">
 
-<h2><a href="css/gray.css" target="_blank" title="css file" class="gray">gray.css</a></h2>
+<h1><a href="css/gray.css" target="_blank" title="css file">gray.css</a></h1>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(gray-pale)"></div>
-    <span class="color-name">gray-pale</span>
+    <div class="color-box bg-gray-p"></div>
+    <span class="color-name">gray-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(gray-light)"></div>
-    <span class="color-name">gray-light</span>
+    <div class="color-box bg-gray-l"></div>
+    <span class="color-name">gray-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(gray)"></div>
+    <div class="color-box bg-gray"></div>
     <span class="color-name">gray</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(gray-dark)"></div>
-    <span class="color-name">gray-dark</span>
+    <div class="color-box bg-gray-d"></div>
+    <span class="color-name">gray-d</span>
   </div>
 </div>
 
-
-
-<h2><a href="css/red.css" target="_blank" title="css file" class="red">red.css</a></h2>
+<h1><a href="css/red.css" target="_blank" title="css file">red.css</a></h1>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(red-pale)"></div>
-    <span class="color-name">red-pale</span>
+    <div class="color-box bg-red-p"></div>
+    <span class="color-name">red-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(red-light)"></div>
-    <span class="color-name">red-light</span>
+    <div class="color-box bg-red-l"></div>
+    <span class="color-name">red-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(red)"></div>
+    <div class="color-box bg-red"></div>
     <span class="color-name">red</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(red-dark)"></div>
-    <span class="color-name">red-dark</span>
+    <div class="color-box bg-red-d"></div>
+    <span class="color-name">red-d</span>
   </div>
 </div>
 
-<h2><a href="css/orange.css" target="_blank" title="css file" class="orange">orange.css</a></h2>
+<h2><a href="css/orange.css" target="_blank" title="css file">orange.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(orange-pale)"></div>
-    <span class="color-name">orange-pale</span>
+    <div class="color-box bg-orange-p"></div>
+    <span class="color-name">orange-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(orange-light)"></div>
-    <span class="color-name">orange-light</span>
+    <div class="color-box bg-orange-l"></div>
+    <span class="color-name">orange-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(orange)"></div>
+    <div class="color-box bg-orange"></div>
     <span class="color-name">orange</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(orange-dark)"></div>
-    <span class="color-name">orange-dark</span>
+    <div class="color-box bg-orange-d"></div>
+    <span class="color-name">orange-d</span>
   </div>
 </div>
 
-<h2><a href="css/yellow.css" target="_blank" title="css file" class="yellow-dark">yellow.css</a></h2>
+<h2><a href="css/yellow.css" target="_blank" title="css file">yellow.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(yellow-pale)"></div>
-    <span class="color-name">yellow-pale</span>
+    <div class="color-box bg-yellow-p"></div>
+    <span class="color-name">yellow-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(yellow-light)"></div>
-    <span class="color-name">yellow-light</span>
+    <div class="color-box bg-yellow-l"></div>
+    <span class="color-name">yellow-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(yellow)"></div>
+    <div class="color-box bg-yellow"></div>
     <span class="color-name">yellow</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(yellow-dark)"></div>
-    <span class="color-name">yellow-dark</span>
+    <div class="color-box bg-yellow-d"></div>
+    <span class="color-name">yellow-d</span>
   </div>
 </div>
 
-<h2><a href="css/green.css" target="_blank" title="css file" class="green">green.css</a></h2>
+<h2><a href="css/green.css" target="_blank" title="css file">green.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(green-pale)"></div>
-    <span class="color-name">green-pale</span>
+    <div class="color-box bg-green-p"></div>
+    <span class="color-name">green-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(green-light)"></div>
-    <span class="color-name">green-light</span>
+    <div class="color-box bg-green-l"></div>
+    <span class="color-name">green-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(green)"></div>
+    <div class="color-box bg-green"></div>
     <span class="color-name">green</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(green-dark)"></div>
-    <span class="color-name">green-dark</span>
+    <div class="color-box bg-green-d"></div>
+    <span class="color-name">green-d</span>
   </div>
 </div>
 
-<h2><a href="css/cyan.css" target="_blank" title="css file" class="cyan">cyan.css</a></h2>
+<h2><a href="css/cyan.css" target="_blank" title="css file">cyan.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(cyan-pale)"></div>
-    <span class="color-name">cyan-pale</span>
+    <div class="color-box bg-cyan-p"></div>
+    <span class="color-name">cyan-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(cyan-light)"></div>
-    <span class="color-name">cyan-light</span>
+    <div class="color-box bg-cyan-l"></div>
+    <span class="color-name">cyan-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(cyan)"></div>
+    <div class="color-box bg-cyan"></div>
     <span class="color-name">cyan</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(cyan-dark)"></div>
-    <span class="color-name">cyan-dark</span>
+    <div class="color-box bg-cyan-d"></div>
+    <span class="color-name">cyan-d</span>
   </div>
 </div>
 
 
-<h2><a href="css/blue.css" target="_blank" title="css file" class="blue">blue.css</a></h2>
+<h2><a href="css/blue.css" target="_blank" title="css file">blue.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(blue-pale)"></div>
-    <span class="color-name">blue-pale</span>
+    <div class="color-box bg-blue-p"></div>
+    <span class="color-name">blue-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(blue-light)"></div>
-    <span class="color-name">blue-light</span>
+    <div class="color-box bg-blue-l"></div>
+    <span class="color-name">blue-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(blue)"></div>
+    <div class="color-box bg-blue"></div>
     <span class="color-name">blue</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(blue-dark)"></div>
-    <span class="color-name">blue-dark</span>
+    <div class="color-box bg-blue-d"></div>
+    <span class="color-name">blue-d</span>
   </div>
 </div>
 
 
-<h2><a href="css/violet.css" target="_blank" title="css file" class="violet">violet.css</a></h2>
+<h2><a href="css/violet.css" target="_blank" title="css file">violet.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(violet-pale)"></div>
-    <span class="color-name">violet-pale</span>
+    <div class="color-box bg-violet-p"></div>
+    <span class="color-name">violet-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(violet-light)"></div>
-    <span class="color-name">violet-light</span>
+    <div class="color-box bg-violet-l"></div>
+    <span class="color-name">violet-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(violet)"></div>
+    <div class="color-box bg-violet"></div>
     <span class="color-name">violet</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(violet-dark)"></div>
-    <span class="color-name">violet-dark</span>
+    <div class="color-box bg-violet-d"></div>
+    <span class="color-name">violet-d</span>
   </div>
 </div>
 
 
-<h2><a href="css/magenta.css" target="_blank" title="css file" class="magenta">magenta.css</a></h2>
+<h2><a href="css/magenta.css" target="_blank" title="css file">magenta.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(magenta-pale)"></div>
-    <span class="color-name">magenta-pale</span>
+    <div class="color-box bg-magenta-p"></div>
+    <span class="color-name">magenta-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(magenta-light)"></div>
-    <span class="color-name">magenta-light</span>
+    <div class="color-box bg-magenta-l"></div>
+    <span class="color-name">magenta-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(magenta)"></div>
+    <div class="color-box bg-magenta"></div>
     <span class="color-name">magenta</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(magenta-dark)"></div>
-    <span class="color-name">magenta-dark</span>
+    <div class="color-box bg-magenta-d"></div>
+    <span class="color-name">magenta-d</span>
   </div>
 </div>
 
-<h2><a href="css/pink.css" target="_blank" title="css file" class="pink">pink.css</a></h2>
+<h2><a href="css/pink.css" target="_blank" title="css file">pink.css</a></h2>
 <div class="row">
   <div class="column">
-    <div class="box-color bg-c(pink-pale)"></div>
-    <span class="color-name">pink-pale</span>
+    <div class="color-box bg-pink-p"></div>
+    <span class="color-name">pink-p</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(pink-light)"></div>
-    <span class="color-name">pink-light</span>
+    <div class="color-box bg-pink-l"></div>
+    <span class="color-name">pink-l</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(pink)"></div>
+    <div class="color-box bg-pink"></div>
     <span class="color-name">pink</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(pink-dark)"></div>
-    <span class="color-name">pink-dark</span>
+    <div class="color-box bg-pink-d"></div>
+    <span class="color-name">pink-d</span>
   </div>
 </div>
 
 <h2>
-  <a href="css/white.css" target="_blank" title="css file" class="black">white.css</a> /
-  <a href="css/black.css" target="_blank" title="css file" class="black">black.css</a>
+  <a href="css/white.css" target="_blank" title="css file">white.css</a> /
+  <a href="css/black.css" target="_blank" title="css file">black.css</a>
 </h2>
 <div class="row">
   <div class="column">
-    <div class="box-color border bd-c(gray)"></div>
+    <div class="color-box border border-gray"></div>
     <span class="color-name">white</span>
   </div>
   <div class="column">
-    <div class="box-color bg-c(black)"></div>
+    <div class="color-box bg-black"></div>
     <span class="color-name">black</span>
   </div>
 </div>
@@ -341,8 +335,5 @@ footer { font-size: 1rem; margin: 1.5em 0; text-align: right;}
 <footer>
   <p> <a href="https://github.com/juytter/commoncolors.css" title="github project page">commoncolors.css</a> <small><a href="LICENSE.md" title="MIT License">&copy;</a></small> <a href="https://github.com/juytter" title="author">juytter</a> </p>
 </footer>
-
-</div>
-
 </body>
 </html>

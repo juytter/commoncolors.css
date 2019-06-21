@@ -3,16 +3,16 @@
   blue
 */
 .blue       { color : var(--blue); }
-.blue-pale  { color : var(--blue-pale); }
-.blue-light { color : var(--blue-light); }
-.blue-dark  { color : var(--blue-dark); }
+.blue-p  { color : var(--blue-p); }
+.blue-l { color : var(--blue-l); }
+.blue-d  { color : var(--blue-d); }
 
-.bd-c\(blue\)        { border-color : var(--blue); }
-.bd-c\(blue-pale\)   { border-color : var(--blue-pale); }
-.bd-c\(blue-light\)  { border-color : var(--blue-light); }
-.bd-c\(blue-dark\)   { border-color : var(--blue-dark); }
+.border-blue         { border-color : var(--blue); }
+.border-blue-p    { border-color : var(--blue-p); }
+.border-blue-l   { border-color : var(--blue-l); }
+.border-blue-d    { border-color : var(--blue-d); }
 
-.bg-c\(blue\)        { background-color : var(--blue); }
-.bg-c\(blue-pale\)   { background-color : var(--blue-pale); }
-.bg-c\(blue-light\)  { background-color : var(--blue-light); }
-.bg-c\(blue-dark\)   { background-color : var(--blue-dark); }
+.bg-blue         { background-color : var(--blue); }
+.bg-blue-p    { background-color : var(--blue-p); }
+.bg-blue-l   { background-color : var(--blue-l); }
+.bg-blue-d    { background-color : var(--blue-d); }
