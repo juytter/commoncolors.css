@@ -1,6 +1,6 @@
 @import './commoncolors--vars';
 /*
-  color-1 (white)
+  white
 */
 .white     { color : var(--white); }
 .border-white   { border-color : var(--white); }

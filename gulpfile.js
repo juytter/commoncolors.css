@@ -47,7 +47,7 @@ function compile() {
 }
 
 function compile_vars() {
-  // process colors, but preserve --vars
+  // process colors,  preserve css vars
   var plugins = [
         customProperties({preserve:true}),
         colorFunction(),
@@ -61,7 +61,7 @@ function compile_vars() {
 }
 
 function minify() {
-  // create-update  minified files.
+  // minified files.
   return gulp.src(['./css/*.css','!./css/commoncolors--vars.css'])
       .pipe(cleanCSS({level: 1}))
       .pipe(rename({suffix: '.min'}))

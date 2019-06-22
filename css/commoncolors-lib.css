@@ -1,13 +1,13 @@
-/*! commoncolors.css v.1.0.0-alpha-7 Build #190621 */
-/*  css color class utilities <https://juytter.github.io/commoncolors.css/> */
+/*! commoncolors.css v.1.0.0-alpha-7 Build #190622 */
+/* <https://juytter.github.io/commoncolors.css/> */
 /*
-  color-0 (black)
+  black
 */
 .black { color: #000; }
 .border-black { border-color: #000; }
 .bg-black { background-color: #000; }
 /*
-  color-1 (white)
+  white
 */
 .white { color: #fff; }
 .border-white { border-color: #fff; }
