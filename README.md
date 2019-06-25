@@ -11,9 +11,9 @@
 
 ### Names
 
-**10 colors compose the color scheme** :  `gray` `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta` `pink`, **plus,** `black` &  `white`. **x 3**  *colorname-suffix* to match a color shade :  `-p` (pale)  `-l` (light) `-d` (dark)
+**10 colors compose the color scheme** :  `red` `orange` `yellow` `green` `cyan` `blue` `violet` `magenta` `pink` `gray` , **plus,** `black` &  `white`. **x 3**  *colorname-suffix* to match a color shade :  `-p` (pale)  `-l` (light) `-d` (dark)
 
-##### Example
+##### Examples
 ```
  black red-p red pink-d ...
 ```
@@ -32,7 +32,7 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 ### Libs css
 
-**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css))**  is a lightweight lib to color *texts*,  *backgrounds* and *borders*. **Use ** `.colorname` class for texts, `.bg-colorname` for backgrounds, `.border-colorname` for  borders.
+**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css))**  is a library of 'class utilities' to color *texts*,  *backgrounds* and *borders*. **Use** `.colorname` utility for texts, `.bg-colorname` for backgrounds, `.border-colorname` for  borders.
 
 #### Example
 
@@ -42,9 +42,9 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 #### Separate files
 
-Pick only the colors you need.
+Pick only the color files you need.
 
-[black.css](css/black.css),  [white.css](css/white.css),  [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
+[gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
 
 ## Build / Hack
 
@@ -61,4 +61,3 @@ Pick only the colors you need.
 ---
 
 MIT (c) 2019 juytter.  [License](LICENSE.md)
-
