@@ -18,7 +18,7 @@
  black red-p red pink-d ...
 ```
 
-### Vars css
+### Vars
 
 import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
@@ -30,9 +30,9 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 }
 ```
 
-### Libs css
+### Libs
 
-**[commoncolors-lib.css](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css))**  is a library of 'class utilities' to color *texts*,  *backgrounds* and *borders*. **Use** `.colorname` utility for texts, `.bg-colorname` for backgrounds, `.border-colorname` for  borders.
+**[commoncolors-lib.css ](./css/commoncolors-lib.css)([minified](./css/min/commoncolors-lib.min.css))**  is a library of 'class utilities' to color *texts*,  *backgrounds* and *borders*. **Use** `.colorname` utility for texts, `.bg-colorname` for backgrounds, `.border-colorname` for  borders.
 
 #### Example
 
@@ -42,21 +42,21 @@ import **[commoncolors--vars.css](./css/commoncolors--vars.css).**
 
 #### Separate files
 
-Pick only the color files you need.
+Pick only the files for your needs.
 
 [gray.css](css/gray.css),  [red.css](css/red.css),  [yellow.css](css/yellow.css), [orange.css](css/orange.css), [green.css](css/green.css),  [cyan.css](css/cyan.css),  [blue.css](css/blue.css), [violet.css](css/violet.css), [magenta.css](css/magenta.css),  [pink.css](css/pink.css).        
 
-## Build / Hack
+## Build / hack
 
 - Source files :  [/src](./src)
 - Tools and dependencies [package.json](package.json) : install packages `npm install -D`
 - Build script [gulp](https://gulpjs.com) / [gulpfile.js](gulpfile.js) :  command-line >  `gulp build`
 - Colors reference : [commoncolors--vars.css](src/commoncolors--vars.css)
 
-## Additional notes
+## About 'common' colors
 
 - Web colors https://en.wikipedia.org/wiki/Web_colors
-- About ‘common’ colors : https://en.wikipedia.org/wiki/Color_term
+- Color term : https://en.wikipedia.org/wiki/Color_term
 
 ---
 

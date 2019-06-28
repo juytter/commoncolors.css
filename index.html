@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Commoncolors.css: A small, codified css color ptte at your fingertips.</title>
+  <title>Commoncolors.css | A lightweight css color scheme at your fingertips.</title>
   <meta name="description" content="A small, intuitive css color scheme at your fingertips">
-   <meta name="keywords" content="Color names,css colors, design system">
+  <meta name="keywords" content="Color names,css colors, design system">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--[if lt IE 9]>
@@ -22,34 +22,31 @@
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
   body {
     font-family: sans-serif;
-    line-height: 1.4;
     font-size: 1em;
+    line-height: 1.4;
+    color : #222;
     margin: 0 auto;
     padding: 1em;
     width: 100%;
     max-width: 60em;
    }
-   @media screen and (min-width: 40em)  {
-     body { font-size: 1.15em; }
-   }
-   @media screen and (min-width: 60em)  {
-     body { font-size: 1.4em; }
-   }
-   @media screen and (min-width: 90em)  {
-     body { font-size:1.5vw; }
-   }
-  a {
-    color: #0088cc;
-    text-decoration: none;
-  }
+
+   @media screen and (min-width: 40em) {
+     body { font-size: 1.15em; }  }
+   @media screen and (min-width: 60em) {
+     body { font-size: 1.4em; } }
+   @media screen and (min-width: 90em) {
+     body { font-size:1.5vw; } }
+
+  a { color: blue; }
   a:hover { text-decoration: underline; }
 
-  header {
-    margin : 2em 0;
-  }
-  header h1 { margin : 0; }
+  header { margin : 2em 0; }
+  header h1 { margin : 1em 0; font-size: 1.2em;}
+  header p { margin: 0 }
 
   .border { border-width: 1px; border-style: solid;}
   .column  { width: 100%; margin-bottom: 1em;}
@@ -84,12 +81,11 @@
 
   .color-name {
     font-size: .875em;
-    font-weight: 600;
+    font-weight: 550;
     text-transform:uppercase;
-    color:#555;
   }
 
-  .color-box {
+  .color-background {
     width:  100% ;
     height: 5em;
     margin-bottom: .2em;
@@ -106,7 +102,7 @@ footer { font-size: 1rem; margin: 1.5em 0; text-align: right;}
     <p> A lightweight CSS color palette at your fingertips.  <a href="https://github.com/juytter/commoncolors.css" title="github project" >Project /  doc.</a> &rarr; </p>
     <p>
     <span title="downloads">&DownArrowBar;</span> <a href="css/commoncolors--vars.css" title="CSS3 color variables" target="_blank"> Variables</a> |
-    <a href="css/commoncolors-lib.css" target="_blank " title="atomic CSS color library">Library</a> (<a href="css/min/commoncolors-lib.min.css" title="minifed version" target="_blank">min.</a>)
+    <a href="css/commoncolors-lib.css" target="_blank " title="CSS color utilities library">Library</a> (<a href="css/min/commoncolors-lib.min.css" title="minifed version" target="_blank">min.</a>)
     </p>
 </header>
 
@@ -114,201 +110,201 @@ footer { font-size: 1rem; margin: 1.5em 0; text-align: right;}
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-gray-p"></div>
+    <div class="color-background bg-gray-p"></div>
     <span class="color-name">gray-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-gray-l"></div>
+    <div class="color-background bg-gray-l"></div>
     <span class="color-name">gray-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-gray"></div>
+    <div class="color-background bg-gray"></div>
     <span class="color-name">gray</span>
   </div>
   <div class="column">
-    <div class="color-box bg-gray-d"></div>
+    <div class="color-background bg-gray-d"></div>
     <span class="color-name">gray-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-red-p"></div>
+    <div class="color-background bg-red-p"></div>
     <span class="color-name">red-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-red-l"></div>
+    <div class="color-background bg-red-l"></div>
     <span class="color-name">red-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-red"></div>
+    <div class="color-background bg-red"></div>
     <span class="color-name">red</span>
   </div>
   <div class="column">
-    <div class="color-box bg-red-d"></div>
+    <div class="color-background bg-red-d"></div>
     <span class="color-name">red-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-orange-p"></div>
+    <div class="color-background bg-orange-p"></div>
     <span class="color-name">orange-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-orange-l"></div>
+    <div class="color-background bg-orange-l"></div>
     <span class="color-name">orange-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-orange"></div>
+    <div class="color-background bg-orange"></div>
     <span class="color-name">orange</span>
   </div>
   <div class="column">
-    <div class="color-box bg-orange-d"></div>
+    <div class="color-background bg-orange-d"></div>
     <span class="color-name">orange-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-yellow-p"></div>
+    <div class="color-background bg-yellow-p"></div>
     <span class="color-name">yellow-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-yellow-l"></div>
+    <div class="color-background bg-yellow-l"></div>
     <span class="color-name">yellow-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-yellow"></div>
+    <div class="color-background bg-yellow"></div>
     <span class="color-name">yellow</span>
   </div>
   <div class="column">
-    <div class="color-box bg-yellow-d"></div>
+    <div class="color-background bg-yellow-d"></div>
     <span class="color-name">yellow-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-green-p"></div>
+    <div class="color-background bg-green-p"></div>
     <span class="color-name">green-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-green-l"></div>
+    <div class="color-background bg-green-l"></div>
     <span class="color-name">green-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-green"></div>
+    <div class="color-background bg-green"></div>
     <span class="color-name">green</span>
   </div>
   <div class="column">
-    <div class="color-box bg-green-d"></div>
+    <div class="color-background bg-green-d"></div>
     <span class="color-name">green-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-cyan-p"></div>
+    <div class="color-background bg-cyan-p"></div>
     <span class="color-name">cyan-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-cyan-l"></div>
+    <div class="color-background bg-cyan-l"></div>
     <span class="color-name">cyan-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-cyan"></div>
+    <div class="color-background bg-cyan"></div>
     <span class="color-name">cyan</span>
   </div>
   <div class="column">
-    <div class="color-box bg-cyan-d"></div>
+    <div class="color-background bg-cyan-d"></div>
     <span class="color-name">cyan-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-blue-p"></div>
+    <div class="color-background bg-blue-p"></div>
     <span class="color-name">blue-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-blue-l"></div>
+    <div class="color-background bg-blue-l"></div>
     <span class="color-name">blue-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-blue"></div>
+    <div class="color-background bg-blue"></div>
     <span class="color-name">blue</span>
   </div>
   <div class="column">
-    <div class="color-box bg-blue-d"></div>
+    <div class="color-background bg-blue-d"></div>
     <span class="color-name">blue-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-violet-p"></div>
+    <div class="color-background bg-violet-p"></div>
     <span class="color-name">violet-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-violet-l"></div>
+    <div class="color-background bg-violet-l"></div>
     <span class="color-name">violet-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-violet"></div>
+    <div class="color-background bg-violet"></div>
     <span class="color-name">violet</span>
   </div>
   <div class="column">
-    <div class="color-box bg-violet-d"></div>
+    <div class="color-background bg-violet-d"></div>
     <span class="color-name">violet-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-magenta-p"></div>
+    <div class="color-background bg-magenta-p"></div>
     <span class="color-name">magenta-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-magenta-l"></div>
+    <div class="color-background bg-magenta-l"></div>
     <span class="color-name">magenta-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-magenta"></div>
+    <div class="color-background bg-magenta"></div>
     <span class="color-name">magenta</span>
   </div>
   <div class="column">
-    <div class="color-box bg-magenta-d"></div>
+    <div class="color-background bg-magenta-d"></div>
     <span class="color-name">magenta-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box bg-pink-p"></div>
+    <div class="color-background bg-pink-p"></div>
     <span class="color-name">pink-p</span>
   </div>
   <div class="column">
-    <div class="color-box bg-pink-l"></div>
+    <div class="color-background bg-pink-l"></div>
     <span class="color-name">pink-l</span>
   </div>
   <div class="column">
-    <div class="color-box bg-pink"></div>
+    <div class="color-background bg-pink"></div>
     <span class="color-name">pink</span>
   </div>
   <div class="column">
-    <div class="color-box bg-pink-d"></div>
+    <div class="color-background bg-pink-d"></div>
     <span class="color-name">pink-d</span>
   </div>
 </div>
 
 <div class="row">
   <div class="column">
-    <div class="color-box border border-gray"></div>
+    <div class="color-background border border-gray"></div>
     <span class="color-name">white</span>
   </div>
   <div class="column">
-    <div class="color-box bg-black"></div>
+    <div class="color-background bg-black"></div>
     <span class="color-name">black</span>
   </div>
 </div>
