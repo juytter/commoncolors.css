@@ -3,54 +3,64 @@
   --black: color(hsl(0,0%,0%));
   --white: color(hsl(0,0%,100%));
 
-  --gray-p: color(hsl(0,0%,97%));
-  --gray-l: color(hsl(0,0%,75%));
+  --gray-1: color(hsl(0,0%,97%));
+  --gray-2: color(hsl(0,0%,75%));
   --gray: color(hsl(0,0%,50%));
-  --gray-d: color(hsl(0,0%,20%));
+  --gray-3: color(hsl(0,0%,50%));
+  --gray-4: color(hsl(0,0%,20%));
 
-  --red-p: color(hsl(0,100%,97%));
-  --red-l: color(hsl(0,100%,75%));
+  --red-1: color(hsl(0,100%,97%));
+  --red-2: color(hsl(0,100%,75%));
   --red: color(hsl(0,100%,50%));
-  --red-d: color(hsl(0,100%,20%));
+  --red-3: color(hsl(0,100%,50%));
+  --red-4: color(hsl(0,100%,20%));
 
-  --orange-p: color(hsl(30,100%,97%));
-  --orange-l: color(hsl(30,100%,75%));
+  --orange-1: color(hsl(30,100%,97%));
+  --orange-2: color(hsl(30,100%,75%));
   --orange: color(hsl(30,100%,50%));
-  --orange-d: color(hsl(30,100%,20%));
+  --orange-3: color(hsl(30,100%,50%));
+  --orange-4: color(hsl(30,100%,20%));
 
-  --yellow-p: color(hsl(60,100%,97%));
-  --yellow-l: color(hsl(60,100%,75%));
+  --yellow-1: color(hsl(60,100%,97%));
+  --yellow-2: color(hsl(60,100%,75%));
   --yellow: color(hsl(60,100%,50%));
-  --yellow-d: color(hsl(60,100%,20%));
+  --yellow-3: color(hsl(60,100%,50%));
+  --yellow-4: color(hsl(60,100%,20%));
 
-  --green-p: color(hsl(120,100%,97%));
-  --green-l: color(hsl(120,100%,75%));
+  --green-1: color(hsl(120,100%,97%));
+  --green-2: color(hsl(120,100%,75%));
   --green: color(hsl(120,100%,50%));
-  --green-d: color(hsl(120,100%,20%));
+  --green-3: color(hsl(120,100%,50%));
+  --green-4: color(hsl(120,100%,20%));
 
-  --cyan-p: color(hsl(180,100%,97%));
-  --cyan-l: color(hsl(180,100%,75%));
+  --cyan-1: color(hsl(180,100%,97%));
+  --cyan-2: color(hsl(180,100%,75%));
   --cyan: color(hsl(180,100%,50%));
-  --cyan-d: color(hsl(180,100%,20%));
+  --cyan-3: color(hsl(180,100%,50%));
+  --cyan-4: color(hsl(180,100%,20%));
 
-  --blue-p: color(hsl(220,100%,97%));
-  --blue-l: color(hsl(220,100%,75%));
+  --blue-1: color(hsl(220,100%,97%));
+  --blue-2: color(hsl(220,100%,75%));
   --blue: color(hsl(220,100%,50%));
-  --blue-d: color(hsl(220,100%,20%));
+  --blue-3: color(hsl(220,100%,50%));
+  --blue-4: color(hsl(220,100%,20%));
 
-  --violet-p: color(hsl(270,100%,97%));
-  --violet-l: color(hsl(270,100%,75%));
+  --violet-1: color(hsl(270,100%,97%));
+  --violet-2: color(hsl(270,100%,75%));
   --violet: color(hsl(270,100%,50%));
-  --violet-d: color(hsl(270,100%,20%));
+  --violet-3: color(hsl(270,100%,50%));
+  --violet-4: color(hsl(270,100%,20%));
 
-  --magenta-p: color(hsl(300,100%,97%));
-  --magenta-l: color(hsl(300,100%,75%));
+  --magenta-1: color(hsl(300,100%,97%));
+  --magenta-2: color(hsl(300,100%,75%));
   --magenta: color(hsl(300,100%,50%));
-  --magenta-d: color(hsl(300,100%,20%));
+  --magenta-3: color(hsl(300,100%,50%));
+  --magenta-4: color(hsl(300,100%,20%));
 
-  --pink-p: color(hsl(330,100%,97%));
-  --pink-l: color(hsl(330,100%,75%));
+  --pink-1: color(hsl(330,100%,97%));
+  --pink-2: color(hsl(330,100%,75%));
   --pink: color(hsl(330,100%,50%));
-  --pink-d: color(hsl(330,100%,20%));
+  --pink-3: color(hsl(330,100%,50%));
+  --pink-4: color(hsl(330,100%,20%));
 
 }

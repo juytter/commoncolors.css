@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-beta Build #190625 */
+/*! commoncolors.css v.1.0.0 Build #191115 */
 /*
   green
 */
-.green { color: #0f0; }
-.green-p { color: #f0fff0; }
-.green-l { color: #80ff80; }
-.green-d { color: #060; }
-.border-green { border-color: #0f0; }
-.border-green-p { border-color: #f0fff0; }
-.border-green-l { border-color: #80ff80; }
-.border-green-d { border-color: #060; }
-.bg-green { background-color: #0f0; }
-.bg-green-p { background-color: #f0fff0; }
-.bg-green-l { background-color: #80ff80; }
-.bg-green-d { background-color: #060; }
+.green, .green-3 { color: #0f0; }
+.green-1 { color: #f0fff0; }
+.green-2 { color: #80ff80; }
+.green-4 { color: #060; }
+.bd-green, .bd-green-3 { border-color: #0f0; }
+.bd-green-1 { border-color: #f0fff0; }
+.bd-green-2 { border-color: #80ff80; }
+.bd-green-4 { border-color: #060; }
+.bg-green, .bg-green-3 { background-color: #0f0; }
+.bg-green-1 { background-color: #f0fff0; }
+.bg-green-2 { background-color: #80ff80; }
+.bg-green-4 { background-color: #060; }

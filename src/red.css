@@ -2,17 +2,20 @@
 /*
   red
 */
-.red        { color : var(--red); }
-.red-p   { color : var(--red-p); }
-.red-l  { color : var(--red-l); }
-.red-d   { color : var(--red-d); }
+.red,
+.red-3  { color : var(--red); }
+.red-1  { color : var(--red-1); }
+.red-2  { color : var(--red-2); }
+.red-4  { color : var(--red-4); }
 
-.border-red         { border-color : var(--red); }
-.border-red-p    { border-color : var(--red-p); }
-.border-red-l   { border-color : var(--red-l); }
-.border-red-d    { border-color : var(--red-d); }
+.bd-red,
+.bd-red-3  { border-color : var(--red); }
+.bd-red-1  { border-color : var(--red-1); }
+.bd-red-2  { border-color : var(--red-2); }
+.bd-red-4  { border-color : var(--red-4); }
 
-.bg-red         { background-color : var(--red); }
-.bg-red-p    { background-color : var(--red-p); }
-.bg-red-l   { background-color : var(--red-l); }
-.bg-red-d    { background-color : var(--red-d); }
+.bg-red ,
+.bg-red-3  { background-color : var(--red); }
+.bg-red-1  { background-color : var(--red-1); }
+.bg-red-2  { background-color : var(--red-2); }
+.bg-red-4  { background-color : var(--red-4); }

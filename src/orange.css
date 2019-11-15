@@ -2,17 +2,20 @@
 /*
   orange
 */
-.orange        { color : var(--orange); }
-.orange-p   { color : var(--orange-p); }
-.orange-l  { color : var(--orange-l); }
-.orange-d   { color : var(--orange-d); }
+.orange,
+.orange-3 { color : var(--orange); }
+.orange-1 { color : var(--orange-1); }
+.orange-2 { color : var(--orange-2); }
+.orange-4 { color : var(--orange-4); }
 
-.border-orange         { border-color : var(--orange); }
-.border-orange-p    { border-color : var(--orange-p); }
-.border-orange-l   { border-color : var(--orange-l); }
-.border-orange-d    { border-color : var(--orange-d); }
+.bd-orange,
+.bd-orange-3 { border-color : var(--orange); }
+.bd-orange-1 { border-color : var(--orange-1); }
+.bd-orange-2 { border-color : var(--orange-2); }
+.bd-orange-4 { border-color : var(--orange-4); }
 
-.bg-orange         { background-color : var(--orange); }
-.bg-orange-p    { background-color : var(--orange-p); }
-.bg-orange-l   { background-color : var(--orange-l); }
-.bg-orange-d    { background-color : var(--orange-d); }
+.bg-orange,
+.bg-orange-3 { background-color : var(--orange); }
+.bg-orange-1 { background-color : var(--orange-1); }
+.bg-orange-2 { background-color : var(--orange-2); }
+.bg-orange-4 { background-color : var(--orange-4); }

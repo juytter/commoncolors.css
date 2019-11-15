@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-beta Build #190625 */
+/*! commoncolors.css v.1.0.0 Build #191115 */
 /*
   magenta
 */
-.magenta { color: #f0f; }
-.magenta-p { color: #fff0ff; }
-.magenta-l { color: #ff80ff; }
-.magenta-d { color: #606; }
-.border-magenta { border-color: #f0f; }
-.border-magenta-p { border-color: #fff0ff; }
-.border-magenta-l { border-color: #ff80ff; }
-.border-magenta-d { border-color: #606; }
-.bg-magenta { background-color: #f0f; }
-.bg-magenta-p { background-color: #fff0ff; }
-.bg-magenta-l { background-color: #ff80ff; }
-.bg-magenta-d { background-color: #606; }
+.magenta, .magenta-3 { color: #f0f; }
+.magenta-1 { color: #fff0ff; }
+.magenta-2 { color: #ff80ff; }
+.magenta-4 { color: #606; }
+.bd-magenta, .bd-magenta-3 { border-color: #f0f; }
+.bd-magenta-1 { border-color: #fff0ff; }
+.bd-magenta-2 { border-color: #ff80ff; }
+.bd-magenta-4 { border-color: #606; }
+.bg-magenta, .bg-magenta-3 { background-color: #f0f; }
+.bg-magenta-1 { background-color: #fff0ff; }
+.bg-magenta-2 { background-color: #ff80ff; }
+.bg-magenta-4 { background-color: #606; }

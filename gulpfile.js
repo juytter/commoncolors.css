@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-// cmd line 'gulp build' to build /src files to /css
+// command-line 'gulp build' to build /src files to /css
 
 var insert = require('gulp-insert');
 var cleanCSS = require('gulp-clean-css');

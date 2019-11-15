@@ -2,17 +2,20 @@
 /*
   violet
 */
-.violet        { color : var(--violet); }
-.violet-p   { color : var(--violet-p); }
-.violet-l  { color : var(--violet-l); }
-.violet-d   { color : var(--violet-d); }
+.violet,
+.violet-3  { color : var(--violet); }
+.violet-1  { color : var(--violet-1); }
+.violet-2  { color : var(--violet-2); }
+.violet-4  { color : var(--violet-4); }
 
-.border-violet         { border-color : var(--violet); }
-.border-violet-p    { border-color : var(--violet-p); }
-.border-violet-l   { border-color : var(--violet-l); }
-.border-violet-d    { border-color : var(--violet-d); }
+.bd-violet,
+.bd-violet-3  { border-color : var(--violet); }
+.bd-violet-1  { border-color : var(--violet-1); }
+.bd-violet-2  { border-color : var(--violet-2); }
+.bd-violet-4  { border-color : var(--violet-4); }
 
-.bg-violet         { background-color : var(--violet); }
-.bg-violet-p    { background-color : var(--violet-p); }
-.bg-violet-l   { background-color : var(--violet-l); }
-.bg-violet-d    { background-color : var(--violet-d); }
+.bg-violet,
+.bg-violet-3  { background-color : var(--violet); }
+.bg-violet-1  { background-color : var(--violet-1); }
+.bg-violet-2  { background-color : var(--violet-2); }
+.bg-violet-4  { background-color : var(--violet-4); }

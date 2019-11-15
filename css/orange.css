@@ -1,16 +1,16 @@
-/*! commoncolors.css v.1.0.0-beta Build #190625 */
+/*! commoncolors.css v.1.0.0 Build #191115 */
 /*
   orange
 */
-.orange { color: #ff8000; }
-.orange-p { color: #fff7f0; }
-.orange-l { color: #ffbf80; }
-.orange-d { color: #630; }
-.border-orange { border-color: #ff8000; }
-.border-orange-p { border-color: #fff7f0; }
-.border-orange-l { border-color: #ffbf80; }
-.border-orange-d { border-color: #630; }
-.bg-orange { background-color: #ff8000; }
-.bg-orange-p { background-color: #fff7f0; }
-.bg-orange-l { background-color: #ffbf80; }
-.bg-orange-d { background-color: #630; }
+.orange, .orange-3 { color: #ff8000; }
+.orange-1 { color: #fff7f0; }
+.orange-2 { color: #ffbf80; }
+.orange-4 { color: #630; }
+.bd-orange, .bd-orange-3 { border-color: #ff8000; }
+.bd-orange-1 { border-color: #fff7f0; }
+.bd-orange-2 { border-color: #ffbf80; }
+.bd-orange-4 { border-color: #630; }
+.bg-orange, .bg-orange-3 { background-color: #ff8000; }
+.bg-orange-1 { background-color: #fff7f0; }
+.bg-orange-2 { background-color: #ffbf80; }
+.bg-orange-4 { background-color: #630; }

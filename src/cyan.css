@@ -2,17 +2,20 @@
 /*
   cyan
 */
-.cyan       { color : var(--cyan); }
-.cyan-p  { color : var(--cyan-p); }
-.cyan-l { color : var(--cyan-l); }
-.cyan-d  { color : var(--cyan-d); }
+.cyan,
+.cyan-3  { color : var(--cyan); }
+.cyan-1  { color : var(--cyan-1); }
+.cyan-2  { color : var(--cyan-2); }
+.cyan-4  { color : var(--cyan-4); }
 
-.border-cyan         { border-color : var(--cyan); }
-.border-cyan-p    { border-color : var(--cyan-p); }
-.border-cyan-l   { border-color : var(--cyan-l); }
-.border-cyan-d    { border-color : var(--cyan-d); }
+.bd-cyan,
+.bd-cyan-3  { border-color : var(--cyan); }
+.bd-cyan-1  { border-color : var(--cyan-1); }
+.bd-cyan-2  { border-color : var(--cyan-2); }
+.bd-cyan-4  { border-color : var(--cyan-4); }
 
-.bg-cyan        { background-color : var(--cyan); }
-.bg-cyan-p   { background-color : var(--cyan-p); }
-.bg-cyan-l  { background-color : var(--cyan-l); }
-.bg-cyan-d   { background-color : var(--cyan-d); }
+.bg-cyan,
+.bg-cyan-3  { background-color : var(--cyan); }
+.bg-cyan-1  { background-color : var(--cyan-1); }
+.bg-cyan-2  { background-color : var(--cyan-2); }
+.bg-cyan-4  { background-color : var(--cyan-4); }
